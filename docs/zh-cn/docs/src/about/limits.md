@@ -111,7 +111,7 @@
 ### 写入限制 {#database-write}
 
 - 单条记录数据量大小：**16 MB**
-- 批量写入最大总条数：**10,000**，即使用 `save` 进行[批量插入](/guide/database/insert.html#insert-multiple)或[批量更新](/guide/database/update.html#update-multiple)时，单次传入的记录条数不能超过 10000
+- 批量写入最大总条数：**100**，即使用 `save` 进行[批量插入](/guide/database/insert.html#insert-multiple)或[批量更新](/guide/database/update.html#update-multiple)时，单次传入的记录条数不能超过 100
 - 批量写入总数据量：**128 MB**，即使用 `save` 进行[批量插入](/guide/database/insert.html#insert-multiple)或[批量更新](/guide/database/update.html#update-multiple)时，单次传入的所有记录的总大小不能超过 128 MB，注意单条记录的数据量大小仍然有 16 MB 的限制
 
 ::: tip 提示
@@ -121,7 +121,7 @@
 ### 查询限制 {#database-find}
 
 - 单次查询超时时间：**5 秒**
-- 单次查询最大条数：**10,000**，当实际查询到的条数超过 10000 时，会仅返回前 10000 条记录
+- 单次查询最大条数：**10,000**，当实际查询到的条数超过 10,000 时，会仅返回前 10,000 条记录
 - 单次查询总数据量：**128 MB**，当单次查询到的所有记录总大小超过 128 MB 时，会查询失败
 
 ::: tip 提示
@@ -130,7 +130,7 @@
 
 ### 删除限制 {#database-delete}
 
-- 单次删除最大条数：**10,000**，当单次删除时传入的 `_id` 数量超过 10000 条时，会删除失败
+- 单次删除最大条数：**100**，当单次删除时传入的 `_id` 数量超过 100 条时，会删除失败
 
 ::: tip 提示
 使用[直接执行删除](/guide/database/delete.html#delete-directly)的方式删除数据时，不受删除最大条数的限制。当需要同时删除大量数据时，建议采用这种方式。

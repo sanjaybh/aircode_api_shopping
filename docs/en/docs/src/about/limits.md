@@ -111,7 +111,7 @@ All restrictions below are **single application** levels.
 ### Write Limits {#database-write}
 
 - Single record data size: **16 MB**
-- Maximum total number of batch writing: **10,000**. That is, when using `save` for [batch insert](/guide/database/insert.html#insert-multiple) or [batch update](/guide/database/update.html#update-multiple), the number of incoming records cannot exceed 10,000
+- Maximum total number of batch writing: **100**. That is, when using `save` for [batch insert](/guide/database/insert.html#insert-multiple) or [batch update](/guide/database/update.html#update-multiple), the number of incoming records cannot exceed 100
 - Batch write total data volume: **128 MB**. That is, when using `save` for [batch insert](/guide/database/insert.html#insert-multiple) or [batch update](/guide/database/update.html#update-multiple), the total size of all incoming records cannot exceed 128 MB. Note that the data size of a single record is still limited to 16 MB
 
 ::: tip Tips
@@ -130,7 +130,7 @@ For queries with too many records, large data size, or a long time, it is recomm
 
 ### Delete Limits {#database-delete}
 
-- The maximum number of a single deletion: **10,000**. That is, if the number of `_id`s passed in for a single deletion exceeds 10,000, the deletion will fail.
+- The maximum number of a single deletion: **100**. That is, if the number of `_id`s passed in for a single deletion exceeds 100, the deletion will fail.
 
 ::: tip Tips
 When you delete data by [Direct Deletion](/guide/database/delete.html#delete-directly), you are not limited to the maximum number of deleted records. This method is recommended when a large amount of data needs to be deleted at the same time.
