@@ -2,27 +2,27 @@
 
 To avoid resource abuse and to ensure platform stability, each account and application in AirCode has a corresponding resource limit. Exceeding the limit may result in failed calls or deployments.
 
-If you have exceeded the limit or expect to need more resources, please send an email to [support@aircode.io](mailto:support@aircode.io?subject=Apply%20for%20more%20quota%20and%20usage) for help and upgrade options.
+If you have exceeded the limit or expect to need more resources, please send an email to [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode) for help and the Paid Upgrade Plan.
 
 ## Monthly Usage Limits {#monthly-usage}
 
 The sum of monthly usage for **all applications** under each account cannot exceed the following values.
 
-| Project | Free Edition Account |
+| Item | Free |
 | :---- | :---- |
-| Number of cloud function calls | 1,000,000 |
-| Cloud function runtime | 36,000 seconds |
-| Cloud function incoming traffic | 1 TB |
-| Cloud function outgoing traffic | 10 GB |
-| Database Reads | 2,000,000
-| Database writes | 200,000
-| File Uploads | 200,000
-| Total File Uploads | 64 GB
-| File downloads | 1,000,000 | File downloads
-| Total file download traffic | 256 GB |
-| Total File Space | 256 GB |
-| Number of Application Deployments | 600 |
-| total application deployment time | 14,400 seconds |
+| Cloud Function Invocations | 1,000,000 |
+| Cloud Function Execution | 36,000 seconds |
+| Cloud Function Incoming Bandwidth | 1 TB |
+| Cloud Function Outgoing Bandwidth | 10 GB |
+| Database Reads | 2,000,000 |
+| Database Writes/Deletes | 200,000 |
+| File Uploads | 200,000 | 
+| File Upload Total Size | 64 GB |
+| File Downloads | 1,000,000 |
+| File Download Total Size | 256 GB |
+| File Storage Size | 256 GB |
+| Number of Deployments | 600 |
+| Deployment Build Execution | 14,400 seconds |
 
 ## Cloud Function {#functions}
 
@@ -51,7 +51,7 @@ All limits below are for **single application** levels.
 
 ### Instance Scaling {#functions-instance-scaling}
 
-- The minimum number of instances: **0**. When traffic drops, the instances number will be scaled down to 0. If you would like to keep resident instances, please email [support@aircode.io](mailto:support@aircode.io?subject=Apply%20for%20more%20quota%20and%20usage) for help and upgrade options
+- The minimum number of instances: **0**. When traffic drops, the instances number will be scaled down to 0. If you would like to keep resident instances, please email [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode) for help and the Paid Upgrade Plan
 - The maximum number of instances: **100**. That is, it will scale up to 100 instances when traffic rises
 
 ### Cold Start {#functions-cold-start}

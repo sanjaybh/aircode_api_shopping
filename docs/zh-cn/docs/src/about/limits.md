@@ -2,7 +2,7 @@
 
 为了避免资源滥用，确保平台的稳定性，AirCode 中每一个账号及应用均拥有相应的资源限制，超出限制可能会导致调用或部署失败。
 
-如果你的用量已经超过限额，或预期需要更多资源，请发送邮件到 [support@aircode.io](mailto:support@aircode.io?subject=Apply%20for%20more%20quota%20and%20usage) 获取帮助和升级方案。
+如果你的用量已经超过限额，或预期需要更多资源，请发送邮件到 [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode) 获取帮助和付费升级方案。
 
 ## 每月用量限制 {#monthly-usage}
 
@@ -51,7 +51,7 @@
 
 ### 实例伸缩 {#functions-instance-scaling}
 
-- 最低实例数：**0 个**，即当流量降低时，最低会缩容到 0 实例。若你希望能够保留常驻实例，请发送邮件到 [support@aircode.io](mailto:support@aircode.io?subject=Apply%20for%20more%20quota%20and%20usage) 获取帮助和升级方案
+- 最低实例数：**0 个**，即当流量降低时，最低会缩容到 0 实例。若你希望能够保留常驻实例，请发送邮件到 [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode) 获取帮助和付费升级方案
 - 最高实例数：**100 个**，即当流量升高时，最多会扩容至 100 个实例
 
 ### 冷启动 {#functions-cold-start}
