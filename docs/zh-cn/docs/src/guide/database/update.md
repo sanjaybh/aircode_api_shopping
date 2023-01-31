@@ -62,6 +62,7 @@ module.exports = async function(params, context) {
   // Find all records located in Beijing
   const records = await InventoryTable
     .where({ 'info.location': 'Beijing' })
+    .projection({ info: 1, qty: 1 })
     .find();
   
   // Use for loop to update them
