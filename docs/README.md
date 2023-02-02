@@ -6,7 +6,7 @@ The repos of [AirCode Docs](https://docs.aircode.io).
  
 Each language is an independent project. Enter the directory of the corresponding language, execute 'yarn' to install dependencies, and develop and debug through 'yarn dev' 
  
--en directory contains English documents 
+-en The directory is a English file
 -zh-cn The directory is a Chinese file
 
 ## 如何贡献代码
