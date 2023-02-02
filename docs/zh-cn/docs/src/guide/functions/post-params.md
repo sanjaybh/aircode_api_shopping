@@ -44,7 +44,6 @@ https://sample.hk.aircode.run/postParams
 ```typescript
 type UploadFile = {
   name: string;       // Name of the uploaded file
-  encoding: string;   // Encoding type of the file
   type: string;       // Mime type of the file
   size: number;       // Size of the file in bytes
   buffer: Buffer;     // Content of the entire file
@@ -79,7 +78,6 @@ https://sample.hk.aircode.run/postParams
     "abc": "123",
     "xyz": {
       "name": "hello.txt",
-      "encoding": "utf-8",
       "type": "text/plain",
       "size": 11,
       "buffer": {
