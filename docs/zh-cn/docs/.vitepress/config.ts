@@ -15,6 +15,26 @@ export default defineConfig({
       dark: 'material-palenight',
     },
   },
+  head: [
+    [
+      'script',
+      {
+        async: 'async',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-5Q7JHK36DC',
+      },
+    ],
+    [
+      'script',
+      {},
+      `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-5Q7JHK36DC');
+      `,
+    ],
+  ],
 
   // theme related configs
   themeConfig: {
@@ -34,6 +54,11 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/aircodelabs/aircode/blob/main/docs/en/docs/src/:path',
       text: '在 GitHub 编辑此页',
+    },
+    algolia: {
+      appId: 'DLBHPK5MQQ',
+      apiKey: '15800f32b34bb23d9bd4bf0fdf26153c',
+      indexName: 'cn-aircode'
     },
   },
 });
