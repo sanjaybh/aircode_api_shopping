@@ -1,0 +1,19 @@
+{
+  "hash": "25ed4e8a",
+  "browserHash": "cafc321b",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "b8d04a5a",
+      "needsInterop": false
+    },
+    "medium-zoom": {
+      "src": "../../../../node_modules/medium-zoom/dist/medium-zoom.esm.js",
+      "file": "medium-zoom.js",
+      "fileHash": "21734d2b",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}
