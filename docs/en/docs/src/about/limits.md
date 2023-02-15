@@ -67,7 +67,7 @@ All limits below are for **single application** levels.
 ### Environment Variable {#functions-environments}
 
 - Key and Value Rules
-  - Key must start with an upper and lower case letter and can only include upper and lower case letters and numbers
+  - Key must start with an upper or lower case letter, can only include upper and lower case letters and numbers, and cannot start with `_AC`
   - Value must be displayable ASCII characters and cannot contain other characters, such as Chinese
 - Number of environment variables: **512**
 - Total size of environment variables: **3 KB**. That is, the total size of all environment variables cannot exceed 3 KB
@@ -104,7 +104,7 @@ All restrictions below are **single application** levels.
 ### Table Limits {#database-size}
 
 - Number of tables: **128**. That is, no more than 128 tables in a single application, including system tables starting with `_`
-- Table name restriction: **cannot contain the characters `/\. "$`, and cannot start with the character `_`**
+- Table name restriction: **cannot contain the character `$`, and cannot start with `_` or `system.`**
 - Table name length: **64 characters**
 - Number of indexes in a single table: **64**
 
