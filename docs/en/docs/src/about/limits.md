@@ -67,7 +67,7 @@ All limits below are for **single application** levels.
 ### Environment Variable {#functions-environments}
 
 - Key and Value Rules
-  - Key must start with an upper or lower case letter, can only include upper and lower case letters and numbers, and cannot start with `_AC`
+  - Key must start with an upper or lower case letter, can only include upper and lower case letters and numbers, and cannot start with `AC_`
   - Value must be displayable ASCII characters and cannot contain other characters, such as Chinese
 - Number of environment variables: **512**
 - Total size of environment variables: **3 KB**. That is, the total size of all environment variables cannot exceed 3 KB
