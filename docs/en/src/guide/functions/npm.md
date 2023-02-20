@@ -6,8 +6,8 @@ AirCode provides a visual way to management NPM dependencies, operations like se
 
 Dependency management is located in the **Dependencies** area below the function list. Enter the name and search in the input box, such as `lodash`, then click the corresponding dependency package to install the latest version.
 
-<ACImage src="/_images/1671604531408.png" mode="light" />
-<ACImage src="/_images/1671604567893.png" mode="dark" />
+<ACImage src="/_images/1676895482734.png" mode="light" width="253" />
+<ACImage src="/_images/1676895599710.png" mode="dark" width="253" />
 
 If you want to install other versions, you can click the icon on the right side of the search box, or click **View All Search Results**, and select a specific version in the pop-up window.
 
@@ -68,11 +68,14 @@ You will get below result：
 
 It means the dependency is deployed successfully online.
 
-## Update and Uninstall Dependency {#update-and-uninstall}
+## Upgrade and Uninstall Dependency {#upgrade-and-uninstall}
 
 When the mouse hovers over an installed dependency, an operation button will appear on the right, allowing you to quickly upgrade the version or delete it.
 
-Among them, **Update to latest** will update the package to the latest official version currently released, and any unofficial versions such as `alpha`, `beta`, `rc` will be ignored.
+<ACImage src="/_images/1676895731555.png" mode="light" width="273" />
+<ACImage src="/_images/1676895780514.png" mode="dark" width="273" />
+
+Among them, **Upgrade to latest** will update the package to the latest official version currently released, and any unofficial versions such as `alpha`, `beta`, `rc` will be ignored.
 
 If you want to install a specific version, please re-[Search and Install the Dependency](#install).
 

@@ -6,8 +6,8 @@ AirCode 提供了一种可视化的在线 NPM 依赖管理方法，搜索、安�
 
 依赖管理位于函数列表下方的 **Dependencies** 区域。在输入框输入名称搜索，例如 `lodash`，点击对应的依赖包即可直接安装最新版本。
 
-<ACImage src="/_images/1671604531408.png" mode="light" />
-<ACImage src="/_images/1671604567893.png" mode="dark" />
+<ACImage src="/_images/1676895482734.png" mode="light" width="253" />
+<ACImage src="/_images/1676895599710.png" mode="dark" width="253" />
 
 如果想安装其他版本，可以点击搜索框右侧的图标，或者点击 **Show All** ，并在弹出的对话框中下拉选择具体的版本。
 
@@ -68,11 +68,14 @@ curl https://sample.hk.aircode.run/npm
 
 这代表依赖包已经在线上生效了。
 
-## 更改版本或删除依赖 {#update-and-uninstall}
+## 更改版本或删除依赖 {#upgrade-and-uninstall}
 
 当鼠标移到已安装的依赖包条目时，其右侧会出现操作按钮，可以快速升级版本或将其删除。
 
-其中 **Update to lastest** 会将依赖包更新到当前发布的最新正式版本，`alpha`、`beta`、`rc` 等任何非正式版本都会被忽略。
+<ACImage src="/_images/1676895731555.png" mode="light" width="273" />
+<ACImage src="/_images/1676895780514.png" mode="dark" width="273" />
+
+其中 **Upgrade to lastest** 会将依赖包更新到当前发布的最新正式版本，`alpha`、`beta`、`rc` 等任何非正式版本都会被忽略。
 
 若希望指定安装某个具体版本，请重新[搜索并安装该依赖包](#install)。
 
