@@ -14,6 +14,7 @@ const chatGPT = async (content) => {
 };
 
 module.exports = async function(params, context) {
+  if (params.challenge) return { challenge: params.challenge };
   const eventId = params.header.event_id;
   const contentsTable = aircode.db.table('contents');
   const contentObj = await contentsTable.where({ eventId }).findOne();
@@ -37,5 +38,5 @@ module.exports = async function(params, context) {
     openId: sender.sender_id.open_id,
     content: replyContent,
   });
-  return { challenge: params.challenge };
+  return null;
 }
