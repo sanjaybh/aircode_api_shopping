@@ -51,10 +51,10 @@ gtag('config', 'G-5Q7JHK36DC');
     socialLinks: [
       { icon: 'github', link: 'https://github.com/aircodelabs/aircode' },
       { icon: 'twitter', link: 'https://twitter.com/aircodelabs' },
-      { icon: 'discord', link: 'https://discord.com/invite/XrMVdYdEuY'},
+      { icon: 'discord', link: 'https://discord.com/invite/XrMVdYdEuY' },
     ],
     editLink: {
-      pattern: 'https://github.com/aircodelabs/aircode/blob/main/docs/en/docs/src/:path',
+      pattern: 'https://github.com/aircodelabs/aircode/blob/main/docs/zh-cn/src/:path',
       text: '在 GitHub 编辑此页',
     },
     algolia: {
