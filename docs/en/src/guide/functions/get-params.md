@@ -23,7 +23,7 @@ After deployment, send a GET request:
 
 ```sh
 curl -X GET \
-"https://sample.hk.aircode.run/postParams?hello=world&abc=xyz&abc=123"
+"https://sample.hk.aircode.run/getParams?hello=world&abc=xyz&abc=123"
 ```
 
 Will get the following result.
@@ -31,7 +31,7 @@ Will get the following result.
 ```json
 {
   "method": "GET",
-  "paramsFromPost": {
+  "paramsFromGet": {
     "hello": "world",
     "abc": [ "xyz", "123" ]
   }
