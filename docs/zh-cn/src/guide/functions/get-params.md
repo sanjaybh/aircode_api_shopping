@@ -23,7 +23,7 @@ module.exports = async function(params, context) {
 
 ```sh
 curl -X GET \
-"https://sample.hk.aircode.run/postParams?hello=world&abc=xyz&abc=123"
+"https://sample.hk.aircode.run/getParams?hello=world&abc=xyz&abc=123"
 ```
 
 会得到如下结果：
@@ -31,7 +31,7 @@ curl -X GET \
 ```json
 {
   "method": "GET",
-  "paramsFromPost": {
+  "paramsFromGet": {
     "hello": "world",
     "abc": [ "xyz", "123" ]
   }
