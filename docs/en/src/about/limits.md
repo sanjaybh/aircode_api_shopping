@@ -11,7 +11,7 @@ The sum of monthly usage for **all applications** under each account cannot exce
 | Item | Free |
 | :---- | :---- |
 | Cloud Function Invocations | 1,000,000 |
-| Cloud Function Execution | 36,000 seconds |
+| Cloud Function Execution | 7,200 seconds |
 | Cloud Function Incoming Bandwidth | 1 TB |
 | Cloud Function Outgoing Bandwidth | 10 GB |
 | Database Reads | 2,000,000 |
