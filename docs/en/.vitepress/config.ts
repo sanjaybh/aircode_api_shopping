@@ -44,7 +44,7 @@ gtag('config', 'G-5Q7JHK36DC');
     outline: [2, 3],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/aircodelabs/aircode' },
-      { icon: 'twitter', link: 'https://twitter.com/aircodelabs' },
+      { icon: 'twitter', link: 'https://twitter.com/aircode_io' },
       { icon: 'discord', link: 'https://discord.com/invite/XrMVdYdEuY' },
     ],
     editLink: {
