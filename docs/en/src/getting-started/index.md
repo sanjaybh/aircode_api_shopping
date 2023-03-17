@@ -1,10 +1,11 @@
 # Quick Start {#intro}
 
-This is a 5-minute onboarding tutorial for developers who are new to AirCode. Through this tutorial, you will learn:
-1. Create an AirCode application, develop and debug cloud functions online
-2. Deploy a Hello World online API, which can be invoked directly through HTTP
+This 5-minute tutorial helps new developers get started with AirCode. By following these steps, you'll learn how to:
 
-We have provided an example that you can run directly. Click **Run**, and you will see the result of the function in below example.
+1. Create an AirCode app, and develop and debug cloud functions online.
+2. Deploy a Hello World API online, and invoke it using HTTP.
+
+To run an example, click **Run** below.
 
 <script setup>
 import { useData } from 'vitepress';
@@ -22,28 +23,28 @@ const { isDark } = useData();
 
 ## Create an App {#create-an-app}
 
-Sign up and log in to [AirCode Dashboard](https://aircode.io/dashboard), click **+ New Node.js App**, and enter the app name in the pop-up window to create an App.
+Sign up and log in to [AirCode Dashboard](https://aircode.io/dashboard), click **+ New Node.js App**, and enter the app name in the pop-up window.
 
-> Here we create an App called `Hello World`.
+> For example, you can create an app called `Hello World`.
 
 <ACImage src="/_images/1668073287668.png" mode="light" />
 <ACImage src="/_images/1671505257580.png" mode="dark" />
 
-After the creation, it will automatically jump to the created App page, where you can complete the development, debugging and deployment.
+After creating the app, AirCode will redirect you to the app page, where you can complete the development, debugging, and deployment.
 
 <ACImage src="/_images/1671505485031.png" mode="light" />
 <ACImage src="/_images/1671505442147.png" mode="dark" />
 
 ## Create a Function {#create-a-function}
 
-Every new application will have a cloud function named `hello.js` by default, or you can create your own functions. Click the **+** button, enter your function's name, and click **✓** to finish the creation.
+Every new application comes with a default cloud function named `hello.js`, or you can create your functions. Click the **+** button, enter your function's name, and click **✓** to finish the creation.
 
-> Here we create a cloud function named `myHelloWorld.js`.
+> For example, you can create a cloud function named `myHelloWorld.js`.
 
 <ACImage src="/_images/1671505845666.png" mode="light" />
 <ACImage src="/_images/1671505926961.png" mode="dark" />
 
-The created function will contain an initial piece of code.
+The created function will contain an initial code, which you can modify.
 
 ```js
 const aircode = require('aircode');
@@ -58,7 +59,7 @@ module.exports = async function(params, context) {
 
 ## Debug a Function {#debug}
 
-AirCode provides an easy-to-use online debug tool for functions, allowing you to see the running results and modify the code at any time during the development.
+AirCode's online debug tool makes it easy to see running results and modify code during development. Follow these steps to debug a function with AirCode.
 
 First, modify the function as follows:
 
@@ -82,7 +83,7 @@ In the **Debug** area on the right, modify the content of the **Params** to the 
 }
 ```
 
-Click the **Debug** button to send the request to the function `myHelloWorld.js`. At this time, the JSON string of the **Params** will be passed to the function as a parameter, and can be obtained in the function through the `params` field.
+Click the **Debug** button to send the request to the function `myHelloWorld.js`. The JSON string of the **Params** will be passed to the function as a parameter, which can be obtained in the function through the `params` field.
 
 You can see the return message of the function in the **Response** area:
 
@@ -92,7 +93,7 @@ You can see the return message of the function in the **Response** area:
 }
 ```
 
-In the "Console" area, you can see the log output through `console.log` when the function is running:
+In the **Console** area, you can see the log output through `console.log` when the function is running:
 
 ```
 18:24:30.237 Received params: { payload: 'Hello, Micheal!' }
@@ -103,7 +104,7 @@ In the "Console" area, you can see the log output through `console.log` when the
 
 ## Deploy a Function {#deploy}
 
-When finishing the development, we just need to deploy it, and then we can invoke it in reality.
+After finishing the development, we need to deploy it, and then we can invoke it in reality.
 
 Click the **Deploy** button in the top bar, keep the options in the pop-up window unchanged, and click **Deploy**.
 
@@ -115,7 +116,7 @@ After the deployment is successful, an online URL of the function will appear be
 <ACImage src="/_images/1671506405456.png" mode="light" />
 <ACImage src="/_images/1671506377900.png" mode="dark" />
 
-This URL can be accessed directly through the browser. To pass parameters, just add params in the form of `?key=value` to the URL, e.g:
+You can access this URL directly through the browser. To pass parameters, add params in the form of `?key=value` to the URL, e.g.:
 
 ```
 https://sample.hk.aircode.run/myHelloWorld?payload=hello
@@ -133,13 +134,13 @@ Or directly check out our runnable example:
 
 ## What's Next? {#next}
 
-Congratulations on developing and deploying your first cloud function, let's see how to access the database directly in the function.
+Congratulations on developing and deploying your first cloud function. Let's see how to access the database directly in the function.
 
 <ListBoxContainer>
   <ListBox
     link="/getting-started/database"
     title="Introduction to Database"
-    description="Follow this simple tutorial to learn how to do database operations with AirCode's cloud functions"
+    description="Follow this simple tutorial to learn how to do database operations with AirCode's cloud functions."
     single
   />
 </ListBoxContainer>
