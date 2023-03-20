@@ -22,13 +22,13 @@ module.exports = async function (params, context) {
     // Send a GET request with query params
     // Note to replace the URL with your one
     const result = await axios.get('https://some.domain.com/info?id=1234');
-    const result.data;
+    return result.data;
   } catch (error) {
     console.log('Something wrong:', error.message);
     return {
       error: error.message,
     };
-  }##
+  }
 }
 ```
 
