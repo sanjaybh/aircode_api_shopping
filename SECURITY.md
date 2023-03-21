@@ -3,7 +3,7 @@
 If you discover a security vulnerability in our project, please follow these steps:
 
 1. Do not create a public issue on GitHub or discuss the vulnerability in public forums.
-2. Send an email to [support@aircode.io] with the following information:
+2. Send an email to support@aircode.io with the following information:
    - A brief description of the vulnerability
    - Steps to reproduce the vulnerability, if possible
    - Your contact information, in case we need to ask for more details
