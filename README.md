@@ -18,9 +18,7 @@
 
 # AirCode
 
-[AirCode](https://aircode.io) is an online platform designed to streamline the development and deployment of Node.js applications, tailored for full-stack engineers.
-
-With an intuitive in-browser IDE and pre-configured cloud services, we takes care of the backend technology selection, environment setup, and operation, so you can focus on building great products. No more complex setup processes, no more headaches over server management - open your browser, and you're ready to go.
+[AirCode](https://aircode.io) is a streamlined online platform empowering developers to create intelligent bots with Node.js. Featuring an intuitive in-browser IDE and pre-configured cloud services, you can concentrate on building exceptional products.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/558368/226536572-894eae82-d0fb-4cef-8767-dd25d6142b47.png#gh-light-mode-only" style="max-width: 100%" alt="AirCode" />
