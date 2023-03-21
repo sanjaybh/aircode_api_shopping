@@ -22,6 +22,11 @@
 
 With an intuitive in-browser IDE and pre-configured cloud services, we takes care of the backend technology selection, environment setup, and operation, so you can focus on building great products. No more complex setup processes, no more headaches over server management - open your browser, and you're ready to go.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/558368/226536572-894eae82-d0fb-4cef-8767-dd25d6142b47.png#gh-light-mode-only" style="max-width: 100%" alt="AirCode" />
+  <img src="https://user-images.githubusercontent.com/558368/226536599-e2537311-a773-45eb-bbf3-850cb21ecc98.png#gh-dark-mode-only" style="max-width: 100%" alt="AirCode" />
+</p>
+
 ## Getting Started
 
 To get started with AirCode, follow our [Quick Start](https://docs.aircode.io/getting-started/) guide.
