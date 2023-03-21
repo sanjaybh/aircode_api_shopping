@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1651946/226529633-6a40a134-c783-42d0-8626-ba8a6e51f96e.png#gh-light-mode-only" height="80" style="max-width: 100%" alt="AirCode" />
-  <img src="https://user-images.githubusercontent.com/1651946/226529630-9c331df6-b8c2-4429-be02-2a198bfe5ed3.png#gh-dark-mode-only" height="80" style="max-width: 100%" alt="AirCode" />
+  <img src="https://user-images.githubusercontent.com/1651946/226529633-6a40a134-c783-42d0-8626-ba8a6e51f96e.png#gh-light-mode-only" height="60" style="max-width: 100%; margin-top: 32px" alt="AirCode" />
+  <img src="https://user-images.githubusercontent.com/1651946/226529630-9c331df6-b8c2-4429-be02-2a198bfe5ed3.png#gh-dark-mode-only" height="60" style="max-width: 100%; margin-top: 32px" alt="AirCode" />
 </p>
 
 <p align="center">
