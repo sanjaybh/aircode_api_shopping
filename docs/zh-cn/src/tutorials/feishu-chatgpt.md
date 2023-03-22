@@ -48,7 +48,7 @@
 
 ## 第三步：配置机器人的事件和权限
   
-1. AirCode 应用部署成功后，你就能看到当前服务的调用 URL，将它复制，填到[飞书开发者后台](https://open.feishu.cn/app)刚刚创建机器人的「事件订阅-请求地址」中。
+1. AirCode 应用部署成功后，选择调用文件 `chat.js`，你就能看到当前服务的调用 URL，将它复制，填到[飞书开发者后台](https://open.feishu.cn/app)刚刚创建机器人的「事件订阅-请求地址」中。
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/11-copy-webhook.png" width="800"/></p>
 
