@@ -30,7 +30,7 @@
 
 ## 第二步：创建 AirCode 应用
 
-1. 通过 [AirCode 源码链接](https://aircode.cool/q4y1msdim4)中右上角的「Get a copy」按钮快速生成一个自己的 AirCode Node.js 应用。如果没有登录，需先登录 AirCode。
+1. 通过 [AirCode 源码链接](https://aircode.cool/q4y1msdim4)中右上角的「Get a copy」按钮快速生成一个自己的 AirCode Node.js 应用。注意不要自己复制代码，如果是自己复制需要再手工安装 NPM 依赖包。如果没有登录，需先登录 AirCode。
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/6-get-copy.png" width="800"/></p>
 
