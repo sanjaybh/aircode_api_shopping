@@ -16,7 +16,7 @@
 
 ## 第一步：创建飞书机器人
 
-1. 在飞书开发者后台中创建一个应用，并且添加机器人能力。
+1. 在[飞书开发者后台](https://open.feishu.cn/app)中创建一个应用，并且添加机器人能力。
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/2-create-bot.png" width="800"/></p>
 
@@ -30,7 +30,7 @@
 
 ## 第二步：创建 AirCode 应用
 
-1. 通过 AirCode 源码链接中右上角的「Get a copy」按钮快速生成一个自己的 AirCode Node.js 应用。如果没有登录，需先登录 AirCode。
+1. 通过 [AirCode 源码链接](https://aircode.cool/q4y1msdim4)中右上角的「Get a copy」按钮快速生成一个自己的 AirCode Node.js 应用。如果没有登录，需先登录 AirCode。
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/6-get-copy.png" width="800"/></p>
 
@@ -38,7 +38,7 @@
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/8-create-aircode-app.png" width="800"/></p>
 
-2. 将飞书开发者后台中刚创建应用的「凭证与基础信息」页面中的 App ID 和 App Secret，粘贴到刚创建的 AirCode 应用的环境变量（Environments）中，在 feishuAppId 和 feishuAppSecret 中分别填入粘贴过来的机器人 App ID 和 App Secret 的值。
+2. 将[飞书开发者后台](https://open.feishu.cn/app)中刚创建应用的「凭证与基础信息」页面中的 App ID 和 App Secret，粘贴到刚创建的 AirCode 应用的环境变量（Environments）中，在 feishuAppId 和 feishuAppSecret 中分别填入粘贴过来的机器人 App ID 和 App Secret 的值。
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/9-copy-env.png" width="800"/></p>
 
@@ -48,7 +48,7 @@
 
 ## 第三步：配置机器人的事件和权限
   
-1. AirCode 应用部署成功后，你就能看到当前服务的调用 URL，将它复制，填到飞书开发者后台刚刚创建机器人的「事件订阅-请求地址」中。
+1. AirCode 应用部署成功后，你就能看到当前服务的调用 URL，将它复制，填到[飞书开发者后台](https://open.feishu.cn/app)刚刚创建机器人的「事件订阅-请求地址」中。
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/11-copy-webhook.png" width="800"/></p>
 
@@ -84,7 +84,7 @@
 
 ## 第五步：接入 ChatGPT 能力
 
-1. 到 OpenAI 的控制台中，点「Create new secret key」生成并且复制这个新生成的 Key，粘贴到刚创建的 AirCode 应用的环境变量（Environments）中，粘贴到 OpenAISecret 的 value 中。如果没有 OpenAI 账号，可以到网络中搜索一下获取方式，提前购买准备好。
+1. 到 [OpenAI 的控制台](https://platform.openai.com/account/api-keys)中，点「Create new secret key」生成并且复制这个新生成的 Key，粘贴到刚创建的 AirCode 应用的环境变量（Environments）中，粘贴到 OpenAISecret 的 value 中。如果没有 OpenAI 账号，可以到网络中搜索一下获取方式，提前购买准备好。
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/20-openAI.png" width="800"/></p>
 
