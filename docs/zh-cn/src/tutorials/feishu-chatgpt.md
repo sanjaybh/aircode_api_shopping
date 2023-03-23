@@ -30,7 +30,7 @@
 
 ## 第二步：创建 AirCode 应用
 
-1. 通过 [AirCode 源码链接](https://aircode.cool/q4y1msdim4)中右上角的「Get a copy」按钮快速生成一个自己的 AirCode Node.js 应用。注意不要自己复制代码，如果是自己复制需要再手工安装 NPM 依赖包。如果没有登录，需先登录 AirCode。
+1. 通过 [AirCode 源码链接](https://aircode.cool/q4y1msdim4)中右上角的「Get a copy」按钮快速生成一个自己的 AirCode Node.js 应用。 **注意不要自己复制代码，如果是自己复制需要再手工安装 NPM 依赖包。** 如果没有登录，需先登录 AirCode。
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/6-get-copy.png" width="800"/></p>
 
@@ -68,7 +68,7 @@
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/16-bot-permission.png" width="800"/></p>
 
 
-4. 配置好了之后，需要发布机器人才能生效，并且能够搜索到。
+4. 配置好了之后，需要发布机器人才能生效，并且能够搜索到。 **注意如果想加到群中让更多人看到，在发布机器人时需要选择更大的「可见范围」。**
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/17-publish-bot.png" width="800"/></p>
 
