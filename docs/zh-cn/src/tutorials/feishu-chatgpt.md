@@ -62,11 +62,11 @@
     - 获取用户在群组中@机器人的消息
     - 接收群聊中@机器人消息事件
     - 获取用户发给机器人的单聊消息
+    - 如果是「个人企业」，还需要额外开通「发送消息权限」
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/14-add-bot-event.png" width="800"/></p>
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/15-bot-permission.png" width="800"/></p>
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/16-bot-permission.png" width="800"/></p>
-
 
 4. 配置好了之后，需要发布机器人才能生效，并且能够搜索到。 **注意如果想加到群中让更多人看到，在发布机器人时需要选择更大的「可见范围」。**
 
