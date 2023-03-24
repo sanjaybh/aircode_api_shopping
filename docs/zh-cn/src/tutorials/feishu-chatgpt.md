@@ -58,17 +58,20 @@
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/13-bot-setting.png" width="800"/></p>
 
-3. 给机器人添加聊天相关的事件：
-    - 获取用户在群组中@机器人的消息
-    - 接收群聊中@机器人消息事件
-    - 获取用户发给机器人的单聊消息
-    - 如果是「个人企业」，还需要额外开通「发送消息权限」
+3. 给机器人添加「接收消息」的事件
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/14-add-bot-event.png" width="800"/></p>
+  <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/14-1-add-event.png" width="800"/></p>
+
+4. 对应事件需要开启相应权限
+    - 获取用户在群组中@机器人的消息 im:message.group_at_msg
+    - 获取用户发给机器人的单聊消息 im:message.p2p_msg
+    - 获取与发送单聊、群组消息 im:message
+
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/15-bot-permission.png" width="800"/></p>
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/16-bot-permission.png" width="800"/></p>
 
-4. 配置好了之后，需要发布机器人才能生效，并且能够搜索到。 **注意如果想加到群中让更多人看到，在发布机器人时需要选择更大的「可见范围」。**
+5. 配置好了之后，需要发布机器人才能生效，并且能够搜索到。 **注意如果想加到群中让更多人看到，在发布机器人时需要选择更大的「可见范围」。**
 
   <p align="center"><ACImage src="/_images/tutorials/feishu-chatGPT/17-publish-bot.png" width="800"/></p>
 
