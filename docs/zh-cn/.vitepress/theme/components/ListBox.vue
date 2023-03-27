@@ -5,6 +5,8 @@ const props = defineProps<{
   link: string;
   title: string;
   description?: string;
+  imageURL?: string;
+  imageHeight?: number;
   single?: boolean;
 }>();
 const linkWithBase = withBase(props.link);
@@ -15,6 +17,9 @@ const linkWithBase = withBase(props.link);
   <a :href="linkWithBase" class="list-box-link">
     <p class="list-box-title">{{ title }}</p>
     <p class="list-box-description">{{ description }}</p>
+    <div class="list-box-image" v-if="props.imageURL"
+        :style="`background-image: url(${props.imageURL}); height: ${props.imageHeight}px;`">
+    </div>
   </a>
 </div>
 </template>
@@ -53,6 +58,12 @@ const linkWithBase = withBase(props.link);
   color: var(--vp-c-text-2);
   font-size: 14px;
   line-height: 1.5;
+}
+
+.list-box-image {
+  width: 100%; 
+  background-size: cover;
+  border-radius: 8px;
 }
 
 @media (min-width: 768px) {
