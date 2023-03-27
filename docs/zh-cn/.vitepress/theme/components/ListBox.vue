@@ -62,7 +62,8 @@ const linkWithBase = withBase(props.link);
 
 .list-box-image {
   width: 100%; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 8px;
 }
 
