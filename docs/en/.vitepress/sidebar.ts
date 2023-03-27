@@ -18,7 +18,7 @@ const sidebar: DefaultTheme.Sidebar = {
       text: 'Tutorials',
       collapsed: false,
       items: [
-        { text: 'Connect Siri to ChatGPT', link: '/tutorials/siri-chatgpt' },
+        { text: 'Connect Siri to ChatGPT', link: 'https://aircode.cool/hpwdi7n719' },
       ],
     },
     {

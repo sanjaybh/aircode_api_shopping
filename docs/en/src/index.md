@@ -24,8 +24,10 @@ In regards to the method of creating robots in real-life scenarios using AirCode
 <ListBoxContainer>
 <ListBox
   title="Connect Siri to ChatGPT"
-  link="/tutorials/siri-chatgpt"
+  link="https://aircode.cool/hpwdi7n719"
   description="Integrate Siri with ChatGPT, enable voice activation, and support continuous conversations."
+  single
+  open-in-new-tab
 />
 </ListBoxContainer>
 

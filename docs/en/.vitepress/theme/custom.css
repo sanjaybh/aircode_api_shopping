@@ -2,6 +2,7 @@
   --vp-c-brand: #4749FF;
   --vp-c-brand-dark: #6B7AFF;
   --vp-code-block-bg: var(--vp-c-bg-soft);
+  --vp-code-block-bg-light: var(--vp-c-bg-soft-down);
   --vp-code-line-highlight-color: rgba(0, 0, 0, 0.1);
   --vp-code-copy-code-hover-bg: rgba(0, 0, 0, 0.05);
   --vp-code-copy-code-active-text: var(--vp-c-text-2);

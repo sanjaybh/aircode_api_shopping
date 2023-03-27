@@ -137,12 +137,13 @@ Or directly check out our runnable example:
 Congratulations on developing and deploying your first cloud function. In regards to the method of creating robots in real-life scenarios using AirCode, we have prepared a series of hands-on practical tutorials.
 
 <ListBoxContainer>
-  <ListBox
-    link="/getting-started/database"
-    title="Introduction to Database"
-    description="Follow this simple tutorial to learn how to do database operations with AirCode's cloud functions."
-    single
-  />
+<ListBox
+  title="Connect Siri to ChatGPT"
+  link="https://aircode.cool/hpwdi7n719"
+  description="Integrate Siri with ChatGPT, enable voice activation, and support continuous conversations."
+  single
+  open-in-new-tab
+/>
 </ListBoxContainer>
 
 If you want to learn more about how to utilize various features in AirCode in detail, you can refer to the following guides.

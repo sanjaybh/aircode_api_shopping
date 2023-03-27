@@ -33,7 +33,7 @@ const nav: DefaultTheme.NavItem[] = [
     text: 'Tutorials',
     activeMatch: '^/tutorials/',
     items: [
-      { text: 'Connect Siri to ChatGPT', link: '/tutorials/siri-chatgpt' },
+      { text: 'Connect Siri to ChatGPT', link: 'https://aircode.cool/hpwdi7n719' },
     ]
   },
   {

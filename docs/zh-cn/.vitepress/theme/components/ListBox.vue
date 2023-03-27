@@ -8,13 +8,14 @@ const props = defineProps<{
   imageURL?: string;
   imageHeight?: number;
   single?: boolean;
+  openInNewTab?: boolean;
 }>();
 const linkWithBase = withBase(props.link);
 </script>
 
 <template>
 <div class="list-box" :class="{ 'single-box': !!single }">
-  <a :href="linkWithBase" class="list-box-link">
+  <a :href="linkWithBase" class="list-box-link" :target="openInNewTab ? '_blank' : undefined">
     <p class="list-box-title">{{ title }}</p>
     <p class="list-box-description">{{ description }}</p>
     <div class="list-box-image" v-if="props.imageURL"
@@ -47,6 +48,7 @@ const linkWithBase = withBase(props.link);
 
 .list-box-link:hover {
   box-shadow: var(--vp-shadow-2);
+  text-decoration: none;
 }
 
 .list-box-title {

@@ -35,8 +35,8 @@ const nav: DefaultTheme.NavItem[] = [
     text: '教程',
     activeMatch: '^/tutorials/',
     items: [
-      { text: '开发飞书 ChatGPT 机器人', link: '/tutorials/feishu-chatgpt' },
-      { text: '将 Siri 接入 ChatGPT', link: '/tutorials/siri-chatgpt' },
+      { text: '开发飞书 ChatGPT 机器人', link: 'https://aircode.cool/q4y1msdim4' },
+      { text: '将 Siri 接入 ChatGPT', link: 'https://aircode.cool/828668wg5a' },
     ],
   },
   {

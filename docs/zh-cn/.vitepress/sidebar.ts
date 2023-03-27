@@ -19,8 +19,8 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '使用教程',
       collapsed: false,
       items: [
-        { text: '开发飞书 ChatGPT 机器人', link: '/tutorials/feishu-chatgpt' },
-        { text: '将 Siri 接入 ChatGPT', link: '/tutorials/siri-chatgpt' },
+        { text: '开发飞书 ChatGPT 机器人', link: 'https://aircode.cool/q4y1msdim4' },
+        { text: '将 Siri 接入 ChatGPT', link: 'https://aircode.cool/828668wg5a' },
       ],
     },
     {
