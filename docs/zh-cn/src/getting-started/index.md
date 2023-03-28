@@ -137,6 +137,12 @@ https://sample.hk.aircode.run/myHelloWorld?payload=hello
 
 <ListBoxContainer>
 <ListBox
+  title="开发钉钉 ChatGPT 机器人"
+  link="https://aircode.cool/xspb3by9fs"
+  description="将钉钉接入 ChatGPT，支持在单聊和群聊中和 ChatGPT 对话"
+  open-in-new-tab
+/>
+<ListBox
   title="开发飞书 ChatGPT 机器人"
   link="https://aircode.cool/q4y1msdim4"
   description="开发一个飞书机器人，不仅可以对话聊天，还可以接入 ChatGPT，变为一个智能助理"

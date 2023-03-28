@@ -10,6 +10,11 @@ aside: false
 
 <ListBoxContainer>
 <ListBox
+  title="开发钉钉 ChatGPT 机器人"
+  link="https://aircode.cool/xspb3by9fs"
+  description="将钉钉接入 ChatGPT，支持在单聊和群聊中和 ChatGPT 对话"
+/>
+<ListBox
   title="iOS Siri 接入 ChatGPT"
   link="https://aircode.cool/828668wg5a"
   description="将 Siri 接入 ChatGPT，直接语音唤醒，并且支持连续对话"
@@ -24,6 +29,12 @@ aside: false
 ## 演示效果
 
 <ListBoxContainer>
+<ListBox
+  title="让钉钉机器人变成智能助理"
+  link="https://aircode.cool/xspb3by9fs"
+  imageURL="/_images/chatGPT-index/dingtalk-demo.jpeg"
+  imageHeight=600
+/>
 <ListBox
   title="Siri 一下子变得聪明多了"
   link="https://aircode.cool/828668wg5a"
