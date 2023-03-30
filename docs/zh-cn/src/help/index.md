@@ -6,5 +6,5 @@
 
 1. 我们的 [GitHub 仓库](https://github.com/aircodelabs/aircode)，可以提 issue 或者直接贡献代码
 2. 我们的 [Discord 讨论区](https://discord.com/invite/XrMVdYdEuY)
-3. 我们的[飞书用户群](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=6dem4ab3-d523-4562-9c63-9fb46d565b10) 
+3. 我们的[飞书用户群](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=6dem4ab3-d523-4562-9c63-9fb46d565b10)和[钉钉用户群](https://qr.dingtalk.com/action/joingroup?code=v1,k1,e7Dgd8fIJKgfKyeOW3UxyoYyx/tNADB6bh3RgdrEgSs=&_dt_no_comment=1&origin=11)
 4. 直接发邮件给我们 support@aircode.io
