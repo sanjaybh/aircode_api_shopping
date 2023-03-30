@@ -2,7 +2,7 @@
 aside: false
 ---
 
-# 用 JavaScript 接入 ChatGPT 免费托管
+# 用 JavaScript 接入 ChatGPT 手把手教程，免费托管
 
 用 5 分钟开发 ChatGPT 机器人，下面为全部教程。
 
