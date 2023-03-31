@@ -41,7 +41,8 @@ To get a better understanding of how AirCode can be used in real-world applicati
 
 Need help or want to connect with other AirCode users? Check out these community and support resources:
 
-- [GitHub Issues](https://github.com/aircodelabs/aircode/issues): Report bugs, request features, or ask questions about AirCode.
+- [Community Forum](https://github.com/AirCodeLabs/aircode/discussions): Request features, discussion about best practices or ask questions about AirCode.
+- [GitHub Issues](https://github.com/aircodelabs/aircode/issues): Report bugs and errors you encounter while using AirCode.
 - [Discord](https://discord.com/invite/XrMVdYdEuY): Join our Discord community to chat with other users, get help, and share your experiences with AirCode.
 - [Email Support](https://docs.aircode.io/help): Reach out to our team directly for assistance through email.
 
