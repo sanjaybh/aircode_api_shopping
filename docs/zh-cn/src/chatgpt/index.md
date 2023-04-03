@@ -53,7 +53,7 @@ aside: false
   imageHeight=600
 />
 <ListBox
-  title="Siri 一下子变得聪明多了"
+  title="iOS Siri 一下子变得聪明多了"
   link="https://aircode.cool/828668wg5a"
   imageURL="/_images/chatGPT-index/siri-demo.png"
   imageHeight=600
