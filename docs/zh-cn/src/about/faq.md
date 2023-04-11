@@ -6,6 +6,13 @@
 
 我们会长期保持一个 Free 版本供试用，Free 版的用量限制可参考[资源限制 - 每月用量限制](/about/limits#monthly-usage)。针对专业使用者和商业场景，我们也会在后续提供付费版。若你想提前了解或咨询收费版相关信息，请发送邮件到 [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode)。
 
+## 如何查看我的 AirCode 应用的 App ID？ {#app-id}
+
+在 AirCode 应用的设置窗口中可以查看到该应用的 App ID。进入对应应用的页面后，点击应用名称，即可打开 App Settings 弹窗，并找到 App ID，点击该 ID 可以复制。
+
+<ACImage src="/_images/1681195076163.png" mode="light" />
+<ACImage src="/_images/1681195131773.png" mode="dark" />
+
 ## 如何在云函数中调用其他云函数？ {#invoke-other-functions}
 
 如果是同一个应用下的函数，可以直接通过 `require` 引用，参考[函数间引用](/guide/functions/require)。如果想调用其他应用的云函数，可直接通过 HTTP 的形式访问，参考[调用云函数](/guide/functions/invoke)。
