@@ -6,7 +6,7 @@ const props = defineProps<{
   title: string;
   description?: string;
   imageURL?: string;
-  imageHeight?: number;
+  imageHeight?: string;
   single?: boolean;
   openInNewTab?: boolean;
 }>();
@@ -18,9 +18,8 @@ const linkWithBase = withBase(props.link);
   <a :href="linkWithBase" class="list-box-link" :target="openInNewTab ? '_blank' : undefined">
     <p class="list-box-title">{{ title }}</p>
     <p class="list-box-description">{{ description }}</p>
-    <div class="list-box-image" v-if="props.imageURL"
-        :style="`background-image: url(${props.imageURL}); height: ${props.imageHeight}px;`">
-    </div>
+    <img v-if="props.imageURL" class="list-box-image" :src=props.imageURL 
+      :style="`height: ${props.imageHeight}px;`">
   </a>
 </div>
 </template>
@@ -63,10 +62,10 @@ const linkWithBase = withBase(props.link);
 }
 
 .list-box-image {
-  width: 100%; 
-  background-size: contain;
-  background-repeat: no-repeat;
+  object-fit: contain;
   border-radius: 8px;
+  border: 1px solid #eee;
+  margin-left: 0;
 }
 
 @media (min-width: 768px) {
