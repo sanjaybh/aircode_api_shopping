@@ -29,6 +29,11 @@ aside: false
   link="https://aircode.cool/q4y1msdim4"
   description="开发一个飞书机器人，不仅可以对话聊天，还可以接入 ChatGPT，变为一个智能助理"
 />
+<ListBox
+  title="开发 Slack ChatGPT 机器人"
+  link="https://aircode.cool/zx85v6ac4s"
+  description="开发一个 Slack 机器人，不仅可以对话聊天，还可以接入 ChatGPT，变为一个智能助理"
+/>
 </ListBoxContainer>
 
 ## 演示效果
@@ -56,6 +61,12 @@ aside: false
   title="ChatGPT 机器人帮我找出代码中的漏洞"
   link="https://aircode.cool/q4y1msdim4"
   imageURL="/_images/chatGPT-index/feishu-demo.png"
+  imageHeight=600
+/>
+<ListBox
+  title="Slack ChatGPT 机器人介绍电影"
+  link="https://aircode.cool/zx85v6ac4s"
+  imageURL="/_images/chatGPT-index/slack-demo-cn.png"
   imageHeight=600
 />
 </ListBoxContainer>
