@@ -9,6 +9,7 @@ const props = defineProps<{
   imageHeight?: string;
   single?: boolean;
   openInNewTab?: boolean;
+  autoDark: boolean;
 }>();
 const linkWithBase = withBase(props.link);
 </script>
@@ -18,7 +19,7 @@ const linkWithBase = withBase(props.link);
   <a :href="linkWithBase" class="list-box-link" :target="openInNewTab ? '_blank' : undefined">
     <p class="list-box-title">{{ title }}</p>
     <p class="list-box-description">{{ description }}</p>
-    <img v-if="props.imageURL" class="list-box-image" :src=props.imageURL 
+    <img v-if="props.imageURL" class="list-box-image" :class="{ 'auto-dark-img': !!props.autoDark}" :src=props.imageURL 
       :style="`height: ${props.imageHeight}px;`">
   </a>
 </div>
