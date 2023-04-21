@@ -6,6 +6,7 @@ const sidebar: DefaultTheme.Sidebar = {
   '/help/': [],
   '/legal/': [],
   '/careers/': [],
+  '/chatgpt/': [],
   '/': [
     {
       text: 'Getting Started',
