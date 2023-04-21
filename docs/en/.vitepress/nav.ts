@@ -1,4 +1,5 @@
 import type { DefaultTheme } from 'vitepress';
+import tutorialList from './tutorial-list';
 
 const nav: DefaultTheme.NavItem[] = [
   {
@@ -32,9 +33,7 @@ const nav: DefaultTheme.NavItem[] = [
   {
     text: 'Tutorials',
     activeMatch: '^/tutorials/',
-    items: [
-      { text: 'Connect Siri to ChatGPT', link: 'https://aircode.cool/hpwdi7n719' },
-    ]
+    items: tutorialList
   },
   {
     text: 'API Reference',
