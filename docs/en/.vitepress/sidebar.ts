@@ -1,4 +1,5 @@
 import { DefaultTheme } from "vitepress";
+import tutorialList from "./tutorial-list";
 
 const sidebar: DefaultTheme.Sidebar = {
   '/errors/': [],
@@ -17,9 +18,7 @@ const sidebar: DefaultTheme.Sidebar = {
     {
       text: 'Tutorials',
       collapsed: false,
-      items: [
-        { text: 'Connect Siri to ChatGPT', link: 'https://aircode.cool/hpwdi7n719' },
-      ],
+      items: tutorialList,
     },
     {
       text: 'Cloud Function',

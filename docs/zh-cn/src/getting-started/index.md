@@ -135,54 +135,8 @@ https://sample.hk.aircode.run/myHelloWorld?payload=hello
 
 恭喜你开发并部署了第一个云函数。针对在真实场景中通过 AirCode 创建机器人的方法，我们准备了一系列手把手的实践教程。
 
-<ListBoxContainer>
-<ListBox
-  title="开发钉钉 ChatGPT 机器人"
-  link="https://aircode.cool/xspb3by9fs"
-  description="将钉钉接入 ChatGPT，支持在单聊和群聊中和 ChatGPT 对话"
-  open-in-new-tab
-/>
-<ListBox
-  title="开发企业微信 ChatGPT 应用"
-  link="https://aircode.cool/54fhemjpk2"
-  description="开发一个企业微信应用，接入 ChatGPT 支持智能聊天"
-  open-in-new-tab
-/>
-<ListBox
-  title="开发飞书 ChatGPT 机器人"
-  link="https://aircode.cool/q4y1msdim4"
-  description="开发一个飞书机器人，不仅可以对话聊天，还可以接入 ChatGPT，变为一个智能助理"
-  open-in-new-tab
-/>
-<ListBox
-  title="将 Siri 接入 ChatGPT"
-  link="https://aircode.cool/828668wg5a"
-  description="将 Siri 接入 ChatGPT，直接语音唤醒，并且支持连续对话"
-  open-in-new-tab
-/>
-</ListBoxContainer>
+<!--@include: ../_partials/_tutorials-list.md-->
 
 如果你想更详细地了解如何在 AirCode 中运用各项功能，可以参考以下功能指南。
 
-<ListBoxContainer>
-<ListBox
-  title="云函数"
-  link="/guide/functions/"
-  description="使用 Node.js 编写代码，在线测试并极速发布为线上接口"
-/>
-<ListBox
-  title="数据库"
-  link="/guide/database/"
-  description="直接在云函数中调用接口，完成增删改查或更高级的数据操作"
-/>
-<ListBox
-  title="文件存储"
-  link="/guide/files/"
-  description="上传、下载、删除文件，都只需要一行代码，还有自带的 CDN 加速功能"
-/>
-<ListBox
-  title="资源限制"
-  link="/about/limits"
-  description="查看不同套餐情况下资源数限制，以及如何更改或提高限额"
-/>
-</ListBoxContainer>
+<!--@include: ../_partials/_features-list.md-->

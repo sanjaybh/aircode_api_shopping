@@ -21,47 +21,13 @@ To help you quickly get familiar with the usage and core features of AirCode, we
 
 In regards to the method of creating robots in real-life scenarios using AirCode, we have prepared a series of hands-on practical tutorials.
 
-<ListBoxContainer>
-<ListBox
-  title="Connect Siri to ChatGPT"
-  link="https://aircode.cool/hpwdi7n719"
-  description="Integrate Siri with ChatGPT, enable voice activation, and support continuous conversations."
-  single
-  open-in-new-tab
-/>
-</ListBoxContainer>
+<!--@include: ./_partials/_tutorials-list.md-->
 
 ## Features {#features}
 
 By following the guides below, you can progressively gain a deeper understanding of how to utilize various features in AirCode.
 
-<ListBoxContainer>
-<ListBox
-  title="Cloud Function"
-  link="/guide/functions/"
-  description="Write code with Node.js, test it online, and publish it as an online API in seconds."
-/>
-<ListBox
-  title="Database"
-  link="/guide/database/"
-  description="Invoke the API directly in the cloud function for CRUD and more advanced data operations."
-/>
-<ListBox
-  title="File Storage"
-  link="/guide/files/"
-  description="One-line code to upload, download, and delete files, with the built-in CDN acceleration functionality."
-/>
-<ListBox
-  title="FAQs"
-  link="/about/faq"
-  description="Problems that may be encountered using AirCode. Seek solutions here."
-/>
-<ListBox
-  title="Resource Limits"
-  link="/about/limits"
-  description="View the Resource Limits for different plans, and how to change them."
-/>
-</ListBoxContainer>
+<!--@include: ./_partials/_features-list.md-->
 
 ## API Reference {#reference}
 
