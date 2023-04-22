@@ -8,7 +8,7 @@
 />
 <ListBox
   title="Build a Slack ChatGPT Bot"
-  link="https://aircode.cool/zx85v6ac4s"
+  link="https://aircode.cool/vkx3j8c9q5"
   description="IBuild a Slack bot that can not only chat but also integrate with ChatGPT, transforming it into an intelligent assistant."
   single
   open-in-new-tab

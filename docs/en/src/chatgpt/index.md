@@ -16,7 +16,7 @@ Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial.
 />
 <ListBox
   title="Build a Slack ChatGPT Bot"
-  link="https://aircode.cool/zx85v6ac4s"
+  link="https://aircode.cool/vkx3j8c9q5"
   description="Build a Slack bot that can not only chat but also integrate with ChatGPT, transforming it into an intelligent assistant"
 />
 </ListBoxContainer>
@@ -32,7 +32,7 @@ Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial.
 />
 <ListBox
   title="Slack ChatGPT bot becames mentor"
-  link="https://aircode.cool/zx85v6ac4s"
+  link="https://aircode.cool/vkx3j8c9q5"
   imageURL="/_images/chatgpt-index/slack-chatgpt-en.png"
   imageHeight=600
 />
