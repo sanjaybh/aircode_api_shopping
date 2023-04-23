@@ -18,11 +18,13 @@ Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial.
   link="https://aircode.cool/hpwdi7n719"
   imageURL="/_images/chatgpt-index/ios-siri-en.png"
   imageHeight=600
+  openInNewTab=true
 />
 <ListBox
   title="Slack ChatGPT bot becomes mentor"
-  link="https://aircode.cool/zx85v6ac4s"
+  link="https://aircode.cool/vkx3j8c9q5"
   imageURL="/_images/chatgpt-index/slack-chatgpt-en.png"
   imageHeight=600
+  openInNewTab=true
 />
 </ListBoxContainer>

@@ -18,29 +18,34 @@ aside: false
   link="https://aircode.cool/828668wg5a"
   imageURL="/_images/chatGPT-index/siri-demo.png"
   imageHeight=600
+  openInNewTab=true
 />
 <ListBox
   title="企业微信如何接入 ChatGPT"
   link="https://aircode.cool/54fhemjpk2"
   imageURL="/_images/chatGPT-index/wecom-demo.jpg"
   imageHeight=600
+  openInNewTab=true
 />
 <ListBox
   title="让钉钉机器人变成智能助理"
   link="https://aircode.cool/xspb3by9fs"
   imageURL="/_images/chatGPT-index/dingtalk-demo.jpeg"
   imageHeight=600
+  openInNewTab=true
 />
 <ListBox
   title="ChatGPT 机器人帮我找出代码中的漏洞"
   link="https://aircode.cool/q4y1msdim4"
   imageURL="/_images/chatGPT-index/feishu-demo.png"
   imageHeight=600
+  openInNewTab=true
 />
 <ListBox
   title="Slack ChatGPT 机器人介绍电影"
   link="https://aircode.cool/zx85v6ac4s"
   imageURL="/_images/chatGPT-index/slack-demo-cn.png"
   imageHeight=600
+  openInNewTab=true
 />
 </ListBoxContainer>
