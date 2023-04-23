@@ -8,18 +8,7 @@ Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial.
 
 ## Choose a tutorial to enter, includes all source code, free hosting.
 
-<ListBoxContainer>
-<ListBox
-  title="Integrate iOS Siri with ChatGPT"
-  link="https://aircode.cool/hpwdi7n719"
-  description="Integrate Siri with ChatGPT, directly invoke via voice, and support continuous conversation"
-/>
-<ListBox
-  title="Build a Slack ChatGPT Bot"
-  link="https://aircode.cool/zx85v6ac4s"
-  description="Build a Slack bot that can not only chat but also integrate with ChatGPT, transforming it into an intelligent assistant"
-/>
-</ListBoxContainer>
+<!--@include: ../_partials/_tutorials-list.md-->
 
 ## Demonstration
 
@@ -31,7 +20,7 @@ Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial.
   imageHeight=600
 />
 <ListBox
-  title="Slack ChatGPT bot becames mentor"
+  title="Slack ChatGPT bot becomes mentor"
   link="https://aircode.cool/zx85v6ac4s"
   imageURL="/_images/chatgpt-index/slack-chatgpt-en.png"
   imageHeight=600
