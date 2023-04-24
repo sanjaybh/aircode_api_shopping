@@ -4,7 +4,8 @@ aside: false
 
 # 5-Minute Hands-on Tutorial for Integrating ChatGPT with JavaScript
 
-Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial.
+Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial. [简体中文版](https://docs-cn.aircode.io/chatgpt/)
+
 
 ## Choose a tutorial to enter, includes all source code, free hosting.
 
