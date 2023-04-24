@@ -29,13 +29,13 @@
 
 To get started with AirCode, follow our [Quick Start](https://docs.aircode.io/getting-started/) guide.
 
+## Connect ChatGPT
+
+To get a better understanding of how AirCode can be used in real-world applications. check out this tutorial on [Quick Connect ChatGPT in JavaScript, 5-Minute Hands-on Guide](https://docs.aircode.io/chatgpt/).
+
 ## Documentation
 
 For a comprehensive understanding of AirCode's features and capabilities, visit our [Documentation](https://docs.aircode.io) page.
-
-## Tutorials
-
-To get a better understanding of how AirCode can be used in real-world applications, check out this tutorial on [connecting Siri to ChatGPT in just 5 minutes](https://aircode.cool/hpwdi7n719).
 
 ## Community and Support
 
