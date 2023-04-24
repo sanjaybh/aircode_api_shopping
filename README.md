@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://aircode.io"><strong>What is AirCode</strong></a> ·
-  <a href="https://aircode.io/dashboard"><strong>Try AirCode</strong></a> ·
+  <a href="https://docs.aircode.io/chatgpt/"><strong>Connect ChatGPT</strong></a> ·
   <a href="https://docs.aircode.io"><strong>Documentation</strong></a> ·
   <a href="https://docs.aircode.io/help"><strong>Help</strong></a>
 </p>
