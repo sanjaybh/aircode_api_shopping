@@ -31,7 +31,7 @@ To get started with AirCode, follow our [Quick Start](https://docs.aircode.io/ge
 
 ## Connect ChatGPT
 
-To get a better understanding of how AirCode can be used in real-world applications. check out this tutorial on [Quick Connect ChatGPT in JavaScript, 5-Minute Hands-on Guide](https://docs.aircode.io/chatgpt/).
+To get a better understanding of how AirCode can be used in real-world applications, check out this tutorial on [Quick Connect ChatGPT in JavaScript, 5-Minute Hands-on Guide](https://docs.aircode.io/chatgpt/).
 
 ## Documentation
 
