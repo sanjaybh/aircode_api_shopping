@@ -2,7 +2,7 @@
 aside: false
 ---
 
-# Quick Connect ChatGPT in JavaScript, 5-Minute Hands-on Guide
+# Build a ChatGPT Bot with JavaScript in Just 5 Minutes
 
 Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial. [简体中文版](https://docs-cn.aircode.io/chatgpt/)
 
