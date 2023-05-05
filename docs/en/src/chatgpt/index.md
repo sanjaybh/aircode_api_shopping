@@ -16,7 +16,7 @@ Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial. [简体�
 <ListBox
   title="Supercharge iOS Siri with ChatGPT for Enhanced Intelligence"
   link="https://aircode.cool/hpwdi7n719"
-  imageURL="/_images/chatgpt-index/ios-siri-en.png"
+  imageURL="/_images/chatgpt-index/ios-siri-en-new.jpg"
   imageHeight=600
   openInNewTab=true
 />
