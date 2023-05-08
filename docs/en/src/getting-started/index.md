@@ -27,8 +27,8 @@ Sign up and log in to [AirCode Dashboard](https://aircode.io/dashboard), click *
 
 > For example, you can create an app called `Hello World`.
 
-<ACImage src="/_images/1668073287668.png" mode="light" />
-<ACImage src="/_images/1671505257580.png" mode="dark" />
+<ACImage src="/_images/1683529385015.png" mode="light" width="530" />
+<ACImage src="/_images/1683529472390.png" mode="dark" width="530" />
 
 After creating the app, AirCode will redirect you to the app page, where you can complete the development, debugging, and deployment.
 

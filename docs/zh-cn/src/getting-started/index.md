@@ -26,8 +26,8 @@ const { isDark } = useData();
 
 > 此处我们创建一个名为 `Hello World` 的应用作为示例。
 
-<ACImage src="/_images/1668073287668.png" mode="light" />
-<ACImage src="/_images/1671505257580.png" mode="dark" />
+<ACImage src="/_images/1683529385015.png" mode="light" width="530" />
+<ACImage src="/_images/1683529472390.png" mode="dark" width="530" />
 
 创建完成后，会自动跳转到创建的应用页面，在这个页面中可以完成代码的开发、调试和上线。
 
