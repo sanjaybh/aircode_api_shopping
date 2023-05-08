@@ -25,6 +25,12 @@ Yes, in AirCode's cloud functions, you can directly access the database through 
 
 Each deployed cloud function generates a URL address, accessed directly via HTTP. You can paste this address into the webhook of the corresponding system so that when a relevant event occurs, the system will send an HTTP request to this address.
 
-## Can Cloud Functions be called by scheduled tasks? {#scheduled-tasks}
+## Can cloud functions be called by scheduled tasks? {#scheduled-tasks}
 
 Yes, AirCode provides a simple way to configure scheduled tasks to call cloud functions without the need to write Cronjob expressions. Refer to [Scheduled Tasks](/guide/functions/scheduled-tasks).
+
+## How is a function's execution time calculated? Does the function run continuously? {#how-to-calculate-execution-runtime}
+
+The execution time of a cloud function represents the duration from when a request is received to when the result is returned. AirCode's cloud functions dynamically scale based on the number of incoming requests, which means they only run during active requests and do not calculate execution time when idle.
+
+Furthermore, there is a maximum execution time allotted for each individual request. If this limit is exceeded, the function will be forcibly terminated to prevent endless execution due to coding errors. For additional details, please refer to [Cloud Functions Runtime - Timeout](/reference/server/functions-runtime#execution-timeout).

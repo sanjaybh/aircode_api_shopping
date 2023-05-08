@@ -28,3 +28,9 @@
 ## 可以通过定时任务调用云函数吗？ {#scheduled-tasks}
 
 可以，AirCode 提供了一种简单的方式配置定时任务调用云函数，无需编写 Cronjob 表达式。参考[定时任务](/guide/functions/scheduled-tasks)。
+
+## 函数运行时长是如何计算的？函数会一直运行吗？ {#how-to-calculate-execution-runtime}
+
+云函数的运行时长是指函数从接收请求到返回结果的时间间隔。因为 AirCode 的云函数会根据请求总动扩缩容，所以仅在有请求时会实际运行，无请求时不会计算时长。
+
+另外，单次请求有最大运行时长，超过该时长会被强制终止，这保证了不会因为代码错误而无法结束函数运行，参考[云函数运行时 - 超时时间](/reference/server/functions-runtime#execution-timeout)。
