@@ -117,9 +117,9 @@ module.exports = async function(params, context) {
 
 For complete query op definitions, see: [Database API - Comparison Operators](/reference/server/database-api#comparison-operators).
 
-## Query by Time Interval {#date}
+## Query by Time Range {#date}
 
-Using the time interval to set the query condition is the same as using comparison operators, but it should be noted that the passed parameter should be of `Date` type.
+Using the time range to set the query condition is the same as using comparison operators, but it should be noted that the passed parameter should be of `Date` type.
 
 For example, to query all data inserted within the last 24 hours:
 
@@ -135,6 +135,38 @@ module.exports = async function(params, context) {
   // Use `Date` object as the conditions
   const to = new Date();
   const from = new Date(now.getTime() - (24 * 60 * 60 * 1000));
+  const result = await InventoryTable
+    .where({ createdAt: db.gt(from).lte(to) })
+    .find();
+
+  return {
+    result,
+  };
+}
+```
+
+Please note that all time zones are set to UTC±0 in AirCode cloud functions. To conduct time range queries more efficiently, consider using the [dayjs](https://day.js.org/) library for seamless time zone conversions.
+
+For instance, if you need to query data created within the America/New_York time zone, between 12:00 AM on May 1, 2023, and 12:00 AM on May 2, 2023, you can utilize the following approach:
+
+```js
+const aircode = require('aircode');
+// Require `dayjs` and its plugins to support custom timezone
+const dayjs = require('dayjs');
+const utc = require('dayjs/plugin/utc');
+const timezone = require('dayjs/plugin/timezone');
+
+module.exports = async function (params, context) {
+  // All operators are nested in `aircode.db`
+  const { db } = aircode;
+  // Use `db.table` to get a table
+  const InventoryTable = db.table('inventory');
+
+  // Use `dayjs` to convert local time
+  const from = dayjs.tz('2023-05-01 00:00:00', 'America/New_York').toDate();
+  const to = dayjs.tz('2023-05-02 00:00:00', 'America/New_York').toDate();
+
+  // Use `Date` object as the conditions
   const result = await InventoryTable
     .where({ createdAt: db.gt(from).lte(to) })
     .find();

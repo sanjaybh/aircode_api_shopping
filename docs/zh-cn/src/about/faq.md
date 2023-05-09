@@ -34,3 +34,11 @@
 云函数的运行时长是指函数从接收请求到返回结果的时间间隔。因为 AirCode 的云函数会根据请求总动扩缩容，所以仅在有请求时会实际运行，无请求时不会计算时长。
 
 另外，单次请求有最大运行时长，超过该时长会被强制终止，这保证了不会因为代码错误而无法结束函数运行，参考[云函数运行时 - 超时时间](/reference/server/functions-runtime#execution-timeout)。
+
+## AirCode 云函数的时区是什么，如何处理不同时区的问题？ {#timezone}
+
+在 AirCode 中，云函数的时区是 UTC±0，即格林威治时间。如果需要处理不同时区的问题，可以使用 [dayjs](https://day.js.org/) 等库进行时区转换。
+
+更多参考：
+- 关于在云函数中处理时区问题，可参考[在线开发云函数 - 函数中的时区问题](/guide/functions/development#timezone)
+- 关于使用时间区间查询数据库的问题，可参考[查询数据 - 按时间区间查询](/guide/database/find#date)

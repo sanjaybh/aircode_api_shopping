@@ -34,3 +34,12 @@ Yes, AirCode provides a simple way to configure scheduled tasks to call cloud fu
 The execution time of a cloud function represents the duration from when a request is received to when the result is returned. AirCode's cloud functions dynamically scale based on the number of incoming requests, which means they only run during active requests and do not calculate execution time when idle.
 
 Furthermore, there is a maximum execution time allotted for each individual request. If this limit is exceeded, the function will be forcibly terminated to prevent endless execution due to coding errors. For additional details, please refer to [Cloud Functions Runtime - Timeout](/reference/server/functions-runtime#execution-timeout).
+
+## What is the time zone of AirCode cloud functions, and how do I handle different time zone issues? {#timezone}
+
+In AirCode, the time zone for cloud functions is UTC±0, which is Greenwich Mean Time (GMT). To handle different time zone issues, you can use libraries such as [dayjs](https://day.js.org/).
+
+For more information, please refer to the following guide:
+- For handling time zone issues in cloud functions, see [Develop Online - Timezone](/guide/functions/development#timezone).
+- For querying databases using time ranges, see [Find Data - Query by Time Range](/guide/database/find#date).
+

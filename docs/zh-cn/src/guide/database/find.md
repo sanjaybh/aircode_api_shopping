@@ -145,6 +145,38 @@ module.exports = async function(params, context) {
 }
 ```
 
+需要注意的是，AirCode 云函数中的时区都是 UTC±0。当利用时间区间查询时，可以使用 [dayjs](https://day.js.org/) 来方便的进行时区转换。
+
+例如，我们希望查询 America/New_York 时区中，2023 年 5 月 1 日 0 点到 2023 年 5 月 2 日 0 点之间创建的数据：
+
+```js
+const aircode = require('aircode');
+// Require `dayjs` and its plugins to support custom timezone
+const dayjs = require('dayjs');
+const utc = require('dayjs/plugin/utc');
+const timezone = require('dayjs/plugin/timezone');
+
+module.exports = async function (params, context) {
+  // All operators are nested in `aircode.db`
+  const { db } = aircode;
+  // Use `db.table` to get a table
+  const InventoryTable = db.table('inventory');
+
+  // Use `dayjs` to convert local time
+  const from = dayjs.tz('2023-05-01 00:00:00', 'America/New_York').toDate();
+  const to = dayjs.tz('2023-05-02 00:00:00', 'America/New_York').toDate();
+
+  // Use `Date` object as the conditions
+  const result = await InventoryTable
+    .where({ createdAt: db.gt(from).lte(to) })
+    .find();
+
+  return {
+    result,
+  };
+}
+```
+
 ## 使用内嵌字段查询 {#nesting-field}
 
 当数据库中的某个字段是 `Object` 类型时，使用 `.` 连接符可以设置内嵌字段的查询条件。例如 `where({ 'a.b': value })` 会根据 `a` 的子字段 `b` 的值类查询。使用多个 `.` 来连接时，还可以支持多层嵌套。
