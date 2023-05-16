@@ -25,37 +25,40 @@ export default {
     onMounted(async () => {
       zoom.value = mediumZoom();
 
+      // Initialize Intercom
+      // @ts-ignore
+      window.Intercom('boot', {
+        api_base: 'https://api-iam.intercom.io',
+        app_id: 'lmbk1g3e',
+      });
+
       try {
         const { status, data } = await axios.get('https://api.aircode.io/api/v1/user', {
           withCredentials: true,
         });
         if (status === 200 && data) {
-          const { name, email, createdAt, plan } = data.data;
+          const { uid, name, email, createdAt, plan } = data.data;
           const createdAtTimeStamp = Math.floor((new Date(createdAt)).valueOf() / 1000)
+
+          // Set uid to GA
           // @ts-ignore
-          window.Intercom('boot', {
-            api_base: 'https://api-iam.intercom.io',
-            app_id: 'lmbk1g3e',
+          gtag('set', {
+            user_id: `${uid}`,
+          });
+
+          // Update Intercom with user info
+          // @ts-ignore
+          window.Intercom('update', {
             name, // Full name
             email, // Email address
-            created_at: `${createdAtTimeStamp}`, // Signup date as a Unix timestamp
+            user_id: `${uid}`, // User ID
+            created_at: createdAtTimeStamp, // Signup date as a Unix timestamp
             premium_customer: plan === 'professional' || 'team' ? true : false,
           });
-        } else {
-          // @ts-ignore
-          window.Intercom('boot', {
-            api_base: 'https://api-iam.intercom.io',
-            app_id: 'lmbk1g3e',
-            premium_customer: false,
-          });
+
         }
       } catch (error) {
-        // @ts-ignore
-        window.Intercom('boot', {
-          api_base: 'https://api-iam.intercom.io',
-          app_id: 'lmbk1g3e',
-          premium_customer: false,
-        });
+        // do nothing
       }
     });
   },

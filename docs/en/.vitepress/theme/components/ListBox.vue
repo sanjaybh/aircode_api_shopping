@@ -9,7 +9,7 @@ const props = defineProps<{
   imageHeight?: string;
   single?: boolean;
   openInNewTab?: boolean;
-  autoDark: boolean;
+  autoDark?: boolean;
 }>();
 const linkWithBase = withBase(props.link);
 </script>
