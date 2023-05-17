@@ -53,7 +53,7 @@ export default {
             email, // Email address
             user_id: `${uid}`, // User ID
             created_at: createdAtTimeStamp, // Signup date as a Unix timestamp
-            premium_customer: plan === 'professional' || 'team' ? true : false,
+            premium_customer: plan === 'professional' || plan === 'team',
           });
 
         }
