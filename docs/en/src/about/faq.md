@@ -43,3 +43,10 @@ For more information, please refer to the following guide:
 - For handling time zone issues in cloud functions, see [Develop Online - Timezone](/guide/functions/development#timezone).
 - For querying databases using time ranges, see [Find Data - Query by Time Range](/guide/database/find#date).
 
+## How to resolve the `Cannot find module 'xxx'` error? {#cannot-find-module}
+
+If you encounter a `Cannot find module 'xxx'` error while debugging or running cloud functions, it indicates that the corresponding module is not installed correctly. You can resolve this issue by installing the module in the **Dependencies** located in the lower left corner of the in-browser editor. For more information, please refer to [Using NPM to manage dependencies](/guide/functions/npm).
+
+::: tip Note
+The 'xxx' here is just an example, the error message will include the specific module name, such as `Cannot find module 'openai'`.
+:::
