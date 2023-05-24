@@ -134,7 +134,7 @@ module.exports = async function(params, context) {
   
   // Use `Date` object as the conditions
   const to = new Date();
-  const from = new Date(now.getTime() - (24 * 60 * 60 * 1000));
+  const from = new Date(to.getTime() - (24 * 60 * 60 * 1000));
   const result = await InventoryTable
     .where({ createdAt: db.gt(from).lte(to) })
     .find();
