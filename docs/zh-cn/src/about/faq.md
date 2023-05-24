@@ -43,7 +43,7 @@
 - 关于在云函数中处理时区问题，可参考[在线开发云函数 - 函数中的时区问题](/guide/functions/development#timezone)
 - 关于使用时间区间查询数据库的问题，可参考[查询数据 - 按时间区间查询](/guide/database/find#date)
 
-## 遇到 Cannot find module 'xxx' 的报错怎么办？ {#cannot-find-module}
+## 遇到 `Cannot find module 'xxx'` 的报错怎么办？ {#cannot-find-module}
 
 如果在调试或运行云函数时，遇到 `Cannot find module 'xxx'` 的报错，说明对应的依赖没有被正确安装。请在编辑界面左下角的 **Dependencies** 中搜索并安装对应依赖，详情可参考[使用 NPM 安装依赖](/guide/functions/npm)。
 
