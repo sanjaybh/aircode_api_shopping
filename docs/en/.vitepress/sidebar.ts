@@ -43,6 +43,7 @@ const sidebar: DefaultTheme.Sidebar = {
             { text: 'Send HTTP Request', link: '/guide/functions/http-request' },
             { text: 'POST Parameters', link: '/guide/functions/post-params' },
             { text: 'GET Parameters', link: '/guide/functions/get-params' },
+            { text: 'ESM Support', link: '/guide/functions/esm' },
           ],
         },
       ],
