@@ -4,7 +4,7 @@ aside: false
 
 # Build a ChatGPT Bot with JavaScript in Just 5 Minutes
 
-Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial. [简体中文版](https://docs-cn.aircode.io/chatgpt/)
+Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial.
 
 ## Choose a tutorial to enter, includes all source code, free hosting.
 
