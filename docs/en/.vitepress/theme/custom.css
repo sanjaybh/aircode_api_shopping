@@ -39,4 +39,7 @@
 .vp-doc img {
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  box-shadow: var(--vp-shadow-1);
 }

@@ -2,11 +2,11 @@
 
 为了避免资源滥用，确保平台的稳定性，AirCode 中每一个账号及应用均拥有相应的资源限制，超出限制可能会导致调用或部署失败。
 
-如果你的用量已经超过限额，或预期需要更多资源，可前往 [AirCode 价格页面](https://aircode.io/pricing)付费升级。关于付费和套餐有任何问题，请通过 [support@aircode.io](mailto:support@aircode.io) 联系我们获取支持。
+## 用量 {#usage}
 
-## 每月用量限制 {#monthly-usage}
+每个账户下的**所有应用**，每月拥有一定的资源用量限制。如果你的用量已经超过限额，或预期需要更多资源，可前往 [AirCode 价格页面](https://aircode.io/pricing)付费升级。关于付费和套餐有任何问题，请通过 [support@aircode.io](mailto:support@aircode.io) 联系我们获取支持。
 
-每个账户下的**所有应用**，每月用量之和不能超过以下值。
+### 每月用量限制 {#monthly-usage}
 
 | 项目 | Free | Professional | Team |
 | :---- | :---- | :---- | :---- |
@@ -25,6 +25,15 @@
 2. 文件操作：包含文件上传次数和下载次数
 3. 当超过限额时，Free 和 Professional 账户在当前周期内将无法继续访问。Team 账户可以继续使用，超出部分会按量计费，具体参考[ AirCode 价格页面](https://aircode.io/pricing)。
 :::
+
+### 查看用量 {#usage-view}
+
+在 [AirCode 控制台](https://aircode.io/dashboard)的 **Usage** 页面，可以查看应用的用量情况。
+
+<ACImage src="/_images/1687839874264.png" mode="light" />
+<ACImage src="/_images/1687840268830.png" mode="dark" />
+
+对 Free 套餐，只能查看当前周期内的用量情况。Professional 和 Team 套餐可以查看当前及历史周期内的用量。
 
 ## 云函数 {#functions}
 

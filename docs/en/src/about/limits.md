@@ -2,12 +2,11 @@
 
 To avoid resource abuse and to ensure platform stability, each account and application in AirCode has a corresponding resource limit. Exceeding the limit may result in failed calls or deployments.
 
-If your usage has exceeded the allocated limit, or you anticipate requiring additional resources, please visit the [AirCode Pricing Page](https://aircode.io/pricing) to upgrade with a payment. For any inquiries regarding payments or plans, feel free to contact us at [support@aircode.io](mailto:support@aircode.io).
+## Usage {#usage}
 
+**All applications** under your account has a certain resource usage limit every month. If your usage has exceeded the allocated limit, or you anticipate requiring additional resources, please visit the [AirCode Pricing Page](https://aircode.io/pricing) to upgrade with a payment. For any inquiries regarding payments or plans, feel free to contact us at [support@aircode.io](mailto:support@aircode.io).
 
-## Monthly Usage Limits {#monthly-usage}
-
-The sum of monthly usage for **all applications** under each account cannot exceed the following values.
+### Monthly Usage Limits {#monthly-usage}
 
 | Item | Free | Professional | Team |
 | :---- | :---- | :---- | :---- |
@@ -27,6 +26,14 @@ The sum of monthly usage for **all applications** under each account cannot exce
 3. When exceeding the limit, Free and Professional accounts will not be able to continue accessing the service within the current billing cycle. Team accounts can continue usage, with overages billed on a pay-as-you-go basis. For details, please refer to the [AirCode Pricing Page](https://aircode.io/pricing)
 :::
 
+### View Usage {#usage-view}
+
+You can view the usage of applications on the **Usage** page of the [AirCode Dashboard](https://aircode.io/dashboard).
+
+<ACImage src="/_images/1687839874264.png" mode="light" />
+<ACImage src="/_images/1687840268830.png" mode="dark" />
+
+For the Free plan, you can only view the usage withing current cycle. The Professional and Team plans allow you to view the usage for both the current and historical cycles.
 
 ## Cloud Function {#functions}
 
