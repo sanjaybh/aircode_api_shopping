@@ -213,7 +213,7 @@ AirCode 支持「与」、「或」、「或非」三种逻辑关系，也可以
 ```js
 // f1 && f2
 Table.where(f1, f2);
-Table.wehre(f1).and(f2);
+Table.where(f1).and(f2);
 ```
 
 ### 「或」关系 {#logical-or}

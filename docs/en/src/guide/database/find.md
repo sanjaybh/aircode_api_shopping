@@ -213,7 +213,7 @@ When multiple conditions are passed into the `where` method, the relationship be
 ```js
 // f1 && f2
 Table.where(f1, f2);
-Table.wehre(f1).and(f2);
+Table.where(f1).and(f2);
 ```
 
 ### OR {#logical-or}

@@ -63,9 +63,9 @@ Full list:
 
 | variable name | description | example |
 | ---- | ---- | ---- |
-| AC_APP_ID | ID of the current application | `'vykqtr'` |
-| AC_REGION | Deployment region of the application | `'JP'` |
-| AC_NODE_JS_VERSION | Node.js version at runtime | `'16.17.0'` |
+| AC_APP_ID | ID of the current application | `vykqtr` |
+| AC_REGION | Deployment region of the application | `JP` |
+| AC_NODE_JS_VERSION | Node.js version at runtime | `16.17.0` |
 | AC_EXECUTION_TIMEOUT | Function execution timeout, in seconds | `30` |
 | AC_MEMORY_SIZE | Instance memory size in MB | `512` |
 | AC_DEPLOYMENT_VERSION | Current deployment version number | `2` |

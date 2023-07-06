@@ -63,9 +63,9 @@ process.env.AC_NODE_JS_VERSION
 
 | 变量名称 | 说明 | 示例 |
 | ---- | ---- | ---- |
-| AC_APP_ID | 当前应用的 ID | `'vykqtr'` |
-| AC_REGION | 应用的部署区域 | `'JP'` |
-| AC_NODE_JS_VERSION | 运行时的 Node.js 版本 | `'16.17.0'` |
+| AC_APP_ID | 当前应用的 ID | `vykqtr` |
+| AC_REGION | 应用的部署区域 | `JP` |
+| AC_NODE_JS_VERSION | 运行时的 Node.js 版本 | `16.17.0` |
 | AC_EXECUTION_TIMEOUT | 函数运行超时时间，单位为秒 | `30` |
 | AC_MEMORY_SIZE | 实例内存大小，单位为 MB | `512` |
 | AC_DEPLOYMENT_VERSION | 当前部署的版本号 | `2` |
