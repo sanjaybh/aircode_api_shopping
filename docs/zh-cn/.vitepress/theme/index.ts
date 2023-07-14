@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { onMounted, ref } from 'vue';
-import { EnhanceAppContext } from 'vitepress';
+import { EnhanceAppContext, useRouter } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import mediumZoom, { Zoom } from 'medium-zoom';
 import mixpanel from 'mixpanel-browser';
@@ -31,12 +31,14 @@ export default {
         'd0cc6ae22c50cef4b54d69f65d827f97',
         {
           debug: import.meta.env.DEV,
-          track_pageview: true,
           persistence: 'localStorage',
         },
       );
-      // @ts-ignore
-      mixpanel.register_once({ 'Browser Language': navigator.language || navigator.userLanguage });
+      mixpanel.register({
+        'Browser Language': navigator.language,
+        'Timezone': Intl.DateTimeFormat().resolvedOptions().timeZone,
+      });
+      mixpanel.track_pageview();
 
       // Initialize Intercom
       // @ts-ignore
@@ -53,22 +55,15 @@ export default {
           const { uid, name, email, createdAt, plan } = data.data;
           const createdAtTimeStamp = Math.floor((new Date(createdAt)).valueOf() / 1000)
 
-          // Set uid to GA
-          // @ts-ignore
-          gtag('set', {
-            user_id: `${uid}`,
-          });
-
           // Identify a user to Mixpanel
           mixpanel.identify(`${uid}`);
           mixpanel.people.set({
             '$name': name,
             '$email': email,
+            '$timezone': Intl.DateTimeFormat().resolvedOptions().timeZone,
+            'Browser Language': navigator.language,
             'Plan': plan,
           });
-
-          // @ts-ignore
-          mixpanel.people.set_once({ 'Browser Language': navigator.language || navigator.userLanguage });
 
           // Update Intercom with user info
           // @ts-ignore
@@ -85,5 +80,9 @@ export default {
         // do nothing
       }
     });
+
+    useRouter().onAfterRouteChanged = (to) => {
+      mixpanel.track_pageview();
+    }
   },
 };
