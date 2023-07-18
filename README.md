@@ -3,10 +3,7 @@
   <img src="https://user-images.githubusercontent.com/1651946/226529630-9c331df6-b8c2-4429-be02-2a198bfe5ed3.png#gh-dark-mode-only" height="60" style="max-width: 100%" alt="AirCode" />
 </p>
 
-<p align="center">
-  Code, debug, deploy, operate, and share<br>
-  your APIs with zero-config, all in a single place
-</p>
+<p align="center">Serverless Node.js stack for API development</p>
 
 <p align="center">
   <a href="https://aircode.io"><strong>What is AirCode</strong></a> ·
