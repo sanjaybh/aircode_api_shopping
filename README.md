@@ -4,7 +4,8 @@
 </p>
 
 <p align="center">
-  Build intelligent bots with Node.js, remarkably fast.
+  Code, debug, deploy, operate, and share<br>
+  your APIs with zero-config, all in a single place
 </p>
 
 <p align="center">
