@@ -16,12 +16,16 @@
 
 # AirCode
 
-[AirCode](https://aircode.io) is a streamlined online platform empowering developers to create intelligent bots with Node.js. Featuring an intuitive in-browser IDE and pre-configured cloud services, you can concentrate on building exceptional products.
+[AirCode](https://aircode.io) is Your Serverless Node.js Stack for API Development, zero-config, out-of-the-box, all in one place.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/558368/226536572-894eae82-d0fb-4cef-8767-dd25d6142b47.png#gh-light-mode-only" style="max-width: 100%" alt="AirCode" />
   <img src="https://user-images.githubusercontent.com/558368/226536599-e2537311-a773-45eb-bbf3-850cb21ecc98.png#gh-dark-mode-only" style="max-width: 100%" alt="AirCode" />
 </p>
+
+- Develop your production-level services, where everything is Serverless
+- Without any downloads or setups, you can code instantly in our in-browser IDE
+- Enjoy a consistent development and production environment, and deploy in seconds
 
 ## Getting Started
 
