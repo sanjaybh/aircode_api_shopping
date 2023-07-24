@@ -1,0 +1,3 @@
+[submodule "examples/mocor"]
+	path = examples/mocor
+	url = git@github.com:akira-cn/mocor.git
