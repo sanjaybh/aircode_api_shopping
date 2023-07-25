@@ -71,9 +71,9 @@ const myCustomHeader = context.headers['x-my-header'];
 
 ```js
 // ?hello=world&abc=xyz&abc=123
-const hello = context.hello;
+const hello = context.query.hello;
 // => 'world'
-const abc = context.abc;
+const abc = context.query.abc;
 // => [ 'xyz', '123' ] 
 ```
 
