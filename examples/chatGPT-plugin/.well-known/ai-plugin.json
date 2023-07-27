@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "database-demo",
+  "name_for_model": "querydatabase",
+  "description_for_human": "Chat with your databases without writing any SQL code.",
+  "description_for_model": "Provide a database URI and get the requested data and the structure of the database tables by executing database queries.",
+  "auth": {
+      "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://rujswe14n3.us.aircode.run/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://nstac6.us.aircodecdn.com/menu 1 (2).1690441720854_a0vshgw19bo.png",
+  "contact_email": "legal@example.com",
+  "legal_info_url": "https://rujswe14n3.us.aircode.run/legal"
+}
