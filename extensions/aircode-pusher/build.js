@@ -19,5 +19,5 @@ await esbuild.build({
   bundle: true,
   format: 'cjs',
   platform: 'node',
-  outfile: 'dist/aircode-pusher.js',
+  outfile: 'dist/aircode-pusher.cjs',
 });
