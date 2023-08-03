@@ -8,6 +8,9 @@ export class Channel {
   constructor(pusher, name) {
     this.#pusher = pusher;
     this.#name = name;
+    this.responseBody = {
+      name,
+    };
   }
 
   /**

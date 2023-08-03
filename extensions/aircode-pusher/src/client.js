@@ -30,20 +30,30 @@ export default class Pusher {
 
     for(const channel of channels) {
       const conn = pusher.subscribe(channel);
-      Object.defineProperty(conn, 'send', {
-        value: async (event, data) => {
-          const ret = await (await fetch(this.#apiUrl, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              channel,
-              event,
-              data,
-            }),
-          })).json();
-          return ret;
+      Object.defineProperties(conn, {
+        'send': {
+          value: async (event, data) => {
+            const ret = await (await fetch(this.#apiUrl, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                channel,
+                event,
+                data,
+              }),
+            })).json();
+            return ret;
+          },
+        },
+        'bindOnce': {
+          value: (event, fn) => {
+            conn.bind(event, function (...args) {
+              conn.unbind(event, fn);
+              return fn.apply(this, args);
+            });
+          }
         },
       });
       connections.push(new Promise((resolve) => {

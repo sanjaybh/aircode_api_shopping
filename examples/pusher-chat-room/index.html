@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+    }
+
+    #chatbox {
+      box-sizing: border-box;
+      width: 90vw;
+      height: 80vh;
+      margin: 10px;
+      padding: 6px;
+      border: solid 1px #ddd;
+    }
+
+    .chatbar {
+      margin-top: 10px;
+      padding-left: 10px;
+    }
+
+    .chatbar #chat {
+      width: 80vw;
+      height: 2rem;
+      border: solid 1px #ddd;
+    }
+
+    #chat {
+      padding-left: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chatbox">
+  </div>
+  <div class="chatbar">
+    <input id="chat" placeholder="just say something..." disabled></input>
+    <button id="postchat" disabled>post</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jcode-tools"></script>
+  <script src="https://unpkg.com/aircode-pusher"></script>
+  <script>
+    const logger = JCode.logger(chatbox);
+    function log(data) {
+        logger.log('%c %s: %c%s %c[%s]', 'color:blue', data.user, 'color:#333', data.message, 'color:#999', data.datetime);
+    }
+
+    const pusher = new Pusher('https://azzd63g5m3.us.aircode.run/index');
+
+    (async () => {
+      // 建立到服务的连接，并获取服务端订阅的所有频道
+      const channels = await pusher.connect();
+
+      const user = localStorage.getItem('userName') || 'user-' + Math.random().toString(16).slice(2, 8);
+      localStorage.setItem('userName', user);
+
+      // 通过 bind 监听数据
+      channels[0].bind('chat', (data) => {
+        console.log(data);
+        log(data);
+      });
+
+      // channels[0].bind('get-history')
+
+      console.log('channel', channels[0].bind, channels[0].bindOnce, channels[0].unbind);
+
+      postchat.disabled = false;
+      chat.disabled = false;
+      logger.log('初始化完毕');
+      logger.log('<hr/>');
+
+      postchat.addEventListener('click', (event) => {
+        event.preventDefault();
+        if(chat.value) {
+          const now = (new Date()).toLocaleString();
+          const data = {
+            user,
+            message: chat.value,
+            datetime: now
+          }
+          channels[0].send('chat', data);
+          chat.value = '';
+        }
+      });
+      chat.addEventListener('keydown', (event) => {
+        if(event.key === 'Enter') {
+          const now = (new Date()).toLocaleString();
+          if(chat.value) {
+            const data = {
+              user,
+              message: chat.value,
+              datetime: now
+            }
+            channels[0].send('chat', data);
+            chat.value = '';
+          }
+        }
+      });
+    })();
+
+  </script>
+</body>
+</html>
