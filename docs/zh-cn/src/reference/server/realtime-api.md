@@ -18,13 +18,13 @@ const pusher = new Pusher({
 });
 ```
 
-根据配置创建一个`Pusher`对象，你可以通过[pusher.com](https://pusher.com)平台创建应用，然后获取到相应的配置信息。
+根据配置创建一个 `Pusher` 对象，你可以通过 [pusher.com](https://pusher.com) 平台创建应用，然后获取到相应的配置信息。
 
 <img src="https://aircode-yvo.b-cdn.net/resource/1691047640890-843kgmoaqvy.jpg" alt="Get API Key" width="450">
 
-如果你还没有[pusher.com](https://pusher.com)的账号，你也可以先使用`Pusher.DEBUG_CONFIG`临时配置进行开发。
+如果你还没有 [pusher.com](https://pusher.com) 的账号，你也可以先使用 `Pusher.DEBUG_CONFIG` 临时配置进行开发。
 
-> 注意⚠️：`Pusher.DEBUG_CONFIG`仅用于开发调试，请勿直接用于线上服务。
+> 注意⚠️： `Pusher.DEBUG_CONFIG` 仅用于开发调试，请勿直接用于线上服务。
 
 ### pusher.channel(name)
 
@@ -44,11 +44,11 @@ channel.subscribe('foobar', async ({event, data, channel}) => {
 });
 
 channel.subscribe('*', ({event, data, channel}) => {
-  // subscribe all event
+  // subscribe all events
 });
 ```
 
-Channel对象通过subscribe订阅事件，名称为eventName的事件消息将被接收。可以通过`*`来接收任意名称的事件。
+Channel 对象通过 subscribe 订阅事件，名称为 eventName 的事件消息将被接收。可以通过 `*` 来接收任意名称的事件。
 
 ### channel.trigger(eventName, data, channel);
 
@@ -57,7 +57,7 @@ channel.trigger('some-event', {data: 'somedata'});
 channel.trigger('some-event', {data: 'somedata'}, 'other-channel');
 ```
 
-Channel对象通过trigger方法推送消息给客户端，evenName是事件名，data是数据，默认推送的channel是当前channel，但也可以通过channel参数传别的channel名进行推送。
+Channel 对象通过 trigger 方法推送消息给客户端，evenName 是事件名，data 是数据，默认推送的 channel 是当前 channel，但也可以通过 channel 参数传别的 channel 名进行推送。
 
 ### pusher.listen()
 
@@ -65,7 +65,7 @@ Channel对象通过trigger方法推送消息给客户端，evenName是事件名�
 module.exports = pusher.listen();
 ```
 
-`pusher.listen` 返回云函数，将它export出来，就完成服务端配置。
+`pusher.listen` 返回云函数，将它 export 出来，就完成服务端配置。
 
 ## 客户端 API {#client-api}
 
@@ -75,7 +75,7 @@ module.exports = pusher.listen();
 const pusher = new Pusher('https://qzwyiigked.us.aircode.run/hello');
 ```
 
-根据云函数创建客户端Pusher对象。
+根据云函数创建客户端 Pusher 对象。
 
 ### pusher.connect()
 
@@ -83,7 +83,7 @@ const pusher = new Pusher('https://qzwyiigked.us.aircode.run/hello');
 const channels = await pusher.connect();
 ```
 
-异步函数，等待Pusher对象建立连接完毕，根据服务端定位频道返回对应的客户端Channel对象。
+异步函数，等待 Pusher 对象建立连接完毕，根据服务端定位频道返回对应的客户端 Channel 对象。
 
 ### channel.bind(eventName, data)
 
