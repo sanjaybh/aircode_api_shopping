@@ -6886,6 +6886,9 @@ var Channel = class {
   constructor(pusher, name) {
     this.#pusher = pusher;
     this.#name = name;
+    this.responseBody = {
+      name
+    };
   }
   /**
     pusher.channel('my-channel').subscribe(async ({event, data}) => {
@@ -6984,7 +6987,7 @@ var Pusher = class {
             } catch (ex) {
               return { error: ex.message };
             }
-            return { error: "", ack: { channel, event, data } };
+            return _channel.responseBody;
           }
           context.status(404);
           return {
