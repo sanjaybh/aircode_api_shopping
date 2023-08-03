@@ -2,9 +2,9 @@
 
 本文展示了 `aircode-pusher` 下的所有 API 说明及示例。
 
-## 服务端 API {#server-api}
+## 服务端 API
 
-### `new Pusher({appId, key, secret, cluster, useTLS = true})`
+### new Pusher({appId, key, secret, cluster, useTLS = true})
 
 ```js
 const pusher = new Pusher({
