@@ -57,6 +57,16 @@ channel.trigger('some-event', {data: 'somedata'}, 'other-channel');
 
 Channel 对象通过 trigger 方法推送消息给客户端，evenName 是事件名，data 是数据，默认推送的 channel 是当前 channel，但也可以通过 channel 参数传别的 channel 名进行推送。
 
+### channel.responseBody
+
+```js
+channel.subscribe('foobar', ({event, data, channel}) => {
+  channel.responseBody = {status: 'success'};
+});
+```
+
+Channel可以返回一个 JSON 对象，这个对象会作为客户端 send 的返回值，直接通过 HTTP 返回。
+
 ### pusher.listen()
 
 ```js
@@ -91,6 +101,33 @@ channel.bind('foobar', (data) => {
   console.log('received', data);
 });
 ```
+
+监听对应的事件。
+
+### channel.unbind(eventName, data)
+
+```js
+const channel = channels[0];
+const handler = (data) => {
+  console.log('received', data);
+  channel.unbind('foobar', handler);
+};
+
+channel.bind('foobar', handler);
+```
+
+取消监听对应的事件。
+
+### channel.bindOnce(eventName, data)
+
+```js
+const channel = channels[0];
+channel.bindOnce('foobar', (data) => {
+  console.log('received', data);
+});
+```
+
+监听对应的事件，只监听一次。
 
 ### channel.send(eventName, data)
 
