@@ -65,14 +65,16 @@
         log(data);
       });
 
-      // channels[0].bind('get-history')
+      const {messages} = await channels[0].send('get-history', '');
 
-      console.log('channel', channels[0].bind, channels[0].bindOnce, channels[0].unbind);
+      // console.log('channel', channels[0].bind, channels[0].bindOnce, channels[0].unbind);
 
       postchat.disabled = false;
       chat.disabled = false;
       logger.log('初始化完毕');
       logger.log('<hr/>');
+
+      messages.reverse().forEach(log);
 
       postchat.addEventListener('click', (event) => {
         event.preventDefault();
