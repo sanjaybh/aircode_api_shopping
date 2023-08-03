@@ -13,3 +13,11 @@ await esbuild.build({
   platform: 'browser',
   outfile: 'dist/aircode-pusher-client.js',
 });
+
+await esbuild.build({
+  entryPoints: ['./src/index.js'],
+  bundle: true,
+  format: 'cjs',
+  platform: 'node',
+  outfile: 'dist/aircode-pusher.js',
+});
