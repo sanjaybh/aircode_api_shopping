@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pusher Test</title>
+</head>
+<body>
+  <div>See console log...</div>
+  <script src="aircode-pusher-client.js"></script>
+  <script>
+    const pusher = new Pusher('http://localhost:3000/hello');
+    (async () => {
+      const channels = await pusher.connect();
+      channels[0].bind('test-event', (data) => {
+        console.log(data);
+      });
+      channels[1].bind('test-event', (data) => {
+        console.log(data);
+      });
+      channels[0].send('test-event', 'hello');
+      channels[1].send('test-event', 'world');
+    })();
+  </script>
+</body>
+</html>
