@@ -55,7 +55,7 @@ const pusher = new Pusher('https://qzwyiigked.us.aircode.run/hello');
 <ListBoxContainer>
   <ListBox
     title="实时通信入门"
-    link="/getting-started/realtime"
+    link="https://github.com/AirCodeLabs/aircode/blob/main/extensions/aircode-pusher/docs/cn-getting-started.md"
     description="快速上手 AirCode 实时通信，发送、接收消息"
     single
   />
@@ -66,7 +66,7 @@ const pusher = new Pusher('https://qzwyiigked.us.aircode.run/hello');
 <ListBoxContainer>
   <ListBox
     title="实时通信 API"
-    link="/reference/server/realtime-api"
+    link="https://github.com/AirCodeLabs/aircode/blob/main/extensions/aircode-pusher/docs/cn-pusher-api.md"
     description="关于 Pusher 的所有接口定义"
     single
   />
