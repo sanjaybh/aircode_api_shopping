@@ -14,6 +14,11 @@
   link="/guide/files/"
   description="上传、下载、删除文件，都只需要一行代码，还有自带的 CDN 加速功能"
 />
+<ListBox
+  title="实时通信"
+  link="/guide/realtime/"
+  description="订阅、推送、实时接收消息"
+/>
 <!-- <ListBox
   title="应用管理"
   link="/guide/apps/manage"
