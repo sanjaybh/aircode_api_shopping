@@ -1,0 +1,11 @@
+{
+  "name": "CDN",
+  "runtime": "node/v16",
+  "timeout": 60,
+  "region": "HK",
+  "envs": [
+    "token",
+    "accessKey"
+  ],
+  "typescript": false
+}
