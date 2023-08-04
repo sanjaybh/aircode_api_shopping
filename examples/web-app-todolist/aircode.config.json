@@ -1,0 +1,8 @@
+{
+  "name": "todolist-app",
+  "runtime": "node/v16",
+  "timeout": 60,
+  "region": "US",
+  "envs": [],
+  "typescript": false
+}
