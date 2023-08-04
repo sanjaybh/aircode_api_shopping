@@ -50,8 +50,8 @@ const pusher = new Pusher('https://qzwyiigked.us.aircode.run/hello');
 
 ## 快速上手
 
-如果你从未使用过 AirCode 创建实时通信应用，建议先跟随 [实时通信入门](docs/cn-getting-started.md) 快速上手。
+如果你从未使用过 AirCode 创建实时通信应用，建议先跟随 [实时通信入门](docs/cn/getting-started.md) 快速上手。
 
 ## API定义
 
-[AirCode-Pusher-api](docs/cn-pusher-api.md)
+[AirCode-Pusher-api](docs/cn/pusher-api.md)
