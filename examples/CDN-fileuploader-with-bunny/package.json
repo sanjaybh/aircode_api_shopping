@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "aircode": "0.4.1",
+    "aircode-app": "0.2.0",
+    "mime": "3.0.0",
+    "node-fetch": "2.6.12",
+    "uglify-js": "3.17.4"
+  }
+}
