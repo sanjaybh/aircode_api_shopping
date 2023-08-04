@@ -39,11 +39,11 @@ For a comprehensive understanding of AirCode's features and capabilities, visit 
 
 To get a better understanding of how AirCode can be used in real-world applications, check out our examples:
 
-- [ChatGPT Plugin](./examples/chatgpt-plugin/)
-- [Todo List: A SSR web app](./examples/todolist-ssr/)
-- [Slack ChatGPT Bot](./examples/slack-chatgpt-bot/)
-- [Vue.js App](./examples/vue3-app/)
-- [More Examples](./examples/)
+- [ChatGPT Plugin](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin)
+- [Todo List: A SSR web app](https://github.com/AirCodeLabs/aircode/tree/main/examples/todolist-ssr/)
+- [Slack ChatGPT Bot](https://github.com/AirCodeLabs/aircode/tree/main/examples/slack-chatgpt-bot/)
+- [Vue.js App](https://github.com/AirCodeLabs/aircode/tree/main/examples/vue3-app/)
+- [More Examples](https://github.com/AirCodeLabs/aircode/tree/main/examples/)
 
 ## Community and Support
 
