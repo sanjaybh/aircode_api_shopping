@@ -27,14 +27,6 @@
 - Without any downloads or setups, you can code instantly in our in-browser IDE
 - Enjoy a consistent development and production environment, and deploy in seconds
 
-## Getting Started
-
-To get started with AirCode, follow our [Quick Start](https://docs.aircode.io/getting-started/) guide.
-
-## Documentation
-
-For a comprehensive understanding of AirCode's features and capabilities, visit our [Documentation](https://docs.aircode.io) page.
-
 ## Examples
 
 To get a better understanding of how AirCode can be used in real-world applications, check out our examples:
@@ -44,6 +36,14 @@ To get a better understanding of how AirCode can be used in real-world applicati
 - [Slack ChatGPT Bot](https://github.com/AirCodeLabs/aircode/tree/main/examples/slack-chatgpt-bot/)
 - [Vue.js App](https://github.com/AirCodeLabs/aircode/tree/main/examples/vue3-app/)
 - [More Examples](https://github.com/AirCodeLabs/aircode/tree/main/examples/)
+
+## Getting Started
+
+To get started with AirCode, follow our [Quick Start](https://docs.aircode.io/getting-started/) guide.
+
+## Documentation
+
+For a comprehensive understanding of AirCode's features and capabilities, visit our [Documentation](https://docs.aircode.io) page.
 
 ## Community and Support
 
