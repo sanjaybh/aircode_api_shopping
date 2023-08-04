@@ -1,8 +1,8 @@
 {
-  "name": "CDN",
+  "name": "CDN-fileuploader",
   "runtime": "node/v16",
   "timeout": 60,
-  "region": "HK",
+  "region": "US",
   "envs": [
     "token",
     "accessKey"
