@@ -1,6 +1,0 @@
-[submodule "examples/mocor"]
-	path = examples/mocor
-	url = git@github.com:akira-cn/mocor.git
-[submodule "examples/cicada-fe"]
-	path = examples/cicada-fe
-	url = git@github.com:cicada-labs/cicada-fe.git
