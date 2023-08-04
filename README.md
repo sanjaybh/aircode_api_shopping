@@ -55,13 +55,6 @@ Need help or want to connect with other AirCode users? Check out these community
 - [Slack](https://join.slack.com/t/aircodecommunity/shared_invite/zt-1zve3siau-c6Y7DvLRJ3RtZVnaXJWX3A)
 - [Email Support](https://docs.aircode.io/help)
 
-Community Forum: 
-GitHub Issues: 
-Discord: 
-[Slack](insert link here): 
-Email Support: Reach out to our team directly via email for any necessary support or assistance.
-
-
 ## Contributing
 
 We welcome contributions to AirCode! If you're interested in contributing, please read our [Contributing Guidelines](CONTRIBUTING.md) on how to get started.
