@@ -10,6 +10,7 @@ export default defineConfig({
   srcDir: 'src',
   lastUpdated: true,
   cleanUrls: true,
+  appearance: 'dark',
   markdown: {
     theme: {
       light: 'github-light',
