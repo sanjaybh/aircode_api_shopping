@@ -1,5 +1,5 @@
 {
-  "name": "ChatGPT todolist",
+  "name": "TODOList",
   "runtime": "node/v16",
   "timeout": 60,
   "region": "US",
