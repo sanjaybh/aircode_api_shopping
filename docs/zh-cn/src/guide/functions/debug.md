@@ -45,7 +45,7 @@
 
 ## 模拟调试请求的 method {#simulating-request-method}
 
-调试请求默认是 POST 请求，要模拟发起 GET、PUT 和 DELETE 类型的请求，可以设置一个特殊的 **Header**，key 为 `x-mock-method`，value 为小写的 **get，post，put，delete** 之一，这样向该函数发起对应 method 的请求。这在调试 RESTful 接口的时候会比较有用。
+调试请求默认是 POST 请求，要模拟发起 GET、PUT 和 DELETE 类型的请求，可以设置一个特殊的 **Header**，key 为 `x-mock-method`，value 为小写的 **get，post，put，delete** 之一，这样发起调试请求时，将向该函数发起对应 method 的请求。这在调试 RESTful 接口的时候会比较有用。
 
 ## 使用线上请求调试 {#use-online-requests}
 
