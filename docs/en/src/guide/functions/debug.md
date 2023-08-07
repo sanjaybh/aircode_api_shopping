@@ -44,6 +44,10 @@ In addition, the log printed by `context.log` will be output in the **Console** 
 <ACImage src="/_images/1671517558612.png" mode="light" />
 <ACImage src="/_images/1671517589421.png" mode="dark" />
 
+## Simulating Debugging Requests' Method {#simulating-request-method}
+
+By default, debugging requests are made using the POST method. To simulate GET, PUT, and DELETE requests, you can set a special Header with the key `x-mock-method` and the value as one of the lowercase options: **get, post, put, or delete**. This allows you to send a request to this function with the corresponding method. This feature proves useful when debugging RESTful interfaces.
+
 ## Debug with Online Requests {#use-online-requests}
 
 Sometimes, we hope to use real request to reproduce some online scenarios and even modify them when debugging. This is especially useful when troubleshooting online problems, debugging Webhooks, or connecting to OAuth.
