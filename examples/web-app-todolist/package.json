@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "cross-env AC_FAAS_ROOT=. AC_PORT=3000 run-aircode --init"
+  },
+  "devDependencies": {
+    "@aircodelabs/hydrogen": "^0.2.3",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "aircode-app": "^0.2.0"
+  }
+}

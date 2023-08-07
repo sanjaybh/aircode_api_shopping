@@ -4,10 +4,10 @@ const {getTasks, addTask, updateTask} = require('./database');
 
 const app = new App();
 
-// app.use(async (ctx, next) => {
-//   await next();
-//   console.log('foobar');
-// })
+app.use(async (ctx, next) => {
+  await next();
+  console.log('foobar');
+})
 
 app.use(async (ctx, next) => {
   const {params} = ctx;

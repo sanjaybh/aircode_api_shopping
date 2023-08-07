@@ -27,6 +27,16 @@
 - Without any downloads or setups, you can code instantly in our in-browser IDE
 - Enjoy a consistent development and production environment, and deploy in seconds
 
+## Examples
+
+To get a better understanding of how AirCode can be used in real-world applications, check out our examples:
+
+- [ChatGPT Plugin](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin)
+- [Todo List: A SSR web app](https://github.com/AirCodeLabs/aircode/tree/main/examples/todolist-ssr/)
+- [Slack ChatGPT Bot](https://github.com/AirCodeLabs/aircode/tree/main/examples/slack-chatgpt-bot/)
+- [Vue.js App](https://github.com/AirCodeLabs/aircode/tree/main/examples/vue3-app/)
+- [More Examples](https://github.com/AirCodeLabs/aircode/tree/main/examples/)
+
 ## Getting Started
 
 To get started with AirCode, follow our [Quick Start](https://docs.aircode.io/getting-started/) guide.
@@ -35,24 +45,15 @@ To get started with AirCode, follow our [Quick Start](https://docs.aircode.io/ge
 
 For a comprehensive understanding of AirCode's features and capabilities, visit our [Documentation](https://docs.aircode.io) page.
 
-## Examples
-
-To get a better understanding of how AirCode can be used in real-world applications, check out our examples:
-
-- [ChatGPT Plugin](./examples/chatgpt-plugin/)
-- [Todo List: A SSR web app](./examples/todolist-ssr/)
-- [Slack ChatGPT Bot](./examples/slack-chatgpt-bot/)
-- [Vue.js App](./examples/vue3-app/)
-- [More Examples](./examples/)
-
 ## Community and Support
 
 Need help or want to connect with other AirCode users? Check out these community and support resources:
 
-- [Community Forum](https://github.com/AirCodeLabs/aircode/discussions): Request features, discussion about best practices or ask questions about AirCode.
-- [GitHub Issues](https://github.com/aircodelabs/aircode/issues): Report bugs and errors you encounter while using AirCode.
-- [Discord](https://discord.com/invite/XrMVdYdEuY): Join our Discord community to chat with other users, get help, and share your experiences with AirCode.
-- [Email Support](https://docs.aircode.io/help): Reach out to our team directly for assistance through email.
+- [Community Forum](https://github.com/AirCodeLabs/aircode/discussions)
+- [GitHub Issues](https://github.com/aircodelabs/aircode/issues)
+- [Discord](https://discord.com/invite/XrMVdYdEuY)
+- [Slack](https://join.slack.com/t/aircodecommunity/shared_invite/zt-1zve3siau-c6Y7DvLRJ3RtZVnaXJWX3A)
+- [Email Support](https://docs.aircode.io/help)
 
 ## Contributing
 

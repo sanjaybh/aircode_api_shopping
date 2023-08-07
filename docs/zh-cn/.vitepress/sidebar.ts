@@ -94,6 +94,15 @@ const sidebar: DefaultTheme.Sidebar = {
       ],
     },
     // {
+    //   text: '实时通信<sup><font color="red" style="font-weight: normal"> beta</font></sup>',
+    //   collapsed: false,
+    //   items: [
+    //     { text: '实时通信概览', link: '/guide/realtime/' },
+    //     { text: '实时通信入门', link: '/getting-started/realtime' },
+    //     { text: '实时通信 API', link: '/reference/server/realtime-api' },
+    //   ],
+    // },
+    // {
     //   text: '应用管理',
     //   collapsed: false,
     //   items: [

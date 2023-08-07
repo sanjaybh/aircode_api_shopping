@@ -38,7 +38,7 @@ export default {
         'd0cc6ae22c50cef4b54d69f65d827f97',
         {
           debug: import.meta.env.DEV,
-          persistence: 'localStorage',
+          persistence: 'cookie',
         },
       );
       // @ts-ignore

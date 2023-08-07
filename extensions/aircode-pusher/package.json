@@ -1,0 +1,29 @@
+{
+  "name": "aircode-pusher",
+  "version": "0.3.0",
+  "description": "",
+  "module": "src/index.js",
+  "main": "dist/aircode-pusher.cjs",
+  "browser": "dist/aircode-pusher-client.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env AC_FAAS_ROOT=test AC_PORT=3000 run-aircode --init",
+    "build": "node build",
+    "lint": "eslint src",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@aircodelabs/hydrogen": "^0.2.0",
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.18.17",
+    "eslint": "^8.46.0",
+    "pusher-js": "^8.3.0"
+  },
+  "dependencies": {
+    "pusher": "^5.1.3"
+  }
+}
