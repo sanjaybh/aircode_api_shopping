@@ -6,11 +6,11 @@ Connect Siri to ChatGPT for direct voice activation and support for continuous c
 
 ## Step 1: Get a Copy
 
-1. Click the **Deploy to AirCode** button below. This will open [AirCode](https://aircode.io) and create an application based on this template. If you're not logged in, you may be redirected to the login page. It is recommended to log in with GitHub for a faster experience.
-
 [![Deploy to AirCode](https://aircode.io/dashboard-public/shiki/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fsiri-gpt&appname=SiriGPT)
 
-    <p align="center"><img src="https://docs.aircode.io/_for_demos/7iBqrpbrMR.1678961115282_5j58e0jj3ek.jpeg" width="553px" /></p>
+1. Click the **Deploy to AirCode** button. This will open [AirCode](https://aircode.io) and create an application based on this template. If you're not logged in, you may be redirected to the login page. It is recommended to log in with GitHub for a faster experience.
+
+<p align="center"><img src="https://docs.aircode.io/_for_demos/7iBqrpbrMR.1678961115282_5j58e0jj3ek.jpeg" width="553px" /></p>
 
 2. In the create dialog that pops up, enter your application name and click **Create** to finish.
 
