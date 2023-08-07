@@ -6,7 +6,9 @@ Connect Siri to ChatGPT for direct voice activation and support for continuous c
 
 ## Step 1: Get a Copy
 
-1. Click **Get a copy** in the upper right corner. This will open [AirCode](https://aircode.io) and create an application based on this template. If you're not logged in, you may be redirected to the login page. It is recommended to log in with GitHub for a faster experience.
+1. Click the **Deploy to AirCode** button below. This will open [AirCode](https://aircode.io) and create an application based on this template. If you're not logged in, you may be redirected to the login page. It is recommended to log in with GitHub for a faster experience.
+
+[![Deploy to AirCode](https://aircode.io/dashboard-public/shiki/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fsiri-gpt&appname=SiriGPT)
 
     <p align="center"><img src="https://docs.aircode.io/_for_demos/7iBqrpbrMR.1678961115282_5j58e0jj3ek.jpeg" width="553px" /></p>
 
@@ -82,7 +84,3 @@ Need help or want to connect with other AirCode users? Check out these community
 - [GitHub Issues](https://github.com/aircodelabs/aircode/issues): Report bugs and errors you encounter while using AirCode.
 - [Discord](https://discord.com/invite/XrMVdYdEuY): Join our Discord community to chat with other users, get help, and share your experiences with AirCode.
 - [Email Support](https://docs.aircode.io/help): Reach out to our team directly for assistance through email.
-
-## What's more
-
-Step-by-step tutorials for integrating ChatGPT with iOS Siri, Slack. Including all source code and free hosting. -> See [https://docs.aircode.io/chatgpt/](https://docs.aircode.io/chatgpt/)
