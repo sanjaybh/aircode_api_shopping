@@ -1,0 +1,10 @@
+{
+  "name": "SiriGPT",
+  "runtime": "node/v16",
+  "timeout": 60,
+  "region": "HK",
+  "envs": [
+    "OPENAI_KEY"
+  ],
+  "typescript": false
+}
