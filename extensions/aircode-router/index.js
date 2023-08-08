@@ -49,7 +49,7 @@ module.exports = class Router {
     const router = this.#koaRouter;
     return async function (params, context) {
       context.params = params;
-      await router.routes()(context);
+      await router.routes()(context, () => {});
       const matched = context.matched;
       if(matched && matched.length) {
         return context.responseBody;
@@ -60,6 +60,27 @@ module.exports = class Router {
         error: 'not found',
       };
     };
+  }
+
+  redirect(source, destination, code) {
+    // lookup source route by name
+    if(typeof source === 'symbol' || source[0] !== '/') {
+      source = this.url(source);
+      if(source instanceof Error) throw source;
+    }
+
+    // lookup destination route by name
+    if(
+      typeof destination === 'symbol'
+      || (destination[0] !== '/' && !destination.includes('://'))
+    ) {
+      destination = this.url(destination);
+      if(destination instanceof Error) throw destination;
+    }
+
+    return this.all(source, (params, ctx) => {
+      ctx.res.redirect(code || 301, destination);
+    });
   }
 
   // allowMethods() {
