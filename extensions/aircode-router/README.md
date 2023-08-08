@@ -8,6 +8,10 @@ The official router for AirCode.
 
 <img src="https://aircode-yvo.b-cdn.net/resource/1691464529285-2qz32tn5hyx.jpg" width="300">
 
+Add dependency:
+
+<img src="https://aircode-yvo.b-cdn.net/resource/1691470317215-u2aki9ef6h.jpg" width="300">
+
 Suppose your cloud function is named `hello`:
 
 ```js
