@@ -6,7 +6,7 @@ The official router for AirCode.
 
 💡 **To use this extension, you need to set `EXPERIMENTAL_ROUTE=1` to enable path router first.**
 
-<img src="https://aircode-yvo.b-cdn.net/resource/1691463357073-e8ok33dldel.jpg" width="300">
+<img src="https://aircode-yvo.b-cdn.net/resource/1691464529285-2qz32tn5hyx.jpg" width="300">
 
 Suppose your cloud function is named `hello`:
 
