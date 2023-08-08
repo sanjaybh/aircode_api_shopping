@@ -167,7 +167,7 @@ context.cookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60
 
 Sets a cookie named `name` with the `value` value.
 
-Refer to [express response cookie]((https://expressjs.com/en/5x/api.html#res.cookie)) for specific options.
+Refer to [express response cookie](https://expressjs.com/en/5x/api.html#res.cookie) for specific options.
 
 ### `context.clearCookie(name[, options])`
 
