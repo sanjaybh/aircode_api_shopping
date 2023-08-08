@@ -10,7 +10,7 @@ The official router for AirCode.
 
 Add dependency:
 
-<img src="https://aircode-yvo.b-cdn.net/resource/1691470317215-u2aki9ef6h.jpg" width="300">
+<img src="https://aircode-yvo.b-cdn.net/resource/1691475086311-kapcugqqci.jpg" width="300">
 
 Suppose your cloud function is named `hello`:
 
