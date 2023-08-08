@@ -6,7 +6,7 @@ The official router for AirCode.
 
 💡 **To use this extension, you need to set `EXPERIMENTAL_ROUTE=1` to enable path router first.**
 
-<img src="https://aircode-yvo.b-cdn.net/resource/1691464529285-2qz32tn5hyx.jpg" width="300">
+<img src="https://aircode-yvo.b-cdn.net/resource/1691471034457-wk7yuztkp1.jpg" width="300">
 
 Add dependency:
 
