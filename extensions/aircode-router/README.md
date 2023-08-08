@@ -26,7 +26,7 @@ router.all('/users/:id', (params, context) => {
 module.exports = router.routes();
 ```
 
-Then you can visit: `/hello/users/yvo` to get the userId "yvo":
+Then if you visit: `/hello/users/yvo`, you will get the userId "yvo" in `params`.
 
 ```json
 {
