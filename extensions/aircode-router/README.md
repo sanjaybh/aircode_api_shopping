@@ -17,7 +17,7 @@ const router = new Router({
   prefix: '/hello',
 });
 
-router.all('/users/:id', (params, context) => {
+router.all('/users/:id', (params, context, next) => {
   return {
     params,
   };

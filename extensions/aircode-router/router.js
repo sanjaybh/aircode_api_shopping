@@ -3,9 +3,8 @@ const KoaRouter = require('@koa/router');
 function wrapMiddleWare(fn) {
   return async (ctx, next) => {
     try {
-      const body = await fn(ctx.params, ctx);
-      ctx.responseBody = body;
-      await next();
+      const body = await fn(ctx.params, ctx, next);
+      if(body) ctx.responseBody = body;
     } catch (ex) {
       console.error(ex.message);
       await next();
@@ -50,19 +49,16 @@ module.exports = class Router {
     const router = this.#koaRouter;
     return async function (params, context) {
       context.params = params;
-      return await new Promise((resolve) => {
-        router.routes()(context, () => {
-          const matched = context.matched;
-          if(matched && matched.length) {
-            resolve(context.responseBody);
-          } else {
-            context.status(404);
-            resolve({
-              error: 'not found',
-            });
-          }
-        });
-      });
+      await router.routes()(context);
+      const matched = context.matched;
+      if(matched && matched.length) {
+        return context.responseBody;
+      }
+
+      context.status(404);
+      return {
+        error: 'not found',
+      };
     };
   }
 
