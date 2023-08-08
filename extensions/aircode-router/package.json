@@ -1,0 +1,19 @@
+{
+  "name": "aircode-router",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-sprite": "^1.0.6"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.0"
+  }
+}
