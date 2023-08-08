@@ -9,6 +9,10 @@ Run express and koa apps in AirCode.
 <img src="https://aircode-yvo.b-cdn.net/resource/1691471034457-wk7yuztkp1.jpg" width="300">
 
 
+### Setup dependencies
+
+<img src="https://aircode-yvo.b-cdn.net/resource/1691493426210-ucy8gnvy7hf.jpg" width="300">
+
 ### Run Express
 
 ```js
