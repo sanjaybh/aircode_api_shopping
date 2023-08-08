@@ -42,7 +42,7 @@ Then if you visit: `/hello/users/yvo`, you will get the userId "yvo" in `params`
 
 💡 **For debugging purposes, you can set the `x-mock-route` request header to simulate the route's path.**
 
-<img src="https://aircode-yvo.b-cdn.net/resource/1691464785757-i148e25gg1m.jpg" width="300">
+<img src="https://aircode-yvo.b-cdn.net/resource/1691470599230-tl5r6lepmy.jpg" width="300">
 
 ## Router API
 
