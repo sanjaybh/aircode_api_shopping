@@ -1,3 +1,10 @@
+# One-Click Deployment
+
+Easily get a copy and launch your app on [AirCode](https://aircode.io/) by clicking the button below.
+
+[![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=wangxiao&repo=hr&branch=test&path=home&appname=Slack-ChatGPT)
+
+------
 # Build a Slack ChatGPT Bot with JavaScript, including full source code, free hosting, and step-by-step tutorial.
 
 This article helps you quickly implement a Slack chatbot and integrate ChatGPT capabilities into it. You can ask it questions directly or mention it in a group chat to get ChatGPT's answers. (The following are screenshots of the effect)
@@ -9,7 +16,7 @@ This article helps you quickly implement a Slack chatbot and integrate ChatGPT c
 ## What you will learn from this article
 
 1. Create a Slack bot and configure the events and permissions required for the bot
-2. Use AirCode's "Get a copy" feature to implement the chat capabilities of the bot
+2. Use AirCode to implement the chat capabilities of the bot
 3. Integrate the bot with ChatGPT capabilities
 
 ## Step 1: Create a Slack bot
@@ -57,7 +64,7 @@ This article helps you quickly implement a Slack chatbot and integrate ChatGPT c
 
 ## Step 2: Create an AirCode application
 
-1. Quickly generate your own AirCode Node.js application using the "Get a copy" button in the upper right corner of this page or the [Slack ChatGPT Bot source code link](https://aircode.cool/zx85v6ac4s). **Note: Do not directly copy the code. If you paste the code directly, you need to manually install NPM dependencies.** If you haven't logged in to AirCode, you need to log in first.
+1. Quickly generate your own AirCode Node.js application using the "Deploy to AirCode" button. **Note: Do not directly copy the code. If you paste the code directly, you need to manually install NPM dependencies.** If you haven't logged in to AirCode, you need to log in first.
 
 <p align="center">
   <img src="https://docs.aircode.io/_images/tutorials/slack-chatgpt-en/10-get-copy.png" width="800px" />
