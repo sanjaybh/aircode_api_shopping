@@ -67,6 +67,46 @@ The keys in the object are all lowercase, for example, it should be `context.hea
 
 `{string}`：Get the method of the HTTP request, the value is all uppercase, for example `'POST'`、`'GET'`。
 
+### `context.request`
+
+`{Request}`：Node.js request object.
+
+### `context.req`
+
+Abbreviation for `context.request`.
+
+### `context.response`
+
+`{Response}`：Node.js response object.
+
+### `context.res`
+
+Abbreviation for `context.response`.
+
+### `context.path`
+
+```js
+// /hello?hi=aircode
+const path = context.path;
+// => /hello
+```
+
+`{string}` Get the complete path of the HTTP request.
+
+### `context.url`
+
+```js
+// /hello?hi=aircode
+const url = context.url;
+// => /hello?hi=aircode
+```
+
+`{string}` Get the complete URL of the HTTP request, including the path and query string.
+
+### `context.protocol`
+
+`{string}` Get the protocol of the HTTP request, which is `https` in AirCode.
+
 ### `context.query`
 
 ```js
@@ -118,6 +158,32 @@ Delete the HTTP Response Header corresponding to the `field`.
 **Parameter**
 
 - `{string} field`: the key of the Response Header to delete
+
+### `context.cookie(name, value[, options])`
+
+```js
+context.cookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60 * 1000), httpOnly: true });
+```
+
+Sets a cookie named `name` with the `value` value.
+
+Refer to [express response cookie]((https://expressjs.com/en/5x/api.html#res.cookie)) for specific options.
+
+### `context.clearCookie(name[, options])`
+
+```js
+context.clearCookie('token', { path: '/admin' });
+```
+
+Clears the cookie value of the cookie named `name`.
+
+### `context.redirect(url[, code])`
+
+```js
+context.redirect('https://aircode.io');
+```
+
+Forces a redirection to the specified URL with the status `code`, defaulting to `302`.
 
 ### `context.status(code)`
 

@@ -67,6 +67,46 @@ const myCustomHeader = context.headers['x-my-header'];
 
 `{string}`：获取 HTTP 请求的 Method，值为大写字母，例如 `'POST'`、`'GET'`。
 
+### `context.request`
+
+`{Request}`：Node.js request 对象。
+
+### `context.req`
+
+`context.request` 的缩写。
+
+### `context.response`
+
+`{Response}`：Node.js response 对象。
+
+### `context.res`
+
+`context.response` 的缩写。
+
+### `context.path`
+
+```js
+// /hello?hi=aircode
+const path = context.path;
+// => /hello
+```
+
+`{string}` 获取 HTTP 请求的完整 path。
+
+### `context.url`
+
+```js
+// /hello?hi=aircode
+const url = context.url;
+// => /hello?hi=aircode
+```
+
+`{string}` 获取 HTTP 请求的完整 URL，包括 path 和 query 字符串。
+
+### `context.protocol`
+
+`{string}` 获取 HTTP 请求的协议，在 AirCode 中为 `https`。
+
 ### `context.query`
 
 ```js
@@ -118,6 +158,32 @@ context.remove('x-abc-header');
 **参数**
 
 - `{string} field`：要删除的 Response Header 的键
+
+### `context.cookie(name, value[, options])`
+
+```js
+context.cookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60 * 1000), httpOnly: true });
+```
+
+将名为 `name` 的 cookie 值设为 `value`。
+
+具体的 `options` 选项参考 [express response cookie](https://expressjs.com/en/5x/api.html#res.cookie)
+
+### `context.clearCookie(name[, options])`
+
+```js
+context.clearCookie('token', { path: '/admin' });
+```
+
+将名为 `name` 的 cookie 值清空。
+
+### `context.redirect(url[, code])`
+
+```js
+context.redirect('https://aircode.io');
+```
+
+强制跳转到指定 URL，状态码为 `code`，默认值 302。
 
 ### `context.status(code)`
 
