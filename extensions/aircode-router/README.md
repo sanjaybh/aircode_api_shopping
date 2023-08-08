@@ -11,7 +11,7 @@ The official router for AirCode.
 Suppose your cloud function is named `hello`:
 
 ```js
-const Router = require('./router/router.js');
+const Router = require('aircode-router');
 
 const router = new Router({
   prefix: '/hello',
