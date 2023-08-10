@@ -14,7 +14,7 @@ As the plugin is developed and deployed on [AirCode](https://aircode.io/), all y
 
 Once you have successfully copied the plugin, you can deploy it and get your app domain by clicking the "Deploy" button: 
 
-![Alt text](image.png)
+![Alt text](https://github.com/AirCodeLabs/aircode/blob/chatgpt/examples/chatGPT-plugin/image.png?raw%253Dtrue)
 
 And replace all `rujswe14n3.us.aircode.run` with your own domain in the files `.well-known/ai-plugin.json` and `openai.yaml`, for the case above is `x5a89yqe9z.us.aircode.run`. After you've done that, click deploy again (to update the domain info in your manifest file.)
 
@@ -22,20 +22,20 @@ And replace all `rujswe14n3.us.aircode.run` with your own domain in the files `.
 
 Click `Develop your own plugin` (If you cannot see this, it indicates that you do not have developer access, you can apply it [here](https://openai.com/waitlist/plugins).):
 
-![Alt text](image-1.png) 
+![Alt text](https://github.com/AirCodeLabs/aircode/blob/chatgpt/examples/chatGPT-plugin/image-1.png?raw%253Dtrue) 
 
 Input the domain of your app and click `Find manifest file`: 
 
-![Alt text](image-2.png)
+![Alt text](https://github.com/AirCodeLabs/aircode/blob/chatgpt/examples/chatGPT-plugin/image-2.png?raw%25253Dtrue)
 
 If everything goes well, you will see:
 
-![Alt text](image-3.png)
+![Alt text](https://github.com/AirCodeLabs/aircode/blob/chatgpt/examples/chatGPT-plugin/image-3.png?raw%25253Dtrue)
 
 After you installed, you can try it with your PostgreSQL database, if you don't have one, you can try [Vercel Postgres](https://vercel.com/storage/postgres) and get a free postgres DB:
 
-![Alt text](image-4.png)
+![Alt text](https://github.com/AirCodeLabs/aircode/blob/chatgpt/examples/chatGPT-plugin/image-4.png?raw%25253Dtrue)
 
 Copy the url of your db, and add a `?sslmode=require` to the end of your database uri, and start chat with your DB in ChatGPT!
 
-![Alt text](image-5.png)
+![Alt text](https://github.com/AirCodeLabs/aircode/blob/chatgpt/examples/chatGPT-plugin/image-5.png?raw%25253Dtrue)
