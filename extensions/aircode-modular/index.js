@@ -31,21 +31,16 @@ function buildModule(rpcs, context) {
   return source.join('\n');
 }
 
-let ctx = null;
-export function getContext() {
-  return ctx;
-}
-
 export function modular(rpcs) {
   return async function (params, context) {
-    ctx = context;
+    const ctx = context;
     const method = context.method;
     if(method === 'GET') {
       context.set('content-type', 'text/javascript');
       return buildModule(rpcs, context);
     } else {
       const {func, args} = params;
-      return await rpcs[func](...args);
+      return await rpcs[func](...args, ctx);
     }
   };
 }

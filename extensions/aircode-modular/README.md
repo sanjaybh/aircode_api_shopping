@@ -12,8 +12,8 @@ function add(x, y) {
   return x + y;
 }
 
-function getUrl() {
-  const {url} = getContext();
+function getUrl(context) {
+  const {url} = context;
   return url;
 }
 
