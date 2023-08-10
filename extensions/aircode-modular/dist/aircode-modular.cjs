@@ -19,7 +19,6 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // index.js
 var aircode_modular_exports = {};
 __export(aircode_modular_exports, {
-  getContext: () => getContext,
   modular: () => modular
 });
 module.exports = __toCommonJS(aircode_modular_exports);
@@ -53,25 +52,20 @@ function buildModule(rpcs, context) {
   }
   return source.join("\n");
 }
-var ctx = null;
-function getContext() {
-  return ctx;
-}
 function modular(rpcs) {
   return async function(params, context) {
-    ctx = context;
+    const ctx = context;
     const method = context.method;
     if (method === "GET") {
       context.set("content-type", "text/javascript");
       return buildModule(rpcs, context);
     } else {
       const { func, args } = params;
-      return await rpcs[func](...args);
+      return await rpcs[func](...args, ctx);
     }
   };
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  getContext,
   modular
 });
