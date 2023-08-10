@@ -12,7 +12,7 @@ module.exports = function (app) {
 
       // expose the prototype that will get set on requests
       Object.create(req, {
-        reqApp: {configurable: true, enumerable: true, writable: true, value: _app},
+        app: {configurable: true, enumerable: true, writable: true, value: _app},
       });
 
       // expose the prototype that will get set on responses
