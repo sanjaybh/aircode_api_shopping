@@ -1,4 +1,4 @@
-import {config, modular} from 'es-modular';
+import {config, modular} from 'http-modular';
 
 function add(x, y) {
   return x + y;
