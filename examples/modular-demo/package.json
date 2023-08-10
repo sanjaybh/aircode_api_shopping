@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "es-modular": "0.3.0",
+    "aircode": "0.6.1"
+  }
+}
