@@ -8,7 +8,9 @@ This is the backend part of the [cicada app](https://github.com/cicada-labs/cica
 
 ## Online demo
 
+👉 https://cicada-fe.vercel.app/
 
+<img src="https://aircode-yvo.b-cdn.net/resource/1691664165236-vgxsswpor1g.jpg" width="350">
 
 ## Usage
 
