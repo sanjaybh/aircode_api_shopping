@@ -14,9 +14,10 @@ As the plugin is developed and deployed on [AirCode](https://aircode.io/), all y
 
 Once you have successfully copied the plugin, you can deploy it and get your app domain by clicking the "Deploy" button: 
 
+![Alt text](image.png)
 ![Alt text](https://github.com/AirCodeLabs/aircode/blob/chatgpt/examples/chatGPT-plugin/image.png?raw%253Dtrue)
 
-And **replace all `z58n74aig5.us.aircode.run` with your own domain in the files `.well-known/ai-plugin.json` and `openai.yaml`**, for the case above is `x5a89yqe9z.us.aircode.run`. After you've done that, click deploy again (to update the domain info in your manifest file.)
+And **replace all `z58n74aig5.us.aircode.run` with your own domain in the files `.well-known/ai-plugin.json` and `openapi.yaml`**, for the case above is `x5a89yqe9z.us.aircode.run`. After you've done that, click deploy again (to update the domain info in your manifest file.)
 
 ### Install in ChatGPT 
 
