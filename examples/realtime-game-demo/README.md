@@ -1,4 +1,12 @@
+# Realtime Game Demo
 
+This is the demo that use AirCode + Pusher to create realtime game.
+
+<img src="https://aircode-yvo.b-cdn.net/resource/1691744726252-5zfhs6da3we.jpg" width="450">
+
+## Online Demo
+
+See online demo in [CodePen](https://codepen.io/akira-cn/pen/QWJXpoz).
 
 ## One-Click Deployment
 
