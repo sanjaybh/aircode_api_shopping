@@ -6,6 +6,8 @@ This is the demo that use AirCode + Pusher to create realtime game.
 
 ## Online Demo
 
+Multiple people can synchronize each other's status in real time. When there's only one person, there's only one point on the screen. You may want to consider opening two demos with browser Tabs and experiencing them yourself.
+
 See online demo on [CodePen](https://codepen.io/akira-cn/pen/QWJXpoz).
 
 ## One-Click Deployment
