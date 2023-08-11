@@ -1,0 +1,73 @@
+openapi: 3.0.1
+info:
+    title: PostgreSQL Database Query Plugin
+    description: A plugin that allows users to query a PostgreSQL database. Provides endpoints for fetching database schema and tables, as well as executing SQL queries.
+    version: "v1"
+servers:
+    - url: https://z58n74aig5.us.aircode.run
+paths:
+    /schemaAPI:
+        post:
+            operationId: getDatabaseSchema
+            summary: Retrieve the schema and tables of the database
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            type: object
+                            required:
+                                - url
+                            properties:
+                                url:
+                                    type: string
+                                    description: The URL of the database.
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                type: object
+                                properties:
+                                    schema:
+                                        type: object
+                                        description: The schema of the database.
+                                    tables:
+                                        type: array
+                                        items:
+                                            type: string
+                                        description: The list of tables in the database.
+
+    /queryAPI:
+        post:
+            operationId: executeSQLQuery
+            summary: Execute an SQL query on the database
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            type: object
+                            required:
+                                - url
+                                - sql
+                            properties:
+                                url:
+                                    type: string
+                                    description: The URL of the database.
+                                sql:
+                                    type: string
+                                    description: The SQL query to execute.
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                type: object
+                                properties:
+                                    response:
+                                        type: object
+                                        description: The response returned by the SQL query.
+
