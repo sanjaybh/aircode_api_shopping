@@ -50,7 +50,7 @@
         logger.log('%c %s: %c%s %c[%s]', 'color:blue', data.user, 'color:#333', data.message, 'color:#999', data.datetime);
     }
 
-    const pusher = new Pusher('https://azzd63g5m3.us.aircode.run/index');
+    const pusher = new Pusher('https://kpgsz3vp7i.us.aircode.run/index');
 
     (async () => {
       // 建立到服务的连接，并获取服务端订阅的所有频道
@@ -71,7 +71,7 @@
 
       postchat.disabled = false;
       chat.disabled = false;
-      logger.log('初始化完毕');
+      logger.log('Initializing finished.');
       logger.log('<hr/>');
 
       messages.reverse().forEach(log);
