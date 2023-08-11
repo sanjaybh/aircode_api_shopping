@@ -1,18 +1,14 @@
-import {config, modular} from 'http-modular';
+import {config, context, modular} from 'http-modular';
 
 function add(x, y) {
   return x + y;
-}
-
-function echo(...args) {
-  const context = args.pop();
-  return context.request.body;
 }
 
 function hello() {
   return {hi: 'there'};
 }
 
+const echo = context(ctx => ctx.request.body);
 
 export default modular({
   add,

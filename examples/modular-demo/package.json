@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "http-modular": "0.1.0",
-    "aircode": "0.6.1"
+    "aircode": "0.6.1",
+    "http-modular": "0.2.0"
   }
 }
