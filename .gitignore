@@ -8,3 +8,4 @@ package-lock.json
 .db
 .meta
 pnpm-lock.*
+**/node_modules

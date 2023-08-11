@@ -1,0 +1,32 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  display: inline-block;
+  width: 60%;
+  height: 0;
+  padding-bottom: 60%;
+  background: rgb(20,26,35);
+  cursor: crosshair;
+}
+
+#chatbox {
+  width: 40%;
+  min-width: 200px;
+}
+
+#chatbox div {
+  padding: 0 5px;
+  font-size: 12px;
+}
