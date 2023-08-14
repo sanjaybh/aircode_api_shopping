@@ -1,4 +1,12 @@
+# Vue Template
 
+The template of vue3 app.
+
+## Usage
+
+Set two environments:
+
+<img src="https://aircode-yvo.b-cdn.net/resource/1691992424548-sylcqsr9s0s.jpg" width="350">
 
 ## One-Click Deployment
 
