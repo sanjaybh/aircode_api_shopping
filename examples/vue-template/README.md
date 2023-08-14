@@ -26,4 +26,4 @@ Modify code to implement your own app and click the `Deploy` button to publish y
 
 <img src="https://aircode-yvo.b-cdn.net/resource/1691997400388-loqu64wemnh.jpg" width="500">
 
-> 💡 Tips: After every version release, upon the initial visit, the application will automatically execute the Vite script to compile the new pages. Additionally, you can debug non-Vite-built versions by appending the debug=1 parameter to the URL. This allows for debugging purposes.
+> 💡 Tips: After every version release, upon the initial visit, the application will automatically execute the Vite script to compile the new pages. Additionally, you can debug non-Vite-built versions by appending the `debug=1` parameter to the URL. This allows for debugging purposes.
