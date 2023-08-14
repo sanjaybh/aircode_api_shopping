@@ -21,5 +21,5 @@ To get a better understanding of how AirCode can be used in real-world applicati
 - [ChatGPT Plugin](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin)
 - [Todo List: A SSR web app](https://github.com/AirCodeLabs/aircode/tree/main/examples/todolist/)
 - [Slack ChatGPT Bot](https://github.com/AirCodeLabs/aircode/tree/main/examples/slack-chatgpt-bot/)
-- [Vue.js App](https://github.com/AirCodeLabs/aircode/tree/main/examples/vue3-app/)
+- [Vue3 App Template](https://github.com/AirCodeLabs/aircode/tree/main/examples/vue-template/)
 - [More Examples](https://github.com/AirCodeLabs/aircode/tree/main/examples/)
