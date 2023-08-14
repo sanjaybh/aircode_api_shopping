@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "aircode": "0.6.1",
+    "crypto-hash": "2.0.1",
+    "http-modular": "0.2.0"
+  }
+}
