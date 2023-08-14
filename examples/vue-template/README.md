@@ -6,7 +6,7 @@ The template of vue3 app.
 
 https://qwr13u5y71.us.aircode.run/index
 
-<img src="https://aircode-yvo.b-cdn.net/resource/1691997125752-uzilbw7x1nm.jpg" width="500">
+<img src="https://aircode-yvo.b-cdn.net/resource/1691999093448-7k6jt3x6ku.jpg" width="500">
 
 ## Usage
 
