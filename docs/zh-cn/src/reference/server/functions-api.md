@@ -167,6 +167,12 @@ context.cookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60
 
 将名为 `name` 的 cookie 值设为 `value`。
 
+**参数**
+
+- `{string} name`：要设置的 cookie 的名称。
+- `{string} value`：要设置的 cookie 值。
+- `{object} options`：cookie 选项。
+
 具体的 `options` 选项参考 [express response cookie](https://expressjs.com/en/5x/api.html#res.cookie)
 
 ### `context.clearCookie(name[, options])`
@@ -177,6 +183,11 @@ context.clearCookie('token', { path: '/admin' });
 
 将名为 `name` 的 cookie 值清空。
 
+**参数**
+
+- `{string} name`：要清除的 cookie 的名称。
+- `{object} options`：cookie 选项。
+
 ### `context.redirect(url[, code])`
 
 ```js
@@ -184,6 +195,11 @@ context.redirect('https://aircode.io');
 ```
 
 强制跳转到指定 URL，状态码为 `code`，默认值 302。
+
+**参数**
+
+- `{string} url`：要跳转到的网址。
+- `{number} code`：跳转时的 HTTP Status Code，默认值为 `302`。
 
 ### `context.status(code)`
 

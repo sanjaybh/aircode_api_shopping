@@ -167,7 +167,13 @@ context.cookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60
 
 Sets a cookie named `name` with the `value` value.
 
-Refer to [express response cookie](https://expressjs.com/en/5x/api.html#res.cookie) for specific options.
+**Parameter**
+
+- `{string} name`: The name of the cookie to be set.
+- `{string} value`: The value to be set for the cookie.
+- `{object} options`: Cookie options.
+
+For specific `options` details, please refer to [express response cookie](https://expressjs.com/en/5x/api.html#res.cookie).
 
 ### `context.clearCookie(name[, options])`
 
@@ -177,6 +183,11 @@ context.clearCookie('token', { path: '/admin' });
 
 Clears the cookie value of the cookie named `name`.
 
+**Parameter**
+
+- `{string} name`: The name of the cookie to be cleared.
+- `{object} options`: Cookie options.
+
 ### `context.redirect(url[, code])`
 
 ```js
@@ -184,6 +195,11 @@ context.redirect('https://aircode.io');
 ```
 
 Forces a redirection to the specified URL with the status `code`, defaulting to `302`.
+
+**Parameter**
+
+- `{string} url`: The URL to redirect to.
+- `{number} code`: The HTTP Status Code to use for the redirect, with a default value of `302`.
 
 ### `context.status(code)`
 
