@@ -32,10 +32,10 @@ module.exports = function (app) {
         body = 'Not found.';
       }
       const headers = context.responseHeader;
-      if(headers['content-type'].startsWith('text')) {
+      if(headers['content-type']?.startsWith('text')) {
         return body.toString('utf-8');
       }
-      if(headers['content-type'].startsWith('application/json')) {
+      if(headers['content-type']?.startsWith('application/json')) {
         return JSON.parse(body.toString('utf-8'));
       }
       return body;
