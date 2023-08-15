@@ -5,7 +5,6 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async function (params: any, context: any) {
-  console.log('Received params:', params);
 
   try {
     const data = await resend.emails.send({
@@ -17,7 +16,7 @@ export default async function (params: any, context: any) {
 
     return {
       code: 0,
-      message: 'success',
+      message: 'delivered',
     };
   } catch (error) {
     console.error(error);
