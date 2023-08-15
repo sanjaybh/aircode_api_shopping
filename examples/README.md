@@ -68,7 +68,7 @@ The awesome examples help you to get a better understanding of how AirCode can b
 
 ## Others
 
-- [Billboard Data Guy](https://github.com/AirCodeLabs/aircode/tree/main/billboard-dating-guy/)
+- [Billboard Dating Guy](https://github.com/AirCodeLabs/aircode/tree/main/examples/billboard-dating-guy/)
 
 ## Contribution
 
