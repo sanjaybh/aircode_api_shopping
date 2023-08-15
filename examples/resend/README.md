@@ -2,9 +2,13 @@
 
 This example shows how to use [Resend Node.js SDK](https://resend.com/docs/send-with-nodejs) with [AirCode](https://docs.aircode.io/getting-started/).
 
+![code screenshot](https://raw.githubusercontent.com/AirCodeLabs/aircode/resend/examples/resend/aircode-resend.png)
+
+![resend admin](https://raw.githubusercontent.com/AirCodeLabs/aircode/resend/examples/resend/resend-admin.png)
+
 ## Try it yourself
 
-You can easily get a copy and launch your Resend App on AirCode by clicking the button below.
+You can easily get a copy and sending email with Resend on AirCode by clicking the button below.
 
 [![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fresend&appname=resend)
 
