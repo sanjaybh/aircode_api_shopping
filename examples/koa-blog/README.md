@@ -1,8 +1,10 @@
 # Koa Blog
 
-Here is an example of a Koa application running on AirCode.
+Here is an example of a [Koa](https://github.com/koajs/koa) application running on AirCode.
 
 <img src="https://aircode-yvo.b-cdn.net/resource/1692079787104-9d2eakgfyyf.jpg" width="350">
+
+This example has been ported from the [official Koa Examples repository](https://github.com/koajs/examples/tree/master/blog).
 
 ## Online Demo
 
