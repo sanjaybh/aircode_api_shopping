@@ -22,7 +22,7 @@ The awesome examples help you to get a better understanding of how AirCode can b
   - [ChatGPT Plugins and Bots](#chatgpt-plugins-and-bots)
   - [Data Subscriptions](#data-subscriptions)
   - [Storages Files and Data API](#storages-files-and-data-api)
-  - [Fullstack Web APPs](#web-apps)
+  - [Fullstack Web APPs](#fullstack-web-apps)
   - [Realtime Communicate](#realtime-communicate)
   - [Frontend Deploy](#frontend-deploy)
   - [Compatibility](#compatibility)
@@ -59,6 +59,8 @@ The awesome examples help you to get a better understanding of how AirCode can b
 ## Frontend Deploy
 
 - [Vue3 App Template](https://github.com/AirCodeLabs/aircode/tree/main/examples/vue-template/)
+
+## Compatibility
 
 ## Others
 
