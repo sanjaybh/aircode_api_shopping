@@ -1,6 +1,6 @@
 {
   "name": "aircode-adapter",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Run express and koa apps in AirCode.",
   "main": "index.js",
   "scripts": {

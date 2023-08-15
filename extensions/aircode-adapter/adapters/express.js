@@ -2,13 +2,16 @@ module.exports = function (app) {
   return async (params, context) => {
     try {
       const {req, res} = context;
-      let body;
+
       const _end = res.end;
-      res.end = (content) => { body = content };
+      let _app;
 
-      const _app = req.app;
+      let body = await new Promise((resolve) => {
+        res.end = (content) => { resolve(content) };
+        _app = req.app;
 
-      await app(req, res);
+        app(req, res);
+      });
 
       // expose the prototype that will get set on requests
       Object.create(req, {
@@ -38,6 +41,7 @@ module.exports = function (app) {
       if(headers['content-type']?.startsWith('application/json')) {
         return JSON.parse(body.toString('utf-8'));
       }
+
       return body;
     } catch (ex) {
       context.status(500);

@@ -1,15 +1,18 @@
 module.exports = function (app) {
   return async (params, context) => {
     const {req, res} = context;
-    let body;
-    const _end = res.end;
-    res.end = (content) => { body = content };
 
-    app.use((ctx, next) => {
-      ctx.request.body = ctx.req.body;
-      next();
+    const _end = res.end;
+
+    let body = await new Promise((resolve) => {
+      res.end = (content) => { resolve(content) };
+
+      app.use((ctx, next) => {
+        ctx.request.body = ctx.req.body;
+        next();
+      });
+      app.callback()(req, res);
     });
-    await app.callback()(req, res);
 
     // eslint-disable-next-line no-restricted-syntax
     for(const [k, v] of Object.entries(res.getHeaders())) {
