@@ -4,6 +4,11 @@ module.exports = function (app) {
     let body;
     const _end = res.end;
     res.end = (content) => { body = content };
+
+    app.use((ctx, next) => {
+      ctx.request.body = ctx.req.body;
+      next();
+    });
     await app.callback()(req, res);
 
     // eslint-disable-next-line no-restricted-syntax
