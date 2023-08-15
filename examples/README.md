@@ -14,12 +14,61 @@
 
 ---
 
-## Examples
+## Awesome Examples
 
-To get a better understanding of how AirCode can be used in real-world applications, check out our examples:
+The awesome examples help you to get a better understanding of how AirCode can be used in real-world applications.
+
+### Classify by Usage Scenarios
+
+- [ChatGPT Plugins and Bots](#chatgpt-plugins-and-bots)
+- [Data Subscriptions](#data-subscriptions)
+- [Storages Files and Data API](#storages-files-and-data-api)
+- [Fullstack Web APPs](#web-apps)
+- [Realtime Communicate](#realtime-communicate)
+- [Frontend Deploy](#frontend-deploy)
+- [Compatibility](#compatibility)
+- [Others](#others)
+
+## ChatGPT Plugins and Bots
 
 - [ChatGPT Plugin](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin)
-- [Todo List: A SSR web app](https://github.com/AirCodeLabs/aircode/tree/main/examples/todolist/)
+- [ChatGPT Plugin Todolist](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin-todolist)
 - [Slack ChatGPT Bot](https://github.com/AirCodeLabs/aircode/tree/main/examples/slack-chatgpt-bot/)
+- [Siri GPT](https://github.com/AirCodeLabs/aircode/tree/main/examples/siri-gpt/)
+
+## Data Subscriptions
+
+- _WIP: AirCode+Resend_
+
+## Storages Files and Data API
+
+- [KV-Storage](https://github.com/AirCodeLabs/aircode/tree/main/examples/modular-kv-demo/)
+- [Text to Voice](https://github.com/AirCodeLabs/aircode/tree/main/examples/text-to-voice/)
+- [CDN Fileuploader](https://github.com/AirCodeLabs/aircode/tree/main/examples/cdn-fileuploader-with-bunny/)
+
+## Fullstack Web APPs
+
+- [Todo List](https://github.com/AirCodeLabs/aircode/tree/main/examples/web-app-todolist/)
+- [CICADA](https://github.com/AirCodeLabs/aircode/tree/main/examples/cicada/)
+
+
+# Realtime Communicate
+
+- [Chat Room](https://github.com/AirCodeLabs/aircode/tree/main/examples/chat-room/)
+- [Realtime Game](https://github.com/AirCodeLabs/aircode/tree/main/examples/realtime-game/)
+
+## Frontend Deploy
+
 - [Vue3 App Template](https://github.com/AirCodeLabs/aircode/tree/main/examples/vue-template/)
-- [More Examples](https://github.com/AirCodeLabs/aircode/tree/main/examples/)
+
+## Others
+
+- [Billboard Data Guy](https://github.com/AirCodeLabs/aircode/tree/main/billboard-dating-guy/)
+
+## Contribution
+
+If you want to submit example code to us, feel free to fork the project, share your AirCode application in the 'examples' directory, and then submit a pull request to us.
+
+Thank you to all the people who already contributed to AirCode!
+
+[List of all contributors](https://github.com/AirCodeLabs/aircode/graphs/contributors)
