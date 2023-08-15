@@ -1,9 +1,8 @@
 module.exports = function (app) {
   return async (params, context) => {
+    const {req, res} = context;
+    const _end = res.end;
     try {
-      const {req, res} = context;
-
-      const _end = res.end;
       let _app;
 
       let body = await new Promise((resolve) => {
@@ -32,7 +31,7 @@ module.exports = function (app) {
 
       if(!body) {
         context.status(404);
-        body = 'Not found.';
+        body = 'Not found22.';
       }
       const headers = context.responseHeader;
       if(headers['content-type']?.startsWith('text')) {
@@ -41,10 +40,12 @@ module.exports = function (app) {
       if(headers['content-type']?.startsWith('application/json')) {
         return JSON.parse(body.toString('utf-8'));
       }
-
+      res.end();
       return body;
     } catch (ex) {
       context.status(500);
+      res.end = _end;
+      res.end();
       return {error: ex.message};
     }
   };
