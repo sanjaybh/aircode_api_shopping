@@ -4,8 +4,7 @@
   "timeout": 60,
   "region": "US",
   "envs": [
-    "EXPERIMENTAL_ROUTE",
-    "DEBUG"
+    "EXPERIMENTAL_ROUTE"
   ],
   "typescript": false
 }
