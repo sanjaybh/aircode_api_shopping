@@ -1,6 +1,8 @@
 const KoaRouter = require('@koa/router');
+const _koaFlag = Symbol('koaFlag');
 
 function wrapMiddleWare(fn) {
+  if(fn[_koaFlag]) return fn;
   return async (ctx, next) => {
     try {
       const body = await fn(ctx.params, ctx, next);
@@ -13,6 +15,7 @@ function wrapMiddleWare(fn) {
 }
 
 function wrapIdMiddleWare(fn) {
+  if(fn[_koaFlag]) return fn;
   return async (id, ctx, next) => {
     try {
       const body = await fn(id, ctx.params, ctx);
@@ -25,7 +28,12 @@ function wrapIdMiddleWare(fn) {
   };
 }
 
-module.exports = class Router {
+function koaMiddleware(fn) {
+  fn[_koaFlag] = true;
+  return fn;
+}
+
+class Router {
   #koaRouter;
 
   constructor(options) {
@@ -189,4 +197,6 @@ module.exports = class Router {
   static url(path, ...params) {
     return KoaRouter.url(path, ...params);
   }
-};
+}
+
+module.exports = {Router, koaMiddleware};
