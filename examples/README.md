@@ -38,7 +38,7 @@ The awesome examples help you to get a better understanding of how AirCode can b
 
 ## Data Subscriptions
 
-- _WIP: AirCode+Resend_
+- [Sending Email with Resend](https://github.com/AirCodeLabs/aircode/tree/main/examples/resend)
 
 ## Storages Files and Data API
 
