@@ -49,14 +49,3 @@ Then if you visit: `/hello/users/yvo`, you will get the userId "yvo" in `params`
 This router extension is developed based on [@koa/router](https://github.com/koajs/router), and its API is fully compatible with @koa/router. The only exception is that the function parameters have been adjusted to comply with the AirCode cloud function specifications(with `params` as first parameter, and `context` as the second parameter).
 
 You can find the API documentation here and seamlessly utilize most of the methods: [API Reference](https://github.com/koajs/router/blob/master/API.md)
-
-## Use Koa Middleware
-
-The AirCode Router can directly utilize most of [Koa's middlewares]((https://github.com/koajs/koa/wiki#middleware)). As long as you inform the AirCode Router that this is a Koa middleware through `koaMiddleware`, it can be seamlessly integrated.
-
-```js
-
-const {Router, koaMiddleware} = require('aircode-router');
-
-router.use(koaMiddleware(authorize()));
-```
