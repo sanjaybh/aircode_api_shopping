@@ -12,6 +12,9 @@ module.exports = function (app) {
     }
 
     res.end = _end;
+
+    context.status(res.statusCode || 200);
+
     if(!body) {
       context.status(404);
       body = 'Not found.';
