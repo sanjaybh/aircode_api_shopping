@@ -123,6 +123,14 @@ const abc = context.query.abc;
 The value in the object is of `string` or `Array<string>` type, for example `context.query.a === '1'` when `?a=1`.
 :::
 
+### `context.cookies`
+
+`{Object}`: Get the cookies of the HTTP request in the form of key-value pairs.
+
+::: tip Tips
+The value in the object is of `string` type, you should parse JSON string if client stored a stringify string in the cookie.
+:::
+
 ### `context.trigger`
 
 `{string}`: Obtain the source of the function call, can be one of the following values:
@@ -159,10 +167,10 @@ Delete the HTTP Response Header corresponding to the `field`.
 
 - `{string} field`: the key of the Response Header to delete
 
-### `context.cookie(name, value[, options])`
+### `context.setCookie(name, value[, options])`
 
 ```js
-context.cookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60 * 1000), httpOnly: true });
+context.setCookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60 * 1000), httpOnly: true });
 ```
 
 Sets a cookie named `name` with the `value` value.

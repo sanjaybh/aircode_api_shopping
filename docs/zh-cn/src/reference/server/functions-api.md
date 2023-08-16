@@ -123,6 +123,14 @@ const abc = context.query.abc;
 对象中的值为 `string` 或 `Array<string>` 类型，例如 `?a=1` 时 `context.query.a === '1'`。
 :::
 
+### `context.cookies`
+
+`{Object}`: Get the cookies of the HTTP request in the form of key-value pairs.
+
+::: tip 提示
+对象中的值为 `string` 类型, 如果客户端在 cookie 中存了 JSON 字符串，你需要自己调用 `JSON.parse` 解析。
+:::
+
 ### `context.trigger`
 
 `{string}`：获取云函数触发调用的来源，包含以下值：
@@ -159,10 +167,10 @@ context.remove('x-abc-header');
 
 - `{string} field`：要删除的 Response Header 的键
 
-### `context.cookie(name, value[, options])`
+### `context.setCookie(name, value[, options])`
 
 ```js
-context.cookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60 * 1000), httpOnly: true });
+context.setCookie('token', 'aircode', { expires: new Date(Date.now() + 24 * 60 * 60 * 1000), httpOnly: true });
 ```
 
 将名为 `name` 的 cookie 值设为 `value`。
