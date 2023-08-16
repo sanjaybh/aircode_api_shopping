@@ -27,7 +27,7 @@ The awesome examples help you to get a better understanding of how AirCode can b
   - [Realtime Communicate](#realtime-communicate)
   - [Frontend Deploy](#frontend-deploy)
   - [Compatibility](#compatibility)
-  - [Others](#others)
+  - [Content Generating](#content-generating)
 
 ## ChatGPT Plugins and Bots
 
@@ -52,7 +52,7 @@ The awesome examples help you to get a better understanding of how AirCode can b
 - [CICADA](https://github.com/AirCodeLabs/aircode/tree/main/examples/cicada/)
 
 
-# Realtime Communicate
+## Realtime Communicate
 
 - [Chat Room](https://github.com/AirCodeLabs/aircode/tree/main/examples/chat-room/)
 - [Realtime Game](https://github.com/AirCodeLabs/aircode/tree/main/examples/realtime-game/)
@@ -66,9 +66,10 @@ The awesome examples help you to get a better understanding of how AirCode can b
 - [Express Markdown](https://github.com/AirCodeLabs/aircode/tree/main/examples/express-markdown/)
 - [Koa Blog](https://github.com/AirCodeLabs/aircode/tree/main/examples/koa-blog/)
 
-## Others
+## Content Generating
 
 - [Billboard Dating Guy](https://github.com/AirCodeLabs/aircode/tree/main/examples/billboard-dating-guy/)
+- [Upvote Anywhere](https://github.com/AirCodeLabs/aircode/tree/main/examples/upvote-anywhere)
 
 ## Contribution
 
