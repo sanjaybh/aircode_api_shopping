@@ -33,8 +33,8 @@ The awesome examples help you to get a better understanding of how AirCode can b
 
 - [ChatGPT Plugin](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin)
 - [ChatGPT Plugin Todolist](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin-todolist)
-- [Slack ChatGPT Bot](https://github.com/AirCodeLabs/aircode/tree/main/examples/slack-chatgpt-bot/)
-- [Siri GPT](https://github.com/AirCodeLabs/aircode/tree/main/examples/siri-gpt/)
+- [Slack ChatGPT App](https://github.com/AirCodeLabs/aircode/tree/main/examples/slack-chatgpt-app/)
+- [iOS Siri integrates ChatGPT](https://github.com/AirCodeLabs/aircode/tree/main/examples/siri-gpt/)
 
 ## Data Subscriptions
 

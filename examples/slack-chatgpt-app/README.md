@@ -5,7 +5,7 @@ Easily get a copy and launch your app on [AirCode](https://aircode.io/) by click
 [![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=wangxiao&repo=hr&branch=test&path=home&appname=Slack-ChatGPT)
 
 ------
-# Build a Slack ChatGPT Bot with JavaScript, including full source code, free hosting, and step-by-step tutorial.
+# Build a Slack ChatGPT App with JavaScript, including full source code, free hosting, and step-by-step tutorial.
 
 This article helps you quickly implement a Slack chatbot and integrate ChatGPT capabilities into it. You can ask it questions directly or mention it in a group chat to get ChatGPT's answers. (The following are screenshots of the effect)
 
