@@ -125,6 +125,7 @@ const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: '资源限制', link: '/about/limits' },
+        { text: '增强功能', link: '/about/extensions' },
       ],
     }
   ],

@@ -28,6 +28,7 @@ const nav: DefaultTheme.NavItem[] = [
         text: '更多',
         items: [
           { text: '资源限制', link: '/about/limits' },
+          { text: '增强功能', link: '/about/extensions' },
         ],
       },
     ],

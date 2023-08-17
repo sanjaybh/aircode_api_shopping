@@ -66,7 +66,7 @@ The usage is quite straightforward. You can take a look [here](aircode-app) for 
 
 We've also prepared a small example of a [to-do list](../examples/web-app-todolist) for you. It can help you quickly grasp the usage of aircode-app.
 
-## Using Express and Koa
+## Running Express and Koa
 
 [Express](https://expressjs.com/) and [Koa](https://koajs.com/) are two very popular Node.js server frameworks.
 

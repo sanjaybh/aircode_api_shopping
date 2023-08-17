@@ -86,6 +86,7 @@ const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: 'Resource Limits', link: '/about/limits' },
+        { text: 'Extensions', link: '/about/extensions' },
       ],
     }
   ],
