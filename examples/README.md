@@ -14,7 +14,7 @@
 
 ---
 
-The awesome examples help you to get a better understanding of how AirCode can be used in real-world applications.
+The excellent examples help you better understand how AirCode can be used in real-world applications.
 
 Sections:
 - [ChatGPT Plugins and Bots](#chatgpt-plugins-and-bots)
@@ -70,7 +70,7 @@ Sections:
 
 ## Contribution
 
-If you want to submit example code to us, feel free to fork the project, share your AirCode application in the 'examples' directory, and then submit a pull request to us.
+If you would like to submit an example to us, feel free to fork the project, share your AirCode application in the 'examples' directory, and then submit a pull request.
 
 Thank you to all the people who already contributed to AirCode!
 
