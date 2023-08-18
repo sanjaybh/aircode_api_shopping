@@ -35,7 +35,7 @@ To get a better understanding of how AirCode can be used in real-world applicati
 - [Slack ChatGPT Bot](./examples/slack-chatgpt-app/)
 - [Sending Email with Resend](./examples/resend)
 - [Todolist Web App](./examples/web-app-todolist/)
-- [More](./examples)
+- [More](./examples#readme)
 
 ## Getting Started
 
