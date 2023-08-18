@@ -1,0 +1,28 @@
+{
+  "dependencies": [
+    {
+      "name": "aircode",
+      "version": "0.2.12"
+    },
+    {
+      "name": "aircode-app",
+      "version": "0.2.0"
+    },
+    {
+      "name": "node-fetch",
+      "version": "2.6.12"
+    },
+    {
+      "name": "openai",
+      "version": "3.2.1"
+    },
+    {
+      "name": "qiniu",
+      "version": "7.9.0"
+    },
+    {
+      "name": "uuid",
+      "version": "9.0.0"
+    }
+  ]
+}

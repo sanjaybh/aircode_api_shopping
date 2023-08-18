@@ -1,0 +1,12 @@
+{
+  "name": "Talk with ChatGPT",
+  "runtime": "node/v16",
+  "retion": "US",
+  "envs": [
+    "OPENAI_KEY",
+    "AK",
+    "SK",
+    "accessKey"
+  ],
+  "typescript": false
+}

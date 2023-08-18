@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #ffc600;
+  font-family: 'helvetica neue';
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.github-logo {
+  text-align: right;
+}
+
+.github-logo svg {
+  width: 50px;
+}
+
+.words {
+  max-width: 500px;
+  margin: 0 auto 50px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+  padding: 1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background-size: 100% 3rem;
+  position: relative;
+  line-height: 3rem;
+}
+
+p {
+  margin: 0 0 3rem;
+}
+
+.words:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.min.js"></script>
+</head>
+<body>
+  <div class="github-logo">
+    <a href="https://github.com/AirCodeLabs/aircode/tree/main/examples/talk-with-chatgpt" target="_blank">
+    <svg fill="currentColor" viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg></a>
+  </div>
+  <div class="words" contenteditable></div>
+  <script>
+window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+const recognition = new SpeechRecognition();
+recognition.interimResults = true;
+recognition.lang = '${lang}';
+
+let p = document.createElement('p');
+p.textContent = 'click me to start, then say something.';
+const words = document.querySelector('.words');
+words.appendChild(p);
+
+let promise;
+const cid = Math.random().toString(36).slice(2);
+
+recognition.addEventListener('result', async (e) => {
+  const transcript = Array.from(e.results)
+    .map(result => result[0])
+    .map(result => result.transcript)
+    .join('');
+
+  const poopScript = transcript.replace(/poop|poo|shit|dump/gi, '💩');
+  p.textContent = poopScript;
+
+  if (e.results[0].isFinal) {
+    p = document.createElement('p');
+    p.textContent = 'Thinking...';
+    words.appendChild(p);
+    let res = await fetch(\`/chat?question=\${encodeURIComponent(poopScript)}&cid=\${cid}\`);
+    const {reply} = await res.json();
+
+    // playing sound
+    const data = {spkid: ${spkid}, content: reply};
+    res = await (await fetch('/talk', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })).json();
+    if(res.code === '0') {
+      const sound = new Howl({
+        src: [res.result.audioUrl],
+        onend: async function() {
+          console.log("ONEND");  
+          await promise;
+          start();
+        }
+      });
+      p.textContent = reply;
+      sound.play();
+    } else {
+      p.textContent = reply;
+      await promise;
+      start();
+    }
+  }
+});
+
+function start() {
+  p = document.createElement('p');
+  words.appendChild(p);
+  promise = new Promise((resolve) => {
+    recognition.addEventListener('end', resolve, { once: true });
+  });
+  
+  recognition.start();
+}
+
+document.body.addEventListener('click', () => {
+  p.remove();
+  start();
+}, {once: true});
+// start();
+  </script>
+</body>
+</html>
