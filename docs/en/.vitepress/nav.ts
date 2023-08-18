@@ -1,5 +1,5 @@
 import type { DefaultTheme } from 'vitepress';
-import tutorialList from './tutorial-list';
+import examples from './examples-list';
 
 const nav: DefaultTheme.NavItem[] = [
   {
@@ -32,11 +32,6 @@ const nav: DefaultTheme.NavItem[] = [
     ],
   },
   {
-    text: 'Tutorials',
-    activeMatch: '^/tutorials/',
-    items: tutorialList
-  },
-  {
     text: 'API Reference',
     activeMatch: '^/(reference|errors)/',
     items: [
@@ -45,6 +40,11 @@ const nav: DefaultTheme.NavItem[] = [
       { text: 'Database API', link: '/reference/server/database-api' },
       { text: 'File Storage API', link: '/reference/server/files-api' },
     ],
+  },
+    {
+    text: 'Examples',
+    activeMatch: '^/examples/',
+    items: examples,
   },
   {
     text: 'Help',

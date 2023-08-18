@@ -1,5 +1,5 @@
 import { DefaultTheme } from "vitepress";
-import tutorialList from "./tutorial-list";
+import examples from "./examples-list";
 
 const sidebar: DefaultTheme.Sidebar = {
   '/errors/': [],
@@ -17,9 +17,9 @@ const sidebar: DefaultTheme.Sidebar = {
       ],
     },
     {
-      text: 'Tutorials',
+      text: 'Examples',
       collapsed: false,
-      items: tutorialList,
+      items: examples,
     },
     {
       text: 'Cloud Function',
