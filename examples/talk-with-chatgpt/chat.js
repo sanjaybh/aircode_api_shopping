@@ -15,9 +15,7 @@ const MAX_MESSAGES_PER_CHAT = 40;
 
 const systemContent = 'You are a helpful assistant.';
 
-module.exports = async function (params, context) {
-  const { question, cid } = params;
-
+async function chat(question, cid, context) {
   // Create a chat ID if not provided
   const chatId = cid ? cid : uuidv4();
 
@@ -97,3 +95,5 @@ module.exports = async function (params, context) {
     return { error: errorMessage };
   }
 };
+
+module.exports = { chat };

@@ -6,10 +6,17 @@ const uploadFile = require('./lib/bunny-api');
 const qiniu = require('qiniu');
 const fetch = require('node-fetch');
 
+const {chat} = require('./chat');
+
 const serviceURL = 'https://ap-gate-z0.qiniuapi.com/voice/v2/tts';
 
 module.exports = async (params, context) => {
-  const {spkid, content} = params;
+  const {question, cid, spkid} = params;
+  const {reply:content, error} = await chat(question, cid, context);
+
+  if(error) {
+    return {error};
+  }
   
   const body = JSON.stringify({spkid, content});
 
@@ -43,6 +50,7 @@ module.exports = async (params, context) => {
       res.result.audioUrl = uploadUrl;
     }
   }
-  
+
+  if(res.result) res.result.reply = content;
   return res;
 };
