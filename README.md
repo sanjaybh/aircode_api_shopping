@@ -16,7 +16,7 @@
 
 # AirCode
 
-[AirCode](https://aircode.io) is Your Serverless Node.js Stack for API Development, zero-config, out-of-the-box, all in one place.
+[AirCode](https://aircode.io) is your Serverless Node.js stack for API development, zero-config, out-of-the-box, all in one place.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/558368/226536572-894eae82-d0fb-4cef-8767-dd25d6142b47.png#gh-light-mode-only" style="max-width: 100%" alt="AirCode" />
