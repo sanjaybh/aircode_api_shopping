@@ -14,20 +14,17 @@
 
 ---
 
-## Awesome Examples
-
 The awesome examples help you to get a better understanding of how AirCode can be used in real-world applications.
 
-- **Classify by Usage Scenarios**
-  
-  - [ChatGPT Plugins and Bots](#chatgpt-plugins-and-bots)
-  - [Data Subscriptions](#data-subscriptions)
-  - [Storages Files and Data API](#storages-files-and-data-api)
-  - [Fullstack Web APPs](#fullstack-web-apps)
-  - [Realtime Communicate](#realtime-communicate)
-  - [Frontend Deploy](#frontend-deploy)
-  - [Compatibility](#compatibility)
-  - [Content Generating](#content-generating)
+Sections:
+- [ChatGPT Plugins and Bots](#chatgpt-plugins-and-bots)
+- [Data Subscriptions](#data-subscriptions)
+- [Storages Files and Data API](#storages-files-and-data-api)
+- [Fullstack Web APPs](#fullstack-web-apps)
+- [Realtime Communicate](#realtime-communicate)
+- [Frontend Deploy](#frontend-deploy)
+- [Compatibility](#compatibility)
+- [Content Generating](#content-generating)
 
 ## ChatGPT Plugins and Bots
 
