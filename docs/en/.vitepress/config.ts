@@ -5,7 +5,7 @@ import sidebar from './sidebar';
 export default defineConfig({
   // App related configs
   lang: 'en',
-  title: 'AirCode | Serverless Node.js stack for API development',
+  title: 'AirCode Docs',
   description: 'Code, debug, deploy, operate, and share your APIs with zero-config.',
   srcDir: 'src',
   lastUpdated: true,
