@@ -81,18 +81,6 @@ gtag('config', 'G-5Q7JHK36DC');
     ],
     [
       'meta',
-      { property: 'og:title', content: 'AirCode | Serverless Node.js stack for API development' }
-    ],
-    [
-      'meta',
-      { property: 'og:description', content: 'Code, debug, deploy, operate, and share your APIs with zero-config.' }
-    ],
-    [
-      'meta',
-      { property: 'og:url', content: 'https://aircode.io/' }
-    ],
-    [
-      'meta',
       { property: 'og:site_name', content: 'AirCode' }
     ],
     [
