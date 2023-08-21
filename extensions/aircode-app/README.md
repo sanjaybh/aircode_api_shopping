@@ -48,33 +48,6 @@ ${app.display('./footer.tpl')}
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" href="https://aircode.io/favicons/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="https://aircode.io/favicons/apple-touch-icon.png"></link>
-  <link rel="icon" type="image/png" sizes="32x32" href="https://aircode.io/favicons/favicon-32x32.png"></link>
-  <link rel="icon" type="image/png" sizes="16x16" href="https://aircode.io/favicons/favicon-16x16.png"></link>
-  <meta name="keywords" content="AirCode,Nodejs,Node.js,JavaScript,TypeScript" />
-  <meta name="description" content="Code, debug, deploy, operate, and share your APIs with zero-config, all in a single place." />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <link rel="canonical" href="https://aircode.io/" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="AirCode | Serverless Node.js stack for API development" />
-  <meta property="og:description" content="Code, debug, deploy, operate, and share your APIs with zero-config, all in a single place." />
-  <meta property="og:url" content="https://aircode.io/" />
-  <meta property="og:site_name" content="AirCode" />
-  <meta property="article:publisher" content="https://twitter.com/aircode_io" />
-  <meta property="og:image" content="https://aircode.io/meta-image-20230808133206.png" />
-  <meta property="article:modified_time" content="2023-07-21T15:09:45+00:00" /> 
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="675" />
-  <meta property="og:image:type" content="image/png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@aircode_io" />
-  <meta name="twitter:title" content="AirCode" />
-  <meta name="twitter:description" content="Serverless Node.js stack for API development." />
-  <meta name="twitter:image" content="https://aircode.io/meta-image-20230808133206.png" />
-
   <title>Document</title>
   <style>
 ${app.file('./style.css')}
