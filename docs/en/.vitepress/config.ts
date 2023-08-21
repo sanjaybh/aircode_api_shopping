@@ -1,8 +1,14 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig, HeadConfig } from 'vitepress';
 import nav from './nav';
 import sidebar from './sidebar';
 
 export default defineConfig({
+  transformHead: ({ pageData }) => {
+    const head: HeadConfig[] = []
+    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
+    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
+    return head
+  },
   // App related configs
   lang: 'en',
   title: 'AirCode Docs',
