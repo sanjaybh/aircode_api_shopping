@@ -2,6 +2,8 @@
 
 This plugin is a ChatGPT demo for further development. It only supports PostgreSQL, but you can copy and use it as a starting point for developing your own plugin. 
 
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1692605340/video_to_markdown/images/youtube--wxNEN8xCmpo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=wxNEN8xCmpo "")
+
 ## Usage
 
 ### Fork
