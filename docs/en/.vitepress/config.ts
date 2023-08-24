@@ -50,10 +50,6 @@ gtag('config', 'G-5Q7JHK36DC');
     ],
     [
       'link',
-      { rel: 'canonical', href: 'https://aircode.io/' }
-    ],
-    [
-      'link',
       { rel: 'apple-touch-icon', sizes: '180x180', href: 'https://aircode.io/favicons/apple-touch-icon.png' }
     ],
     [
@@ -63,22 +59,6 @@ gtag('config', 'G-5Q7JHK36DC');
     [
       'link',
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'https://aircode.io/favicons/favicon-16x16.png' }
-    ],
-    [
-      'meta',
-      { name: 'keywords', content: 'AirCode,Nodejs,Node.js,JavaScript,TypeScript' }
-    ],
-    [
-      'meta',
-      { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }
-    ],
-    [
-      'meta',
-      { property: 'og:locale', content: 'en_US' }
-    ],
-    [
-      'meta',
-      { property: 'og:type', content: 'website' }
     ],
     [
       'meta',
