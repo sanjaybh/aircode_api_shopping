@@ -1,3 +1,8 @@
+---
+title: Quick Start | AirCode Docs
+description: This 5-minute tutorial helps new developers get started with AirCode.
+---
+
 # Quick Start {#intro}
 
 This 5-minute tutorial helps new developers get started with AirCode. By following these steps, you'll learn how to:

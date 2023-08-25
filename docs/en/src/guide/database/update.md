@@ -1,3 +1,8 @@
+---
+title: Update Data | AirCode Docs
+description: AirCode provides an out-of-the-box database, which can be accessed and operated directly through `aircode.db` in the cloud function.
+---
+
 # Update Data {#intro}
 
 AirCode provides two ways to update data:

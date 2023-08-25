@@ -1,3 +1,8 @@
+---
+title: FAQ | AirCode Docs
+description: Frequently Asked Questions.
+---
+
 # FAQ | Frequently Asked Questions {#intro}
 
 [[toc]]

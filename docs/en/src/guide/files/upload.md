@@ -1,3 +1,8 @@
+---
+title: Upload Files | AirCode Docs
+description: AirCode provides an extremely simple file storage system, you can just use one line of code to upload files and obtain a CDN-accelerated access address.
+---
+
 # Upload Files {#intro}
 
 Upload files to the cloud through `await aircode.files.upload(content, [name], [options])` in the function, and obtain a CDN-accelerated access address. E.g:

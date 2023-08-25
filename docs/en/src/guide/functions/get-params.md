@@ -1,3 +1,8 @@
+---
+title: Retrieve GET Parameters | AirCode Docs
+description: AirCode provides a very simple way to pass parameters, whether it is a 'GET' or 'POST' request, just get parameters from 'params'.
+---
+
 # Retrieve GET Parameters {#intro}
 
 We recommend using the POST method to call cloud functions because of the more types and the more significant amount of data that can be passed this way.

@@ -1,3 +1,8 @@
+---
+title: Use Indexes | AirCode Docs
+description: By creating indexes, the database can directly retrieve the corresponding fields when querying, thereby significantly improving query efficiency.
+---
+
 # Use Indexes {#use-indexes}
 
 By creating indexes, the database can directly retrieve the corresponding fields when querying, thereby significantly improving query efficiency. If there is no index, even the simplest query needs to scan every record in the table, and when the data size is huge, the operation will fail because of triggering slow query.

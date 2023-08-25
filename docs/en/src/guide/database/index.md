@@ -1,3 +1,8 @@
+---
+title: Database Overview | AirCode Docs
+description: AirCode provides an out-of-the-box database, which can be accessed and operated directly through `aircode.db` in the cloud function.
+---
+
 # Database Overview {#intro}
 
 AirCode provides an out-of-the-box database, which can be accessed and operated directly through `aircode.db` in the cloud function, and there is no need for separated purchase, configuration, and connection steps:

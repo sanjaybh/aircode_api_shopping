@@ -1,3 +1,8 @@
+---
+title: Using NPM to manage dependencies | AirCode Docs
+description: AirCode provides a visual way to management NPM dependencies, operations like searching, installing, upgrading and uninstalling packages are all completed by clicking without entering any commands.
+---
+
 # Using NPM to manage dependencies {#intro}
 
 AirCode provides a visual way to management NPM dependencies, operations like searching, installing, upgrading and uninstalling packages are all completed by clicking without entering any commands.

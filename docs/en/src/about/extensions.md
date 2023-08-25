@@ -1,3 +1,8 @@
+---
+title: Extensions | AirCode Docs
+description: The official team and open-source community have provided a range of extensions to enhance AirCode's capabilities.
+---
+
 # Extensions
 
 The official team and open-source community have provided a range of extensions to enhance AirCode's capabilities.

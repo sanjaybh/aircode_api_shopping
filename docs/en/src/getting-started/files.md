@@ -1,3 +1,8 @@
+---
+title: File Storage Quickstart | AirCode Docs
+description: It is very easy to upload and manage files in AirCode, which can be done through one line of code in `aircode.files`, and each uploaded file will have a CDN-accelerated access address.
+---
+
 # File Storage Quickstart {#intro}
 
 It is very easy to upload and manage files in AirCode, which can be done through one line of code in `aircode.files`, and each uploaded file will have a CDN-accelerated access address.

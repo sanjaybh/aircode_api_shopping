@@ -1,3 +1,8 @@
+---
+title: Delete Data | AirCode Docs
+description: AirCode provides a set of out-of-the-box database functions, just use `aircode.db` to access data in cloud functions.
+---
+
 # Delete Data {#intro}
 
 AirCode provides two ways to delete data:

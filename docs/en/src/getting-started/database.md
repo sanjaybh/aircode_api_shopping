@@ -1,3 +1,8 @@
+---
+title: Database Quickstart | AirCode Docs
+description: AirCode provides a set of out-of-the-box database functions, just use `aircode.db` to access data in cloud functions.
+---
+
 # Database Quickstart {#intro}
 
 AirCode provides a set of out-of-the-box database functions, just use `aircode.db` to access data in cloud functions.

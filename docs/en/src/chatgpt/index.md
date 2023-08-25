@@ -1,5 +1,7 @@
 ---
 aside: false
+title: Build an AI automation with JavaScript in Just 5 Minutes | AirCode Docs
+description: Build an AI automation in just 5 minutes with this comprehensive tutorial.
 ---
 
 # Build a ChatGPT Bot with JavaScript in Just 5 Minutes

@@ -1,3 +1,8 @@
+---
+title: Geo-based Query | AirCode Docs
+description: The AirCode database supports storing geographic location data and implementing queries based on the location.
+---
+
 # Geo-based Query {#intro}
 
 The AirCode database supports storing geographic location data and implementing queries based on the location. This allows you to quickly implement operations like finding nearby restaurants, finding attractions in an area, and so on.

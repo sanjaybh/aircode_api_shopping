@@ -1,3 +1,8 @@
+---
+title: Careers | AirCode Docs
+description: Looking forward to your joining, please send email to [hr@aircode.io](mailto:hr@aircode.io) if you are interested.
+---
+
 # Careers
 
 ## About AirCode

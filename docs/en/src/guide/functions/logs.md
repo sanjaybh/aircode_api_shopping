@@ -1,3 +1,8 @@
+---
+title: Online Logs | AirCode Docs
+description: Logs can be generated through `console.log` in cloud functions.
+---
+
 # Online Logs {#intro}
 
 Logs can be generated through `console.log` in cloud functions. After the function is deployed, the logs can be viewed in the **Logs** tab, and can be filtered by date and keyword.

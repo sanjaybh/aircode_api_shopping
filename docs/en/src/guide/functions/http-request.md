@@ -1,3 +1,8 @@
+---
+title: Retrieve GET Parameters | AirCode Docs
+description: In AirCode's Cloud Function, you can use the HTTP library to send requests.
+---
+
 # Send HTTP Request {#intro}
 
 In AirCode's Cloud Function, you can use the HTTP library to send requests, such as [axios](https://axios-http.com/). Note that sending an HTTP request is an asynchronous operation and requires `await` to wait for it to complete.

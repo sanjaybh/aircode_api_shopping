@@ -1,3 +1,8 @@
+---
+title: Insert Data | AirCode Docs
+description: AirCode provides an out-of-the-box database, which can be accessed and operated directly through `aircode.db` in the cloud function.
+---
+
 # Insert Data {#intro}
 
 - Obtain a table to insert data through `aircode.db.table(tableName)`

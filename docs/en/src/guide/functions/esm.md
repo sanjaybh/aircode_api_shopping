@@ -1,3 +1,8 @@
+---
+title: ES Module | AirCode Docs
+description: AirCode supports Node.js's ECMAScript Modules (ESM). You can directly use ESM syntax in files with the `.mjs` extension.
+---
+
 # ES Module {#intro}
 
 AirCode supports Node.js's ECMAScript Modules (ESM). You can directly use ESM syntax in files with the `.mjs` extension.

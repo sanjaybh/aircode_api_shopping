@@ -1,3 +1,8 @@
+---
+title: Delete Files | AirCode Docs
+description: Delete one or more files from the cloud via `await aircode.files.delete(file | arrayOfFile)`, and it will also refresh the CDN to remove related data.
+---
+
 # Delete Files {#intro}
 
 Delete one or more files from the cloud via `await aircode.files.delete(file | arrayOfFile)`, and it will also refresh the CDN to remove related data.

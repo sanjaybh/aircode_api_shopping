@@ -1,3 +1,8 @@
+---
+title: Resource Limits | AirCode Docs
+description: To avoid resource abuse and to ensure platform stability, each account and application in AirCode has a corresponding resource limit.
+---
+
 # Resource Limits {#intro}
 
 To avoid resource abuse and to ensure platform stability, each account and application in AirCode has a corresponding resource limit. Exceeding the limit may result in failed calls or deployments.
