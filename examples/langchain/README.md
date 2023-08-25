@@ -2,8 +2,9 @@
 
 ## Introduce
 
-This project helps you to use Langchain to build a knowledge base in your own field
-<img src="./docs/logic.png" width="500">
+- You can use this example to build your knowledge base. It will help align ChatGPT's output with your expectations.
+
+<img src="./docs/logic.jpg" width="500">
 
 ## Usage
 
