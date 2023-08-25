@@ -69,10 +69,6 @@ gtag('config', 'G-5Q7JHK36DC');
     ],
     [
       'meta',
-      { property: 'og:site_name', content: 'AirCode' }
-    ],
-    [
-      'meta',
       { property: 'article:publisher', content: 'https://twitter.com/aircode_io' }
     ],
     [
