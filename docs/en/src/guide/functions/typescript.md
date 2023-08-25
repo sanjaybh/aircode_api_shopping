@@ -1,3 +1,8 @@
+---
+title: Using TypeScript | AirCode Docs
+description: AirCode supports TypeScript. You can directly use TypeScript in the AirCode environment.
+---
+
 # Using TypeScript  {#intro}
 
 AirCode supports TypeScript. You can directly use TypeScript in the AirCode environment.

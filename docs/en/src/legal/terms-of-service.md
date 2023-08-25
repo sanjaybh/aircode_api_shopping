@@ -1,5 +1,7 @@
 ---
 lastUpdated: false
+title: AirCode Terms of Service | AirCode Docs
+description: You may also contact us at support@aircode.io with any additional questions.
 ---
 
 # AirCode Terms of Service

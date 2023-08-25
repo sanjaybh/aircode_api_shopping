@@ -1,3 +1,8 @@
+---
+title: Load Other Functions | AirCode Docs
+description: Different Cloud Functions in the same application can load each other using `require`.
+---
+
 # Load Other Functions {#intro}
 
 Different Cloud Functions in the same application can load each other using `require`.

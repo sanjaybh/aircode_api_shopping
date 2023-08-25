@@ -1,5 +1,7 @@
 ---
 lastUpdated: false
+title: AirCode Cookie Policy | AirCode Docs
+description: You may also contact us at support@aircode.io with any additional questions.
 ---
 
 # AirCode Cookie Policy

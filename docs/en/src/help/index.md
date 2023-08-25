@@ -1,3 +1,8 @@
+---
+title: How can we help? | AirCode Docs
+description: Thank you for using AirCode. You can also send your questions for help in the following ways.
+---
+
 # How can we help? {#intro}
 
 Thank you for using AirCode. In case of any problems, it is highly recommended that you read and search [documentation](https://docs.aircode.io). Our team will document every situation you might encounter and refine it. 

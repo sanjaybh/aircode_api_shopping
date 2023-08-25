@@ -1,3 +1,8 @@
+---
+title: Using Scheduled Tasks | AirCode Docs
+description: AirCode provides a simple and easy-to-use scheduled task system. There is no need to write any Cronjob expressions, as setting up is as easy as scheduling an event on a calendar.
+---
+
 # Using Scheduled Tasks {#intro}
 
 AirCode provides a simple and easy-to-use scheduled task system. There is no need to write any Cronjob expressions, as setting up is as easy as scheduling an event on a calendar.

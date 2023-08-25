@@ -1,3 +1,8 @@
+---
+title: Retrieve POST Parameters | AirCode Docs
+description: AirCode provides a very simple way to pass parameters, whether it is a 'GET' or 'POST' request, just get parameters from 'params'.
+---
+
 # Retrieve POST Parameters {#intro}
 
 When a cloud function is called using a POST request, the HTTP Request Body is converted into `params` variables in the corresponding function, making it easily accessible and usable by developers.
