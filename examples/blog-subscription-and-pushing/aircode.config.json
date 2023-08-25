@@ -1,0 +1,9 @@
+{
+  "name": "Blog subscription and email pushing",
+  "runtime": "node/v16",
+  "retion": "US",
+  "envs": [
+    "RESEND_API_KEY"
+  ],
+  "typescript": true
+}
