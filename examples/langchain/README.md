@@ -15,6 +15,8 @@ To get a copy and launch your app on [AirCode](https://aircode.io/) by clicking 
 
 ### 2. Setup environments
 
+`OPENAPI_API_KEY` And `FIELD` is required, REDIS_URI is optional. If REDIS_URI is set, it will speed up searches for similar questions
+
 <img src="./docs/envs.png" width="500">
 
 ### 3. Upload the domain knowledge
