@@ -1,8 +1,17 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig, HeadConfig} from 'vitepress';
 import nav from './nav';
 import sidebar from './sidebar';
 
 export default defineConfig({
+
+  transformHead: ({ pageData }) => {
+    const head: HeadConfig[] = []
+    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
+    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
+    head.push(['meta', { name: 'twitter:title', content: pageData.frontmatter.title }])
+    head.push(['meta', { name: 'twitter:description', content: pageData.frontmatter.description }])
+    return head
+  },
 
   // App related configs
   lang: 'zh-CN',
@@ -95,14 +104,6 @@ gtag('config', 'G-5Q7JHK36DC');
     [
       'meta',
       { name: 'twitter:site', content: '@aircode_io' }
-    ],
-    [
-      'meta',
-      { name: 'twitter:title', content: 'AirCode' }
-    ],
-    [
-      'meta',
-      { name: 'twitter:description', content: 'Serverless Node.js stack for API development.' }
     ],
     [
       'meta',
