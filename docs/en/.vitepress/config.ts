@@ -8,6 +8,8 @@ export default defineConfig({
     const head: HeadConfig[] = []
     head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
     head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
+    head.push(['meta', { name: 'twitter:title', content: pageData.frontmatter.title }])
+    head.push(['meta', { name: 'twitter:description', content: pageData.frontmatter.description }])
     return head
   },
 
@@ -69,6 +71,10 @@ gtag('config', 'G-5Q7JHK36DC');
     ],
     [
       'meta',
+      { property: 'og:site_name', content: 'AirCode' }
+    ],
+    [
+      'meta',
       { property: 'article:publisher', content: 'https://twitter.com/aircode_io' }
     ],
     [
@@ -98,14 +104,6 @@ gtag('config', 'G-5Q7JHK36DC');
     [
       'meta',
       { name: 'twitter:site', content: '@aircode_io' }
-    ],
-    [
-      'meta',
-      { name: 'twitter:title', content: 'AirCode' }
-    ],
-    [
-      'meta',
-      { name: 'twitter:description', content: 'Serverless Node.js stack for API development.' }
     ],
     [
       'meta',
