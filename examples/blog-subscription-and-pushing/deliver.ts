@@ -36,6 +36,8 @@ module.exports = async function (params: any, context: any) {
 
     console.log('emails', emailList);
 
+    // Sending to a batch of recipients is not yet supported in Resend, but you can send to each recipient individually.
+    // See https://resend.com/docs/knowledge-base/can-i-send-newsletters-with-resend
     try {
       const data = await resend.emails.send({
         from: 'hello@aircode.io',
