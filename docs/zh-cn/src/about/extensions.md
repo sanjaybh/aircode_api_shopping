@@ -1,3 +1,8 @@
+---
+title: 增强功能 | AirCode 文档
+description: 官方和开源社区提供了一系列扩展来增强 AirCode 的功能。
+---
+
 # 增强功能 {#intro}
 
 官方和开源社区提供了一系列扩展来增强 AirCode 的功能。

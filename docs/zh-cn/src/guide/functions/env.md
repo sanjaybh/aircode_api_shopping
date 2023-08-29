@@ -1,3 +1,8 @@
+---
+title: 使用环境变量 | AirCode 文档
+description: AirCode 支持在线设置和修改环境变量，并在云函数中通过 `process.env` 进行访问。
+---
+
 # 使用环境变量 {#intro}
 
 AirCode 支持在线设置和修改环境变量，并在云函数中通过 `process.env` 进行访问。

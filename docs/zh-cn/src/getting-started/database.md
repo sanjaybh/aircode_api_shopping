@@ -1,3 +1,8 @@
+---
+title: 数据库入门 | AirCode 文档
+description: AirCode 提供了一套开箱即用的数据库功能，只需使用 `aircode.db` 即可在云函数中对数据进行存取操作。
+---
+
 # 数据库入门 {#intro}
 
 AirCode 提供了一套开箱即用的数据库功能，只需使用 `aircode.db` 即可在云函数中对数据进行存取操作。

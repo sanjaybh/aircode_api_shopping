@@ -1,3 +1,8 @@
+---
+title: 数据库概览 | AirCode 文档
+description: AirCode 提供了开箱即用的数据库，无需单独购买、配置和连接，在云函数中通过 `aircode.db` 即可直接访问和操作。
+---
+
 # 数据库概览 {#intro}
 
 AirCode 提供了开箱即用的数据库，无需单独购买、配置和连接，在云函数中通过 `aircode.db` 即可直接访问和操作。例如：

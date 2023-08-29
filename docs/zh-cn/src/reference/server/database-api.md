@@ -1,3 +1,8 @@
+---
+title: 数据库 API | AirCode 文档
+description: 本文展示了 `aircode.db` 下的所有 API 说明及其示例。
+---
+
 # 数据库 API {#api}
 
 本文展示了 `aircode.db` 下的所有 API 说明及其示例。

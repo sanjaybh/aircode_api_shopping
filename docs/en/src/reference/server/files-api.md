@@ -1,3 +1,8 @@
+---
+title: File Storage API | AirCode Docs
+description: This article shows all API descriptions and examples under `aircode.files`.
+---
+
 # File Storage API {#api}
 
 This article shows all API descriptions and examples under `aircode.files`.

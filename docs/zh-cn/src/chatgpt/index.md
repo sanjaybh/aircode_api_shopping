@@ -1,5 +1,7 @@
 ---
 aside: false
+title: 5 分钟用 JavaScript 接入 ChatGPT 手把手教程 | AirCode 文档
+description: 仅需 5 分钟，快速开发一个 ChatGPT 机器人，下面为全部教程。
 ---
 
 # 5 分钟用 JavaScript 接入 ChatGPT 手把手教程

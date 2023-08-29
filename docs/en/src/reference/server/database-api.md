@@ -1,3 +1,8 @@
+---
+title: Database API | AirCode Docs
+description: This article shows all API descriptions and examples under `aircode.db`.
+---
+
 # Database API {#api}
 
 This article shows all API descriptions and examples under `aircode.db`.

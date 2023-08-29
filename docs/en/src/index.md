@@ -1,3 +1,8 @@
+---
+title: About AirCode | AirCode Docs
+description: AirCode is an online platform designed to streamline the development and deployment of Node.js applications, tailored for full-stack engineers.
+---
+
 # About AirCode {#intro}
 
 AirCode is an online platform designed to streamline the development and deployment of Node.js applications, tailored for full-stack engineers.

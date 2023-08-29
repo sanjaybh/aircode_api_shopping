@@ -1,3 +1,8 @@
+---
+title: TypeScript 支持 | AirCode 文档
+description: AirCode 支持 TypeScript。你可以在 AirCode 的环境中直接使用 TypeScript 编写代码。
+---
+
 # TypeScript 支持 {#intro}
 
 AirCode 支持 TypeScript。你可以在 AirCode 的环境中直接使用 TypeScript 编写代码。

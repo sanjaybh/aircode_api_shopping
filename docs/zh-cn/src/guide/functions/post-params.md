@@ -1,3 +1,8 @@
+---
+title: 获取 POST 参数 | AirCode 文档
+description: 当使用 POST 请求调用云函数时，HTTP Request Body 会被转化为对应云函数中的 `params` 变量，方便开发者获取和使用。
+---
+
 # 获取 POST 参数 {#intro}
 
 当使用 POST 请求调用云函数时，HTTP Request Body 会被转化为对应云函数中的 `params` 变量，方便开发者获取和使用。

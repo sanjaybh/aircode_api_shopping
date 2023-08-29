@@ -1,3 +1,8 @@
+---
+title: ESM 支持 | AirCode 文档
+description: AirCode 支持 Node.js 的 ECMAScript 模块 (ESM)，你可以在 `.mjs` 后缀名的文件中直接使用 ESM 语法。
+---
+
 # ESM 支持 {#intro}
 
 AirCode 支持 Node.js 的 ECMAScript 模块 (ESM)，你可以在 `.mjs` 后缀名的文件中直接使用 ESM 语法。

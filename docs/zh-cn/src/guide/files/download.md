@@ -1,3 +1,8 @@
+---
+title: 下载文件 | AirCode 文档
+description: 在 AirCode 中上传和管理文件是非常简单的，通过 `aircode.files` 的接口一行代码即可实现，并且每个上传的文件都会自带一个 CDN 加速的访问地址。
+---
+
 # 下载文件 {#intro}
 
 - 在云函数中，通过 `await aircode.files.download(file, [options])` 下载文件

@@ -1,3 +1,8 @@
+---
+title: 删除文件 | AirCode 文档
+description: 在 AirCode 中上传和管理文件是非常简单的，通过 `aircode.files` 的接口一行代码即可实现，并且每个上传的文件都会自带一个 CDN 加速的访问地址。
+---
+
 # 删除文件 {#intro}
 
 通过 `await aircode.files.delete(file | arrayOfFile)` 将一个或多个文件从云端删除，同时也会刷新 CDN 将相关数据移除。

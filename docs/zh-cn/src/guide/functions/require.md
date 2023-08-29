@@ -1,3 +1,8 @@
+---
+title: 函数间引用 | AirCode 文档
+description: 同一个应用中的不同函数可以直接通过 `require` 相互引用。
+---
+
 # 函数间引用 {#intro}
 
 同一个应用中的不同函数可以直接通过 `require` 相互引用。

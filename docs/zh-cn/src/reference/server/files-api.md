@@ -1,3 +1,8 @@
+---
+title: 文件存储 API | AirCode 文档
+description: 本文展示了 `aircode.files` 下的所有 API 说明及示例。
+---
+
 # 文件存储 API {#api}
 
 本文展示了 `aircode.files` 下的所有 API 说明及示例。

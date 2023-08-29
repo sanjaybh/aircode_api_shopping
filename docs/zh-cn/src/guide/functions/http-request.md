@@ -1,3 +1,8 @@
+---
+title: 获取 GET 参数 | AirCode 文档
+description: 在 AirCode 的云函数中，可以使用 HTTP 库发送 HTTP 请求，如使用 axios。
+---
+
 # 发送 HTTP 请求 {#intro}
 
 在 AirCode 的云函数中，可以使用 HTTP 库发送 HTTP 请求，例如 [axios](https://axios-http.com/)。请注意发送 HTTP 请求是一个异步操作，需要使用 `await` 来等待其完成。

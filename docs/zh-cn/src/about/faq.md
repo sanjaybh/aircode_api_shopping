@@ -1,3 +1,8 @@
+---
+title: 常见问题 | AirCode 文档
+description: 我们收集了很多常见问题，希望可以快速帮助到你
+---
+
 # 常见问题 {#faq}
 
 [[toc]]
