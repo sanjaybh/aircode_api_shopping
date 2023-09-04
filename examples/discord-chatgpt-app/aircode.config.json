@@ -1,0 +1,12 @@
+{
+  "name": "Discord ChatGPT",
+  "runtime": "node/v16",
+  "retion": "HK",
+  "envs": [
+    "DISCORD_BOT_TOKEN",
+    "DISCORD_PUBLIC_KEY",
+    "DISCORD_APP_ID",
+    "OPENAI_KEY"
+  ],
+  "typescript": false
+}
