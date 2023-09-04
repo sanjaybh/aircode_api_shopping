@@ -1,4 +1,13 @@
-# Building your first Discord ChatGPT Bot
+# Discord ChatGPT Bot
+
+## One-Click Deployment
+
+Easily get a copy and launch your app on [AirCode](https://aircode.io/) by clicking the button below.
+
+[![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fdiscord-chatgpt-app&appname=discord-chatgpt-app)
+
+
+Here is the tutorial: 
 
 ## What we'll be building
 
@@ -57,8 +66,7 @@ After authorized your app, you can head over to your server and see that -> GPT 
 
 This guide uses [AirCode](https://aircode.io) to host code, Before we get a copy, make sure you have a AirCode account.
 
-1. Go to this [Discord ChatGPT Bot Demo](https://aircode.cool/zsgdima57c). Click on the "Get a copy" button.
-<p align="center"><img src="https://s2.loli.net/2023/05/18/VDpNKmFG4QCaZXI.png" width="800px" /></p>
+1. Click the [![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fdiscord-chatgpt-app&appname=discord-chatgpt-app) buton fork a App.
 
 2. You'll be redirected to the Create app page, use the default name or type your own app name, then click "Create".
 
