@@ -1,28 +1,5 @@
 {
-  "name": "aircode-monorepo",
-  "description": "Build intelligent bots with Node.js, remarkably fast.",
-  "version": "0.0.0",
-  "private": true,
-  "workspaces": [
-    "docs",
-    "demos/*",
-    "website",
-    "dashboard",
-    "sdk"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aircodelabs/aircode.git"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  },
-  "keywords": [
-    "aircode",
-    "functions",
-    "database",
-    "storage",
-    "serverless",
-    "cloud"
-  ]
+  "dependencies": {
+    "aircode": "0.6.2"
+  }
 }
